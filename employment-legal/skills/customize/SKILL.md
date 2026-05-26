@@ -52,9 +52,11 @@ interview and without hand-editing YAML.
      cadence
    - **Investigation preferences** — privileged labeling, interview protocol,
      audience-specific summary templates
-   - **Workflow** — matter workspaces, leave tracker cadence, expansion
-     project paths
-   - **Integrations** — HRIS / Slack / document storage status, fallbacks
+    - **Workflow** — matter workspaces, leave tracker cadence, expansion
+      project paths
+    - **Argentina** — labor jurisdiction, applicable CCT, ART provider,
+      SECLO registration, compliance program status
+    - **Integrations** — HRIS / Slack / document storage status, fallbacks
 
 3. **Ask what they want to change.**
 
@@ -64,16 +66,28 @@ interview and without hand-editing YAML.
 4. **Make the change.** Show the current value, ask for the new value, explain
    what changes downstream, confirm, write it to the config.
 
-   Examples:
-   - *Adding Washington to the jurisdictional footprint:* "`/wage-hour-qa`
-     and `/termination-review` will start applying WA rules. `/handbook-
-     updates` will prompt for a WA supplement. `/hiring-review` will now
-     flag non-compete attempts in WA (unenforceable)."
-   - *Severance framework 2 weeks/year → 4 weeks/year:* "`/termination-
-     review` will use the new baseline in severance calculations."
-   - *Risk posture middle → conservative:* "I'll flag more terminations for
-     escalation, recommend more protective release language, and be stricter
-     on restrictive covenants."
+    Examples:
+    - *Adding Washington to the jurisdictional footprint:* "`/wage-hour-qa`
+      and `/termination-review` will start applying WA rules. `/handbook-
+      updates` will prompt for a WA supplement. `/hiring-review` will now
+      flag non-compete attempts in WA (unenforceable)."
+    - *Adding Argentina to the jurisdictional footprint:* "`/wage-hour-qa`
+      will apply LCT rules (jornada 8h/48h, horas extras 50%/100%).
+      `/hiring-review` will check período de prueba (Art. 88 LCT: 3 meses),
+      no discriminación (Ley 23.590), and datos personales (Ley 25.326).
+      `/leave-tracker` will track LCT leave entitlements (vacaciones,
+      maternidad, paternidad, enfermedad inculpable)."
+    - *Setting the applicable CCT:* "The CCT determines minimum salaries,
+      extended leave entitlements, and disciplinary procedures. All wage-hour
+      and leave calculations will reference the CCT minimums."
+    - *Setting the ART provider:* "ART enrollment is mandatory for all
+      employees. The provider determines workplace risk coverage and
+      contribution rates."
+    - *Severance framework 2 weeks/year → 4 weeks/year:* "`/termination-
+      review` will use the new baseline in severance calculations."
+    - *Risk posture middle → conservative:* "I'll flag more terminations for
+      escalation, recommend more protective release language, and be stricter
+      on restrictive covenants."
 
 5. **For shared-profile changes** (company name, industry, jurisdictions,
    practice setting, stage): write to
@@ -86,6 +100,18 @@ interview and without hand-editing YAML.
 
    > Done. Your next output will reflect the change. Anything else? You can
    > run `/employment-legal:customize` anytime.
+
+### Argentina configuration options
+
+When customizing for Argentina, the following config options are available:
+
+- **`labor_jurisdiction`**: Which Argentine provincias have employees? (CABA, Buenos Aires, Córdoba, Santa Fe, etc.) Provincial regulations may apply in addition to federal LCT.
+- **`cct_applicable`**: Which Convenio Colectivo de Trabajo applies? (e.g., CCT 130/75 Comercio, CCT 76/75 FAECYS, CCT 108/75 UOCRA). The CCT determines minimum salaries, extended leave entitlements, overtime rules, and disciplinary procedures.
+- **`art_provider`**: Which Aseguradora de Riesgos del Trabajo provides coverage? ART enrollment is mandatory and determines workplace risk insurance rates.
+- **`seclo_registered`**: Is the company registered with SECLO (Servicio de Conciliación Laboral Obligatoria)? Mandatory pre-trial conciliation is required before labor lawsuits.
+- **`compliance_program`**: Does the company have a programa de integridad under Ley 27.401? Required for corporate criminal liability mitigation.
+- **`harassment_protocol`**: Does the company have a protocolo de acoso under Ley 26.485? Mandatory for workplace violence prevention.
+- **`teletrabajo_agreements`**: Are teletrabajo agreements in place under Ley 27.555? Required for remote workers, including derecho a la desconexión provisions.
 
 ## Guardrails
 

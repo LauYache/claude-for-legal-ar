@@ -42,3 +42,11 @@ What do we still need?
 > Detailed log-query process, citation rules, and gap-flagging templates live
 > in the `internal-investigation` reference skill — load it before doing
 > substantive work.
+
+### Argentina additions
+
+When querying an investigation log for Argentine matters:
+- All responses should reference the **secreto profesional** framework (Ley 23.118) — investigation materials are protected by professional secrecy, not US-style work product doctrine.
+- If the query relates to harassment, check whether the **Ley 26.485** protocol was followed and flag any gaps.
+- If the query relates to financial misconduct, check whether **Ley 27.401** compliance program documentation has been gathered.
+- Flag any **CCT-specific** investigation procedures that may apply (some collective agreements require union notification or participation in investigations).

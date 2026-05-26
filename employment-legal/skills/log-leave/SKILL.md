@@ -46,6 +46,24 @@ leave and you want the tracker to watch the clocks from day one.
    > "Logged. [Employee/Role] — [Leave type] — [Jurisdiction] — started [date].
    > First deadline: [what it is and when]. Leave tracker will alert automatically."
 
+### Argentina leave logging
+
+When the employee works in Argentina, ask the following additional questions:
+
+   > For Argentina leave tracking:
+   >
+   > - Leave type under LCT: vacaciones (Art. 156+) / maternidad (Arts. 177/178) / paternidad (Art. 159: 2 días) / enfermedad inculpable (Art. 208) / matrimonio (Art. 180) / fallecimiento (Art. 181) / examen (Art. 182) / sindical (Ley 23.551)
+   > - Employee seniority (antigüedad) — needed for vacation entitlement and illness leave duration
+   > - Does the employee have family dependents (cargas de familia)? — affects illness leave duration
+   > - Applicable CCT (convenio colectivo de trabajo) — may extend statutory leave entitlements
+   > - ART (Aseguradora de Riesgos del Trabajo) enrollment — required for work-related leaves
+
+For Argentine leaves, compute the following deadlines:
+- **Vacaciones:** must be taken within the vacation year (Oct 1 – Sep 30). Unused vacation at year-end must be paid.
+- **Maternidad:** 90 days total (45 pre + 45 post). Employee may shift 15 days from pre to post.
+- **Paternidad:** 2 consecutive days from birth (check CCT for extensions).
+- **Enfermedad inculpable:** protected period per Art. 208 LCT (3-12 months depending on seniority and family status). Termination during this period triggers Art. 211 aggravated indemnification.
+
 ## Examples
 
 ```

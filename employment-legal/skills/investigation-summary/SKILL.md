@@ -38,3 +38,10 @@ summaries are high-level. Outside counsel briefings include full context.
 > Detailed audience-stripping rules and summary templates live in the
 > `internal-investigation` reference skill — load it before doing substantive
 > work.
+
+### Argentina additions
+
+When drafting investigation summaries for Argentine matters:
+- **HR summaries:** Mark as "Confidencial — Uso Interno de RRHH — No Distribuir." Do not include attorney mental impressions, credibility methodology, or legal exposure analysis. Reference the applicable Ley 26.485 harassment protocol if the investigation involves workplace violence.
+- **Leadership summaries:** Mark as "Confidencial — Secreto Profesional." Include high-level findings and business impact. Reference Ley 27.401 corporate liability exposure if applicable.
+- **Outside counsel briefings:** Include full context, professional secrecy analysis (secreto profesional under Ley 23.118), CCT-specific procedural requirements, and any tutela sindical (Ley 23.551) considerations if union representatives are involved.

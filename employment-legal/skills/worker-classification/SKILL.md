@@ -393,6 +393,71 @@ Do not produce a final "IC viable" / "use this classification" output past this 
   contested prongs, and prior-audit situations should always get a human
   review before the engagement starts.
 
+---
+
+## Argentina — Presunción de laboralidad
+
+When the worker will perform services in Argentina, the following framework applies alongside the US tests above. Argentine law strongly favors finding an employment relationship, and the tests are more formalistic than the US multi-factor balancing approach.
+
+### Art. 23 LCT — Presunción de laboralidad
+
+Art. 23 LCT establishes a **presumption of employment** (presunción de laboralidad): when a person provides services, it is presumed to be an employment relationship unless the alleged employer proves otherwise. The burden of proof is on the alleged employer to demonstrate that the relationship is genuinely independent. This is a rebuttable presumption, but Argentine courts apply it broadly.
+
+### Art. 2 LCT — Concept of employer
+
+Art. 2 LCT defines the employer broadly: "Tendrá la consideración de empleador toda persona física, conjunto de ellas, o persona jurídica haya o no patrimonio propio, que tenga a su cargo trabajadores..." This includes individuals, partnerships, corporations, and any entity with or without its own patrimony that has workers under its direction.
+
+### Art. 25 LCT — Solidaridad (joint and several liability)
+
+Art. 25 LCT establishes **joint and several liability** (solidaridad) among:
+- The direct employer and any entity that benefits from the worker's services.
+- Principal contractors and subcontractors for labor obligations.
+- Entities in a group (grupo económico) that direct or coordinate the employer's activities.
+
+This means a company that engages a contractor through an intermediary entity may still be held jointly liable for employment obligations if the relationship is found to be one of employment.
+
+### Teletrabajo (Ley 27.555)
+
+Ley 27.555 regulates remote work (teletrabajo) and establishes that remote workers have the **same rights** as on-site workers. Key requirements:
+- The employer must provide equipment and cover connectivity costs.
+- The employee has a right to disconnect (derecho a la desconexión).
+- Working hours must be the same as on-site workers.
+- The employer cannot unilaterally impose teletrabajo without agreement (except during emergencies).
+
+A "contractor" working remotely from Argentina who uses company equipment, follows company schedules, and has no right to disconnect may be found to be an employee under both the LCT and Ley 27.555.
+
+### Monotributistas — risk of encubrimiento
+
+A common misclassification risk in Argentina involves engaging workers registered as **monotributistas** (simplified tax regime taxpayers). While monotributo is a legitimate tax category for small independent operators, using it to mask an employment relationship (encubrimiento laboral) carries significant risk:
+- Courts routinely reclassify monotributista relationships as employment when the facts show subordination, schedule control, and integration into the employer's business.
+- The employer may be liable for back contributions, severance, and penalties.
+- AFIP (tax authority) may impose administrative sanctions for improper classification.
+
+### Classification test in Argentina
+
+Unlike the US ABC test or economic-reality test, Argentine courts look primarily at:
+1. **Subordination** (subordinación jurídica) — does the alleged employer direct how, when, and where the work is performed?
+2. **Remuneration** (remuneración) — is the worker paid for their time/labor rather than for a specific result?
+3. **Integration** (ajenidad) — does the work benefit the employer's business rather than the worker's own enterprise?
+4. **Personal performance** (personalidad) — must the worker perform the services personally, or can they delegate?
+
+If these elements are present, the relationship is presumed to be employment under Art. 23 LCT, regardless of what the parties called it in their contract.
+
+### Argentina classification output
+
+When producing a classification analysis for Argentina, add:
+
+```markdown
+### Argentina — Clasificación
+- **Presunción de laboralidad (Art. 23 LCT):** [aplica / no aplica — explain why]
+- **Subordinación:** [presente / ausente]
+- **Remuneración por tiempo vs. resultado:** [tiempo / resultado]
+- **Integración al negocio del empleador:** [sí / no]
+- **Riesgo monotributo:** [alto / medio / bajo — explain]
+- **Teletrabajo (Ley 27.555):** [aplica / no aplica]
+- **Solidaridad (Art. 25 LCT):** [potencialmente aplicable / no aplicable]
+```
+
 ## Close with the next-steps decision tree
 
 End with the next-steps decision tree per CLAUDE.md `## Outputs`. Customize the options to what this skill just produced — the five default branches (draft the X, escalate, get more facts, watch and wait, something else) are a starting point, not a lock-in. The tree is the output; the lawyer picks.

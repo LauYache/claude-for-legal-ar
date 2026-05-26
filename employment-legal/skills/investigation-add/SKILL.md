@@ -37,3 +37,10 @@ reviewed for coverage verification.
 > Detailed needle-finding process, log entry format, surface-ratio rules, and
 > sources-checklist tracking live in the `internal-investigation` reference
 > skill — load it before doing substantive work.
+
+### Argentina additions
+
+For investigations involving employees in Argentina:
+- **Ley 27.401** (responsabilidad penal corporativa): If the investigation involves bribery, corruption, or financial misconduct, ensure the investigation documentation supports the company's compliance program (programa de integridad) requirements.
+- **Ley 26.485** (violencia laboral): If the investigation involves harassment, verify that the company's harassment protocol was followed and document any deviations.
+- **Secreto profesional**: All investigation materials in Argentina are protected by professional secrecy (secreto profesional) under Ley 23.118 and the ethics codes of each Colegio de Abogados. Mark materials as "Confidencial — Secreto Profesional."

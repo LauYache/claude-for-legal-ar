@@ -34,3 +34,11 @@ or updates an existing draft when new data has been added.
 > Detailed memo structure, credibility-assessment framework, and update rules
 > live in the `internal-investigation` reference skill — load it before doing
 > substantive work.
+
+### Argentina additions
+
+For investigation memos involving Argentine employees:
+- Mark the memo as **"Confidencial — Secreto Profesional"** (not "Attorney Work Product"). Professional secrecy in Argentina is absolute under Ley 23.118 and the ethics codes of each Colegio de Abogados.
+- Reference the applicable **Ley 26.485** harassment protocol if the investigation involves workplace violence or harassment.
+- Reference **Ley 27.401** compliance program documentation if the investigation involves financial misconduct or corruption.
+- Ensure the memo documents that the respondent was given an opportunity to be heard (derecho de defensa) — failure to do so can render subsequent disciplinary action void under Argentine labor law.

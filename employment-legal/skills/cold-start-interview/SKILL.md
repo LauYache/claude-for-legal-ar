@@ -189,6 +189,7 @@ If not:
 
 - Every US state with at least one employee. All of them.
 - Every country outside the US.
+- **Argentina:** Which provincias have employees? (CABA, Buenos Aires, Córdoba, Santa Fe, etc. — provincial regulations may apply in addition to federal LCT.)
 - Remote-first or office-based? (Remote-first means the footprint keeps expanding without anyone telling you.)
 - Which state has the most employees? That's your default jurisdiction when the question doesn't specify.
 
@@ -257,9 +258,23 @@ This is the core output. For each state/country in the footprint:
 |---|---|---|
 | California | No non-competes. Final pay due last day (or 72hrs if employee quits w/o notice). Meal/rest break penalties. PAGA exposure. | Any termination. Any restrictive covenant. |
 | New York | Pay transparency in postings. NYC has separate rules. Final pay next regular payday. | Exec hires (pay transparency). |
+| Argentina | LCT 20.744 (orden público laboral), CCT aplicable, cargas sociales ~27%, SAC, PPC Ley 24.013, tutela sindical Ley 23.551, Art. 245 indemnización, Art. 254 prescripción 2 años | Any termination |
 | [etc.] | | |
 
 Don't invent rules for jurisdictions they didn't name. If they have one employee in Montana and no memo ever mentioned Montana, note `[Montana: 1 employee, no history — research on first issue]`.
+
+### Argentina-specific cold-start questions
+
+If the user has employees in Argentina, ask:
+
+> **Argentina footprint details:**
+> - Which provincias have employees? (CABA, Buenos Aires, Córdoba, Santa Fe, Mendoza, etc.)
+> - Which **convenios colectivos de trabajo (CCT)** apply to your employees? (Industry and job category determine the CCT — e.g., Comercio, UOCRA construcción, FAECYS comercio, etc.)
+> - Do you have an **ART** (Aseguradora de Riesgos del Trabajo) provider? Which one?
+> - Are you registered with **SECLO** (Servicio de Conciliación Laboral Obligatoria) for mandatory pre-trial conciliation?
+> - Do you have a **compliance program** (programa de integridad) under Ley 27.401?
+> - Do you have a **harassment protocol** (protocolo de acoso) under Ley 26.485?
+> - Do you have **teletrabajo agreements** in place under Ley 27.555?
 
 ## Writing the practice profile
 

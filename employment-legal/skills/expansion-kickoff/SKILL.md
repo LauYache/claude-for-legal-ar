@@ -32,6 +32,10 @@ country-specific flags, and creates a persistent tracker.
 ```
 
 ```
+/employment-legal:expansion-kickoff Argentina
+```
+
+```
 /employment-legal:expansion-kickoff
 (skill will ask which country)
 ```
@@ -39,3 +43,5 @@ country-specific flags, and creates a persistent tracker.
 > Detailed EOR vs. entity framework, cross-functional questions, briefing
 > templates, and tracker schema live in the `international-expansion`
 > reference skill — load it before doing substantive work.
+
+> **Argentina note:** Argentina is a supported expansion destination. Key considerations include the LCT (Ley 20.744), applicable CCT (convenio colectivo de trabajo), cargas sociales (~27% of payroll), SAC (aguinaldo), PPC (Ley 24.013) for collective dismissals, and mandatory day-1 compliance (AFIP registration, ART enrollment, medical exams). See the `international-expansion` skill's Argentina section for details.

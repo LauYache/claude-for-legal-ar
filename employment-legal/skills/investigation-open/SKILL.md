@@ -28,9 +28,23 @@ Harassment complaint filed against a manager in the Austin office.
 
 ```
 /employment-legal:investigation-open
+Acoso laboral denunciado contra un gerente en la oficina de CABA.
+```
+
+```
+/employment-legal:investigation-open
 (skill will ask for details)
 ```
 
 > Detailed intake, privilege-formation requirements, sources checklist, and log
 > templates live in the `internal-investigation` reference skill — load it
 > before doing substantive work.
+
+### Argentina additions
+
+When opening an investigation in Argentina:
+- Mark investigation files as **"Confidencial — Secreto Profesional"** (professional secrecy under Ley 23.118 and Colegio de Abogados ethics codes).
+- Add **Ley 26.485** (violencia laboral) protocol compliance to the sources checklist if the allegation involves harassment.
+- Add **Ley 27.401** (responsabilidad penal corporativa) compliance program documentation if the allegation involves financial misconduct or corruption.
+- Ensure the intake captures the applicable **CCT** (convenio colectivo de trabajo) — it may impose additional investigation or disciplinary procedures.
+- Flag whether the respondent or complainant is a **union representative** (tutela sindical, Ley 23.551) — this triggers additional procedural protections.

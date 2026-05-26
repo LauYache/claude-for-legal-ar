@@ -147,6 +147,16 @@ When the question is an Argentine wage, overtime, or Sueldo Anual Complementario
 
 If the question is a calculation and any of these inputs are missing (basic salary, CCT applicable, hours worked, dates of employment), **ask before computing**. A confident wrong number is the worst output this skill can produce.
 
+### Step 2c: Argentine wage and hour — additional rules
+
+Beyond the calculations above, the following Argentine wage-and-hour rules apply:
+
+- **Divisor vacaciones (Art. 155 LCT):** The divisor for calculating daily vacation pay is 25. This is used when computing `Valor Día Vacación = Remuneración Mensual ÷ 25`.
+- **CCT minimums:** Each Convenio Colectivo de Trabajo establishes a minimum salary (salario mínimo convencional) for each job category. The actual salary cannot be below this floor.
+- **Cargas sociales:** Employer social security contributions are approximately **27% of payroll** (contribuciones a la seguridad social), including contributions to the social security system (jubilaciones), family allowances (asignaciones familiares), health insurance (obra social), ART (Aseguradora de Riesgos del Trabajo), and other funds.
+- **Prescripción (Art. 254 LCT):** Labor claims generally prescribe in **2 years** from the date the right could have been exercised (for termination claims, from the date of dismissal). Some claims (e.g., salary differences) have a 2-year prescription period calculated from the date each payment was due.
+- **Final pay (liquidación final):** Upon termination, the employee is entitled to: accrued salary, proportional SAC, proportional vacation, vacation not taken, indemnización por despido (if without cause — Art. 245 LCT), preaviso indemnification (if notice was not given — Art. 231/232 LCT), and integración del mes de despido (Art. 233 LCT).
+
 ### Step 3: The flag
 
 Is this a close call? Be honest.

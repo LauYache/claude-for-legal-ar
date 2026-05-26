@@ -759,6 +759,69 @@ Do not produce an external-response draft past this gate without an explicit yes
 - Replace Upjohn warnings — it tracks whether they were given, it does not
   give them
 
+---
+
+## Argentina — Marco de investigación interna
+
+When the investigation involves employees in Argentina, the following framework applies alongside the US framework above.
+
+### Ley 26.485 — Violencia laboral
+
+Ley 26.485 establishes a comprehensive framework for preventing, sanctioning, and eradicating violence against women in the workplace. For investigations involving harassment or workplace violence:
+- The employer **must** have a protocol for handling complaints.
+- Investigations must be conducted promptly and confidentially.
+- The complainant must be protected against retaliation.
+- Failure to act on a harassment complaint can create employer liability.
+
+### Ley 27.401 — Responsabilidad penal corporativa
+
+Ley 27.401 establishes **corporate criminal liability** for certain offenses, including bribery, and requires companies to implement compliance programs. For investigations involving financial misconduct, bribery, or corruption:
+- The company may be criminally liable for offenses committed by employees or representatives.
+- A compliance program (programa de integridad) can mitigate or eliminate liability.
+- Investigations should be documented to demonstrate the effectiveness of the compliance program.
+- The investigation may need to be reported to authorities depending on the nature of the offense.
+
+### Secreto profesional
+
+In Argentina, attorney-client communications are protected by **professional secrecy** (secreto profesional) under:
+- Ley 23.118 (Código Procesal Civil y Comercial, Art. 380+) — establishes the confidentiality of attorney-client communications.
+- Ethics codes of each Colegio de Abogados (CPACF, etc.) — the secrecy of attorney-client communications is absolute in Argentine law.
+- Unlike US "attorney work product" doctrine, Argentine protection derives from the attorney's professional secrecy obligation, not from litigation privilege.
+
+Mark Argentine investigation materials as: **"Confidencial — Secreto Profesional"** rather than "Attorney Work Product."
+
+### Protocolo de investigación argentino
+
+Argentine investigations should follow these additional steps:
+1. **Confidencialidad absoluta** — all investigation materials are protected by professional secrecy; limit access to the investigation team.
+2. **Entrevistas** — interviewees should be informed that the investigation is attorney-directed and covered by professional secrecy. Unlike US Upjohn warnings, Argentine law does not require a specific warning format, but the attorney should clarify their role (representing the company, not the individual).
+3. **Documentación** — maintain a written record of all interviews and evidence. Argentine labor courts give significant weight to documentary evidence.
+4. **Debido proceso** — the respondent has a right to be heard (derecho de defensa) before any disciplinary action is taken. Failure to provide this opportunity can render a termination void.
+5. **Plazo razonable** — investigations should be completed within a reasonable time. Excessive delay can undermine the employer's position in subsequent labor proceedings.
+
+### Argentina investigation sources checklist additions
+
+For investigations in Argentina, add the following to the sources checklist:
+
+```yaml
+  - id: 12
+    source: "CCT aplicable — verificar procedimientos disciplinarios del convenio colectivo"
+    status: open
+    notes: ""
+  - id: 13
+    source: "Protocolo de violencia laboral (Ley 26.485) — verificar cumplimiento"
+    status: open
+    notes: ""
+  - id: 14
+    source: "Programa de integridad (Ley 27.401) — si aplica a la investigación"
+    status: open
+    notes: ""
+  - id: 15
+    source: "Registro de denuncias previas — sistema de RRHH y canal de denuncias"
+    status: open
+    notes: ""
+```
+
 ## Close with the next-steps decision tree
 
 End with the next-steps decision tree per CLAUDE.md `## Outputs`. Customize the options to what this skill just produced — the five default branches (draft the X, escalate, get more facts, watch and wait, something else) are a starting point, not a lock-in. The tree is the output; the lawyer picks.

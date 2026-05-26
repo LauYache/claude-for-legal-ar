@@ -54,6 +54,14 @@ For each state/country in the footprint, check: does this jurisdiction have a sp
 | Pay transparency | Growing list of states requiring ranges in postings |
 | Non-competes | See hiring-review skill — unenforceable in some states |
 | Final pay | Timing varies widely |
+| **Argentina — Teletrabajo** | Ley 27.555: derecho a la desconexión, equipment reimbursement, reversibilidad |
+| **Argentina — Violencia laboral** | Ley 26.485: protocolo de acoso obligatorio |
+| **Argentina — No discriminación** | Ley 23.592: actos discriminatorios, sanciones penales |
+| **Argentina — Datos personales** | Ley 25.326: consentimiento informado, registro de bases de datos |
+| **Argentina — Vacaciones** | Art. 156+ LCT: escala por antigüedad (14-35 días) |
+| **Argentina — Licencias** | Arts. 159 (paternidad: 2 días), 177/178 (maternidad: 90 días), 208 (enfermedad inculpable) |
+| **Argentina — Jornada** | Ley 11.544: 8h/48h semanales, horas extras 50%/100% |
+| **Argentina — Responsabilidad penal corporativa** | Ley 27.401: compliance program requirements |
 
 If the topic has no jurisdictional variance (dress code, say), skip this step.
 
@@ -84,6 +92,27 @@ Employees working in [State] are subject to the following in addition to / inste
 ```
 
 Keep supplements tight. Only what's different — don't repeat the core.
+
+### Step 4b: Argentina supplements
+
+For employees in Argentina, generate supplements referencing the applicable Argentine law by domain:
+
+```markdown
+### Argentina Supplement
+
+Employees working in Argentina are subject to the following in addition to the core policy:
+
+- **Laboral (LCT 20.744):** [LCT-specific requirement — e.g., vacation scale by seniority under Arts. 156+ LCT, 14 days for <5 years, 21 days for 5-10 years, 28 days for 10-20 years, 35 days for 20+ years]
+- **Discriminación (Ley 23.592):** [Non-discrimination requirements — criminal penalties for discriminatory acts]
+- **Teletrabajo (Ley 27.555):** [Remote work requirements — right to disconnect, equipment reimbursement, reversibility]
+- **Violencia laboral (Ley 26.485):** [Harassment protocol requirements]
+- **Datos personales (Ley 25.326):** [Employee data protection requirements]
+- **Jornada (Ley 11.544):** [8h/48h limit, overtime surcharges]
+- **Responsabilidad penal corporativa (Ley 27.401):** [Corporate criminal liability and compliance program requirements]
+- **CCT aplicable:** [The applicable collective bargaining agreement may impose additional requirements beyond statutory minimums]
+```
+
+When drafting policies for Argentina, always identify the applicable **Convenio Colectivo de Trabajo (CCT)** — it may impose requirements that exceed statutory minimums.
 
 ### Step 5: Cross-check
 

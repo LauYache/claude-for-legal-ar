@@ -65,6 +65,10 @@ Next priority: [top open item].
 ```
 
 ```
+/employment-legal:expansion-update Argentina
+```
+
+```
 /employment-legal:expansion-update
 (will ask which country if multiple trackers exist)
 ```
@@ -72,3 +76,5 @@ Next priority: [top open item].
 > Detailed tracker schema, item-status rules, and dependency logic live in the
 > `international-expansion` reference skill — load it before doing substantive
 > work.
+
+> **Argentina note:** For Argentina expansion projects, ensure the tracker includes items for: CCT identification and minimum salary verification, AFIP registration, ART enrollment, employee medical exams, social security registration, teletrabajo agreements (if applicable — Ley 27.555), and compliance program elements (Ley 27.401).

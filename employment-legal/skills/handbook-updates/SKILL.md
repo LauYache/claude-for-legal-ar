@@ -105,3 +105,54 @@ Flag this. Don't block it — but flag it.
 - Approve handbook changes. HR/legal leadership does.
 - Communicate changes to employees.
 - Track acknowledgments.
+
+---
+
+## Argentina — Actualizaciones obligatorias
+
+When the handbook covers employees in Argentina, the following mandatory update categories apply. Argentine labor law requires certain policies to be in writing and communicated to employees, and failure to maintain an updated handbook can create liability.
+
+### Teletrabajo (Ley 27.555)
+
+If the company has remote workers in Argentina, the handbook **must** include a teletrabajo policy that addresses:
+- **Derecho a la desconexión** (right to disconnect) — employees cannot be required to respond to communications outside working hours.
+- **Equipment and expense reimbursement** — the employer must provide equipment and cover connectivity costs.
+- **Working hours** — must be the same as on-site workers; overtime rules apply equally.
+- **Reversibility** — the employee has the right to request a return to on-site work under certain conditions.
+- **Privacy** — the employer's monitoring of remote work must respect the employee's privacy rights.
+
+### Violencia laboral (Ley 26.485)
+
+Ley 26.485 (Protección Integral para Prevenir, Sancionar y Erradicar la Violencia contra las Mujeres) applies to workplace violence and harassment. The handbook must include:
+- A **protocolo de acoso laboral** (workplace harassment protocol) that establishes procedures for reporting, investigating, and resolving harassment complaints.
+- Clear definitions of workplace violence (violencia laboral), including psychological harassment (mobbing), sexual harassment (acoso sexual), and discrimination-based harassment.
+- Protection against retaliation for complainants.
+- The protocol must be communicated to all employees and be accessible.
+
+### Actos discriminatorios (Ley 23.592)
+
+Ley 23.592 establishes criminal penalties for discriminatory acts. The handbook must include:
+- A **non-discrimination policy** covering race, religion, nationality, ideology, sex, economic position, social condition, and other protected grounds.
+- A procedure for reporting and investigating discriminatory conduct.
+- Sanctions for employees who engage in discriminatory behavior.
+
+### Additional Argentine mandatory policies
+
+- **Código de conducta** — while not strictly mandatory, a code of conduct is expected and may be required by certain CCTs.
+- **Política de drogas y alcohol** — required by many CCTs and by ART (workplace risk insurance) requirements.
+- **Protocolo de actuación ante accidentes** — required by ART regulations.
+- **Política de datos personales** — required under Ley 25.326 for employee data processing.
+
+### Argentina handbook update checklist
+
+When updating the handbook for Argentina, check:
+
+| Policy | Required by | Update needed? |
+|---|---|---|
+| Teletrabajo / derecho a desconexión | Ley 27.555 | [ ] |
+| Protocolo de acoso / violencia laboral | Ley 26.485 | [ ] |
+| No discriminación | Ley 23.592 | [ ] |
+| Datos personales del empleado | Ley 25.326 | [ ] |
+| Drogas y alcohol | CCT / ART | [ ] |
+| Vacaciones (Art. 156+ LCT) | LCT | [ ] |
+| Licencias (maternidad, paternidad, enfermedad) | LCT Arts. 159, 177, 178, 208 | [ ] |

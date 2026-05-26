@@ -202,6 +202,69 @@ Do not produce a "Clear to send" output past this gate without an explicit yes. 
 
 End with the next-steps decision tree per CLAUDE.md `## Outputs`. Customize the options to what this skill just produced — the five default branches (draft the X, escalate, get more facts, watch and wait, something else) are a starting point, not a lock-in. The tree is the output; the lawyer picks.
 
+---
+
+## Argentina — Marco de contratación
+
+When the employee's work jurisdiction is Argentina, apply the following framework alongside the US workflow above. Argentine employment law is governed primarily by the LCT (Ley 20.744 — Ley de Contrato de Trabajo), collective bargaining agreements (convenios colectivos de trabajo, CCT), and complementary statutes.
+
+### Step AR-1: Capacity and eligibility (LCT Art. 10+)
+
+Under LCT Art. 10+, the minimum age for employment is 16 (raised from 14 by Ley 26.390). Minors aged 16-18 require authorization from a parent or legal guardian. Verify the candidate's age and, if under 18, that proper authorization exists. Foreign nationals must have valid work authorization (residencia temporaria or permanente with permiso de trabajo).
+
+### Step AR-2: Non-discrimination (Ley 23.590 / Ley 23.592)
+
+Ley 23.590 prohibits discrimination in employment on grounds of race, religion, nationality, ideology, sex, economic position, or social condition. Ley 23.592 establishes criminal penalties for discriminatory acts. Job postings and offer letters must not contain discriminatory requirements. Any rejection based on protected grounds can give rise to aggravated indemnification claims.
+
+### Step AR-3: Personal data (Ley 25.326)
+
+Ley 25.326 (Protección de Datos Personales) governs the collection and processing of employee personal data. Before hiring:
+- Obtain the candidate's informed consent for data collection (consentimiento informado).
+- Limit data collection to what is necessary for the employment relationship.
+- Register the employee database with the Dirección Nacional de Protección de Datos Personales if applicable.
+- Background checks must be proportional to the role and cannot include protected characteristics.
+
+### Step AR-4: Probationary period (Art. 88 LCT)
+
+The standard probationary period (período de prueba) is **3 months** under Art. 88 LCT. During this period, either party may terminate without cause and without severance (though accrued salary, proportional SAC, and proportional vacation must be paid). The probationary period may be extended to **6 months** by applicable collective bargaining agreement (CCT). The probationary period must be expressly stated in the employment contract; otherwise, the employee is deemed permanent from day one.
+
+### Step AR-5: Required documentation (Art. 80 LCT)
+
+Art. 80 LCT requires the employer to request and retain:
+- Prior employment certificates (certificados de trabajo) from previous employers.
+- CUIL (Código Único de Identificación Laboral).
+- AFJP / jubilación documentation.
+- ART (Aseguradora de Riesgos del Trabajo) enrollment.
+- Medical examination (examen preocupacional) before commencement of duties.
+
+### Step AR-6: Employment contract form
+
+Unlike US at-will employment, Argentine employment contracts are presumed to be for an indefinite term (contrato de trabajo por tiempo indeterminado) unless expressly stated otherwise. The contract must be in writing and registered with the AFIP (Administración Federal de Ingresos Públicos) within a reasonable time. Key terms to include:
+- Start date, job title, duties, and reporting structure.
+- Salary (remuneración) — must not be below the CCT minimum.
+- Applicable CCT (convenio colectivo de trabajo).
+- Probationary period (if within the 3-month Art. 88 LCT limit).
+- Work location (domicilio laboral).
+
+### Step AR-7: Choice-of-law and forum
+
+Argentine labor law is **mandatory and of public order** (orden público laboral). Parties cannot contract out of LCT protections. Choice-of-law clauses selecting foreign law are generally void if the employee performs work in Argentina. Labor disputes must be heard in Argentine labor courts (fuero laboral), and any waiver of labor rights is null and void (Art. 12 LCT).
+
+### Argentina output additions
+
+When producing a hiring review for Argentina, add the following sections to the standard output:
+
+```markdown
+### Argentina — Contrato y cumplimiento
+- **Período de prueba:** [3 meses (Art. 88 LCT) / extendido por CCT / no especificado]
+- **CCT aplicable:** [nombre y número del convenio colectivo]
+- **Remuneración vs. mínimo CCT:** [cumple / no cumple]
+- **Datos personales (Ley 25.326):** [consentimiento obtenido / pendiente]
+- **No discriminación (Ley 23.590/23.592):** [sin cláusulas discriminatorias / flagged]
+- **Registro AFIP:** [pendiente / completado]
+- **ART enrollment:** [pendiente / completado]
+```
+
 ## What this skill does not do
 
 - Draft the offer letter — reviews it.

@@ -56,7 +56,7 @@ Ask all of the following in a single block:
 > useful data:
 >
 > **The expansion**
-> - Which country?
+> - Which country? (Supported jurisdictions include Argentina — see Argentina section below)
 > - What roles are you hiring? (Job function matters — a sales rep closing
 >   deals creates different legal exposure than an engineer writing code)
 > - How many hires are planned in the next 12 months?
@@ -359,3 +359,62 @@ as items close.
   routed through an outside-counsel briefing.
 - Substitute for outside counsel engagement — every new country requires
   local counsel, no exceptions.
+
+---
+
+## Argentina — Expansión
+
+When the expansion destination is Argentina, the following key facts should be included in the briefing and planning:
+
+### Framework
+
+- **LCT (Ley 20.744):** Ley de Contrato de Trabajo — the primary employment statute. Governs hiring, termination, leave, benefits, and worker protections.
+- **Convenios Colectivos de Trabajo (CCT):** Sector-specific collective bargaining agreements that establish minimum salaries, working conditions, and benefits for each job category. The applicable CCT must be identified before hiring.
+- **Orden público laboral:** Argentine labor law is mandatory and of public order — parties cannot contract out of LCT protections.
+
+### Cost considerations
+
+- **Cargas sociales:** Employer social security contributions are approximately **27% of payroll**, including:
+  - Jubilaciones (pension): ~16%
+  - Asignaciones familiares (family allowances): ~4.44%
+  - Obra social (health insurance): ~6%
+  - ART (workplace risk insurance): variable by risk category
+  - Other funds (INEM, FONET, etc.): ~1-2%
+- **SAC (Aguinaldo):** Mandatory 13th salary — two payments per year (June and December), each equal to 50% of the highest monthly remuneration in the semester.
+- **Vacaciones:** 14-35 days depending on seniority (Arts. 156+ LCT).
+- **Horas extras:** 50% surcharge for weekday overtime, 100% for weekends/holidays (Ley 11.544).
+
+### Termination exposure
+
+- **Indemnización por despido (Art. 245 LCT):** One month's salary per year of service (or fraction over 3 months), based on the highest monthly remuneration.
+- **Preaviso (Arts. 231/232 LCT):** 1 or 2 months' notice depending on seniority. Failure to give notice requires payment in lieu.
+- **Integración del mes de despido (Art. 233 LCT):** If termination occurs before the end of the month, the employer must pay through the end of that month.
+- **Indemnización agravada (Art. 80 LCT):** Failure to provide employment certificates (certificados de trabajo) triggers additional compensation.
+- **Protected categories:** maternity (Arts. 177/178 LCT), marriage (Arts. 180/181 LCT), illness (Art. 208 LCT), union representatives (Ley 23.551 — tutela sindical).
+
+### PPC (Procedimiento Preventivo de Crisis) — Ley 24.013
+
+For companies facing economic difficulties that may lead to collective dismissals:
+- Ley 24.013 establishes a **preventive crisis procedure** (PPC) that must be initiated before mass layoffs.
+- The procedure requires notification to the Ministerio de Trabajo and negotiation with employee representatives.
+- Failure to follow the PPC can result in aggravated severance obligations.
+
+### Day 1 compliance
+
+- Register the employer with AFIP (tax authority).
+- Enroll employees with ART (Aseguradora de Riesgos del Trabajo).
+- Register employees with the social security system.
+- Obtain employee medical examinations (exámenes preocupacionales).
+- Identify and apply the applicable CCT.
+- Register the employee database with the Dirección Nacional de Protección de Datos Personales (Ley 25.326).
+
+### Argentina briefing additions
+
+When drafting the outside-counsel briefing for Argentina, add these specific questions:
+
+> **Argentina-specific questions:**
+> - Which CCT applies to our industry and these roles? What are the current minimum salaries?
+> - What is the current ART risk category for our business, and what are the contribution rates?
+> - Are there any provincial labor regulations that apply in addition to federal LCT?
+> - What is the current practice regarding teletrabajo agreements under Ley 27.555?
+> - What compliance program elements are needed under Ley 27.401 (corporate criminal liability)?
