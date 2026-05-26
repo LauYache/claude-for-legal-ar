@@ -98,6 +98,12 @@ Do not proceed on an unintaken matter. Intake is what runs conflicts, sets up `m
 | Argument | Makes the legal case | Issue, authorities, facts |
 | Conclusion | Asks for relief | What we want |
 
+**Argentina — estructura de escritos judiciales:** For Argentine proceedings (CPCCN), briefs follow a different structure:
+- **Memorándum / Contestación de Demanda:** I. Objeto (what you're asking for), II. Hechos (facts), III. Derecho (legal arguments), IV. Petitorio (specific requests to the court)
+- **Alegatos:** Closing arguments after evidence phase
+- **Recurso de Apelación:** Appeal brief with agravios (grievances) section required under Art. 260+ CPCCN
+- **Citations:** Fallos CSJN, cámaras nacionales (CNCom, CNFed, CNTrab). Cite as "CSJN, [date], [case name], Fallos: [volume]:[page]" or "CNCom, Sala [X], [date], [case name], LL [year]-[tomo]"
+
 ### Step 2: Theory check
 
 Before writing: what does this section need to accomplish for the theory?

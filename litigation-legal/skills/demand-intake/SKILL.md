@@ -56,6 +56,7 @@ Record the answers in the intake under a `## Posture` section before `## Parties
 **3. Triggering event**
 - What happened and when (dates matter — statute-of-limitations, notice periods)
 - Evidence available (contracts, emails, records, witnesses)
+- **Argentina:** mediación prejudicial obligatoria (Ley 26.589) before filing in federal courts; carta documento as formal notice method
 
 *Seed doc opportunity: "If you can share the underlying contract, correspondence, or evidence, the draft will be materially sharper. Paths work."*
 
@@ -63,6 +64,7 @@ Record the answers in the intake under a `## Posture` section before `## Parties
 - Which provisions — specific contract sections if applicable
 - Governing law (jurisdiction, choice-of-law clause)
 - Statutes or rules relied on (placeholders OK — the draft will flag `[CITE:___]` anyway)
+- **Argentina:** CPCCN filing requirements (Art. 330+ for demanda, Art. 380+ for contestación). Competencia: Tribunales Ordinarios de CABA, fueros Comerciales/Civiles/Laborales según materia. Carta documento como método formal de intimación.
 
 **5. Desired outcome**
 - Specific asks. Not "resolution" — payment of $X by date Y; cessation of specific activity Z; cure within N days; return of specific property.

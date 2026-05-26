@@ -30,6 +30,8 @@ The portfolio already flags missing holds; this skill writes them.
 
 Preservation duties vary materially by forum. Federal common law (via Zubulake / Residential Funding / Rule 37(e)) differs from state practice; states differ from each other on trigger timing, scope, sanctions, and spoliation remedies; regulatory preservation obligations overlay civil rules in some matters (SEC Rule 17a-4, HIPAA, etc.). The trigger, scope, and sanctions exposure cited in the draft are a starting-point read for the forum named in the matter — confirm with counsel before issuing, refreshing, or releasing.
 
+**Argentina:** No discovery in Argentine civil procedure. Evidence preservation via: custodia de documentos, medidas cautelares (Art. 192+ CPCCN), oficios judiciales. Document retention obligations: Ley 25.326 (datos personales), Ley 11.683 (procedimiento tributario, 6 años), Ley 20.744 (documentación laboral, 4 años). Spoliation sanctions are less developed than US practice but courts can draw adverse inferences under Art. 387-390 CPCCN (exhibición de documentos).
+
 ## Load context
 
 - `~/.claude/plugins/config/claude-for-legal/litigation-legal/matters/_log.yaml` — log row (legal_hold fields + status)
