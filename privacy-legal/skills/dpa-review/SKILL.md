@@ -220,6 +220,18 @@ If the DPA contemplates cross-border data transfers, **research the currently op
 
 If a transfer mechanism is missing and there is an international transfer, that is a 🔴 — there is no lawful transfer mechanism.
 
+### Argentina — Transferencias de datos
+
+Under **Ley 25.326** (Ley de Protección de Datos Personales), international data transfers are governed by **Art. 12**:
+
+- **EU adequacy decision.** Argentina was granted an adequacy decision by the European Commission in 2003 (Decision 2003/490/EC), one of the first countries to receive this recognition. This means transfers from the EU to Argentina are permitted without additional safeguards under GDPR Art. 45. However, transfers FROM Argentina to countries without adequacy require a mechanism under Art. 12 Ley 25.326.
+- **No AAIP-published standard contractual clauses.** The AAIP (Autoridad de Acceso a la Información Pública, formerly Dirección Nacional de Protección de Datos Personales) has not published model standard contractual clauses for international transfers. Use **OEA (Organization of American States) model clauses** or **contractual guarantees** recognized by the AAIP as the transfer mechanism.
+- **Consent-based transfers.** Under Art. 12, international transfers are permitted when the data subject has given **informed consent** to the transfer, or when the transfer falls within specific exceptions (e.g., international judicial cooperation, data exchange within a corporate group under common control, or contractual necessity).
+- **Contractual guarantees.** In the absence of AAIP-published SCCs, parties should incorporate data-protection clauses into the contract governing the transfer, modeled on OEA standards or EU SCCs adapted to Argentine law.
+- **Habeas data.** Under **Art. 43 of the Constitución Nacional**, data subjects have a constitutional right to access, rectify, and suppress personal data held in public or private databases — this right extends to data transferred internationally.
+
+If the DPA involves Argentine data subjects and contemplates cross-border transfers without identifying a transfer mechanism under Ley 25.326 Art. 12, flag as 🔴.
+
 ## Gate: signing a DPA
 
 Reviewing a DPA is research. *Signing* it — or instructing someone to countersign on our behalf — is the consequential act.

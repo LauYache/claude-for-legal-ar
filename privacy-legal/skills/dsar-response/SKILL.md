@@ -253,6 +253,20 @@ their systems.
 Your account is now closed. If you have questions, contact [privacy contact].
 ```
 
+### Argentina — DSAR
+
+Under **Ley 25.326** (Ley de Protección de Datos Personales), DSAR deadlines are significantly shorter than under GDPR or CCPA:
+
+- **Right of Access (*Derecho de Acceso*):** Response is due within **10 calendar days** (*días corridos*) of receipt (**Art. 14/15**). The AAIP must be notified of the request, and the response must be provided within this statutory window.
+- **Right of Rectification, Update, or Deletion (*Derecho de Rectificación, Actualización o Supresión*):** Response is due within **5 business days** (*días hábiles*) of receipt (**Art. 16**).
+- **Right of Suppression (*Derecho de Supresión*):** Governed by **Art. 17** — data subjects may request deletion of their data when it is incomplete, inaccurate, or no longer necessary for the purpose for which it was collected.
+- **No statutory extension mechanisms.** Unlike GDPR (which permits a 2-month extension for complex requests) or CCPA (which permits a 45-day extension), **Ley 25.326 provides NO statutory extension mechanisms**. The 10-day and 5-day deadlines are absolute.
+- **Habeas data.** Under **Art. 43 of the Constitución Nacional**, data subjects may file a *habeas data* action in federal court to enforce their rights of access, rectification, and suppression. This is the judicial enforcement mechanism when the data controller fails to respond within the statutory deadlines.
+- **AAIP complaints.** Data subjects may file complaints directly with the **AAIP** (Agencia de Acceso a la Información Pública), which has authority to investigate and impose sanctions.
+- **Identity verification.** Use **DNI** (Documento Nacional de Identidad) for identity verification of Argentine data subjects.
+
+If a DSAR involves Argentine data subjects, apply these deadlines regardless of any internal SLA that may be longer. The Ley 25.326 deadlines are the legal backstop.
+
 ### Step 6: Log it
 
 DSARs get audited. Record:

@@ -208,9 +208,16 @@ Write `## Who's using this` and `## Available integrations` sections immediately
 - B2B, B2C, or both? Enterprise or SMB customers?
 
 **Regulatory footprint:**
-- Which regulations actually apply? GDPR? CCPA/CPRA? HIPAA? FERPA? Sector-specific? (This feeds `/reg-gap-analysis` — every new reg gets diffed against this list to see if it reaches you, and `/use-case-triage` uses it to spot which regimes apply to a new processing activity.)
+- Which regulations actually apply? GDPR? CCPA/CPRA? HIPAA? FERPA? Sector-specific? **Ley 25.326 (Argentina)?** (This feeds `/reg-gap-analysis` — every new reg gets diffed against this list to see if it reaches you, and `/use-case-triage` uses it to spot which regimes apply to a new processing activity.)
 - Any regulators who know you by name yet? Open inquiries, consent decrees, anything?
-- Where does the data physically live? US only? EU? Multi-region?
+- Where does the data physically live? US only? EU? **Argentina?** Multi-region?
+
+**Argentina-specific compliance questions (if Ley 25.326 applies):**
+- **Bases de datos registradas en AAIP:** Are all databases containing personal data registered with the AAIP? How many databases are registered? When were they last updated?
+- **Responsible person for data protection:** Is there a designated person responsible for data protection compliance in Argentina? (No mandatory DPO under Ley 25.326, but a responsible contact is recommended.)
+- **International data transfers:** Does the company transfer personal data outside Argentina? If so, what transfer mechanism is used (consent, contractual guarantees, OEA model clauses)?
+- **Automated decision systems:** Does the company use automated decision-making that affects Argentine data subjects? If so, what safeguards are in place under Art. 11?
+- **Sensitive data handling:** Does the company process sensitive data (health, ideology, race, religious beliefs, trade union membership, sexual life) of Argentine data subjects? If so, is express written consent obtained?
 
 **The team:**
 - How many privacy people? Is there a DPO? In-house or outside?

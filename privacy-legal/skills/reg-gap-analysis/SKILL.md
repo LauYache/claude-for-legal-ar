@@ -147,6 +147,33 @@ When scoping the delta, it helps to place the new regulation into a rough catego
 
 For each category relevant to the new regulation, **research the currently operative requirements** before drafting the gap analysis. Cite primary sources. Verify currency — new state laws come online each legislative session, and regulators issue interpretive guidance that shifts what "compliance" means for a given control. Flag uncertainty for attorney verification rather than assert a rule you haven't confirmed.
 
+### Argentina — Ley 25.326 as reference framework
+
+When conducting a gap analysis that includes **Argentina**, use **Ley 25.326** (Ley de Protección de Datos Personales) as the reference framework. Key comparison points against GDPR and CCPA:
+
+| Dimension | GDPR | CCPA/CPRA | Ley 25.326 (Argentina) |
+|---|---|---|---|
+| **Authority** | Independent supervisory authorities (DPAs) | CPPA / state AGs | **AAIP** — under Ministry of Justice (not fully independent) |
+| **DPO requirement** | Mandatory in many cases (Art. 37) | No | **No mandatory DPO** |
+| **Breach notification** | 72 hours (Art. 33) | As specified by state law | **No statutory breach notification requirement** |
+| **Adequacy decisions** | Yes (Commission decisions) | N/A | **No adequacy decisions** — transfers require consent or contractual guarantees |
+| **Consent standard** | Explicit for special categories | Opt-out for sale/share | Express for sensitive data (Art. 5), tacit for general data |
+| **Access right deadline** | 30 days (extendable) | 45 days (extendable) | **10 días corridos** (Art. 14/15) — no extensions |
+| **Rectification deadline** | Without undue delay | 45 days | **5 días hábiles** (Art. 16) |
+| **Automated decisions** | Art. 22 — right not to be subject | Opt-out of automated decision-making | **Art. 11** — regulated, but less detailed than GDPR |
+| **Database registration** | No general registry | No | **Mandatory AAIP registration** for all personal data databases |
+| **International transfers** | Adequacy, SCCs, BCRs, derogations | N/A | **Art. 12** — consent or contractual guarantees; no AAIP-published SCCs |
+| **Private right of action** | Via DPA + Art. 79 GDPR | Yes (limited) | **Habeas data** (Art. 43 Constitución Nacional) |
+
+**Key gaps to flag when comparing Argentina to GDPR/CCPA:**
+1. **No independent DPA** — AAIP is under the Ministry of Justice, which may affect enforcement independence.
+2. **No mandatory DPO** — companies operating in Argentina are not required to appoint a data protection officer.
+3. **No statutory breach notification** — unlike GDPR's 72-hour requirement, Ley 25.326 does not mandate breach notification. Companies should implement voluntary breach notification as a best practice.
+4. **No adequacy decisions** — Argentina has not issued adequacy decisions, and the EU has not recognized Argentina as adequate. Transfers require consent or contractual guarantees.
+5. **Shorter DSAR deadlines** — 10 calendar days for access and 5 business days for rectification are significantly shorter than GDPR/CCPA.
+6. **No published standard clauses** — unlike the EU's SCCs, the AAIP has not published model contractual clauses for international transfers.
+7. **Ley 27.401** — Corporate criminal liability law that may apply to data protection compliance failures, particularly for companies that fail to implement adequate data protection measures.
+
 > **No silent supplement.** If a research query to the configured legal research tool (Westlaw, regulator databases, or firm platform) returns few or no results for a regulation, guidance document, or enforcement action, report what was found and stop. Do NOT fill the gap from web search or model knowledge without asking. Say: "The search returned [N] results from [tool]. Coverage appears thin for [regime / topic]. Options: (1) broaden the search query, (2) try a different research tool, (3) search the web — results will be tagged `[web search — verify]` and should be checked against the issuing authority before relying, or (4) flag as unverified and stop. Which would you like?" A lawyer decides whether to accept lower-confidence sources.
 >
 > **Source attribution tiering.** Tag every citation in the gap analysis with its source. For model-knowledge citations, use one of three tiers rather than a single blanket "verify" tag:

@@ -135,6 +135,16 @@ If **any** applicable regime's mandatory trigger is met → **DPIA MANDATORY** (
 - Processing users would not expect
 - Lookalike audiences, cross-context behavioral advertising, or other tracking-based ad-tech activity (recurring question for consumer-facing companies; surfaces policy-commitment conflicts and federal sectoral overlays reliably)
 
+#### Argentina — Evaluation criteria
+
+When the processing activity involves Argentine data subjects, apply these **Ley 25.326** criteria in addition to the GDPR/CCPA checks:
+
+- **Consentimiento (Art. 5):** Is consent the lawful basis? For **sensitive data**, consent must be **express** (*expreso*) — typically written. For **general personal data**, consent may be **tacit** (*tácito*). Verify that the consent mechanism matches the data category.
+- **Datos sensibles (Art. 7):** Does the processing involve sensitive data (health, ideology, race, religious beliefs, trade union membership, sexual life)? If yes, this is a **strong indicator** for PIA REQUIRED at minimum. Sensitive data processing requires express written consent and heightened safeguards.
+- **Decisiones automatizadas (Art. 11):** Does the processing involve automated decisions that affect data subjects' rights? If yes, assess whether Art. 11 safeguards are in place (right to explanation, human review, ability to contest). Automated decision systems affecting Argentine data subjects are a **strong indicator** for PIA REQUIRED.
+- **Transferencia internacional (Art. 12):** Will data be transferred outside Argentina? If yes, identify the transfer mechanism (consent, contractual guarantees, OEA model clauses). International transfers without a lawful mechanism are a **STOP** condition.
+- **Registro de base de datos (AAIP):** Is the database that will store this data registered with the AAIP? If not, flag as a compliance gap that must be resolved before the processing activity goes live.
+
 One or more strong indicators with no researched mandatory trigger → escalate to **PIA REQUIRED**
 (not DPIA mandatory, but flag in the output).
 

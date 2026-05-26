@@ -47,10 +47,13 @@ cold-start interview and without hand-editing YAML.
      has made that `/policy-monitor` watches practice against
    - **PIA house style** — section order, risk scoring, stakeholder framing,
      when DPIA triggers apply
-   - **DSAR process** — verification, statutory timelines per regime,
-     exemption application, template response structure
-   - **Workflow** — intake path, matter workspaces, policy-monitor sweep
-     cadence
+    - **DSAR process** — verification, statutory timelines per regime,
+      exemption application, template response structure
+    - **Argentina compliance** — AAIP database registration status, data
+      protection responsible person, international transfer mechanism,
+      automated decision systems in use, sensitive data categories
+    - **Workflow** — intake path, matter workspaces, policy-monitor sweep
+      cadence
    - **Integrations** — document storage / privacy tool / Slack status,
      fallbacks
 
@@ -68,9 +71,17 @@ cold-start interview and without hand-editing YAML.
      logged."
    - *New DSAR exemption in the playbook:* "`/dsar-response` will surface this
      exemption in the assessment step where the facts match."
-   - *Risk posture middle → conservative:* "I'll flag more activities for
-     PIA escalation, recommend stricter SCC clauses, and be more
-     conservative on retention."
+    - *Risk posture middle → conservative:* "I'll flag more activities for
+      PIA escalation, recommend stricter SCC clauses, and be more
+      conservative on retention."
+    - *AAIP database registration status:* "`/pia-generation` will check
+      whether the database is registered with the AAIP before approving
+      processing activities involving Argentine data subjects."
+    - *International transfer mechanism:* "`/dpa-review` will flag
+      international transfers from Argentina that lack a valid transfer
+      mechanism under Ley 25.326 Art. 12."
+    - *Sensitive data categories:* "`/use-case-triage` will automatically
+      escalate processing of sensitive data under Art. 7 to PIA REQUIRED."
 
 5. **For shared-profile changes** (company name, industry, jurisdictions,
    practice setting, stage): write to

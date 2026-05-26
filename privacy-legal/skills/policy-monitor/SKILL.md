@@ -55,7 +55,7 @@ The output is always the same: here's the gap, here's the suggested language.
 ## Load current state
 
 Read `~/.claude/plugins/config/claude-for-legal/privacy-legal/CLAUDE.md`:
-- `## Who we are` → `## Regulatory footprint` — the regimes in scope (GDPR, CCPA / CPRA / other state consumer privacy, GLBA, HIPAA, FERPA, COPPA, VPPA, CPNI, etc.)
+- `## Who we are` → `## Regulatory footprint` — the regimes in scope (GDPR, CCPA / CPRA / other state consumer privacy, GLBA, HIPAA, FERPA, COPPA, VPPA, CPNI, Ley 25.326 (Argentina), etc.)
 - `## Privacy policy commitments` — the commitments extracted from the published policy
 - `## Outputs` — outputs folder path, policy document location, last sweep date
 
@@ -82,6 +82,14 @@ The website privacy policy is one surface. Modern privacy programs make binding 
 
 A company with a clean privacy policy and a stale App Store label is a company with an FTC complaint waiting to happen. Sweep the surfaces, not just the document.
 
+### Argentine regulatory sources
+
+When **Ley 25.326** is in the regulatory footprint, the sweep should also monitor:
+
+- **AAIP resolutions** — The AAIP (Agencia de Acceso a la Información Pública) issues resolutions and guidance that affect data protection compliance. Monitor for new resolutions, sanctions, and interpretive guidance.
+- **Boletín Oficial de la República Argentina** — Data protection regulations, amendments to Ley 25.326, and implementing decrees are published in the Boletín Oficial. Monitor for new legislation or regulatory updates.
+- **AAIP database registry updates** — Changes to the database registration requirements or procedures should trigger a review of whether registered databases need updating.
+
 ### Sectoral notices are in scope for this sweep
 
 The website privacy policy is one notice. Federally-regulated practices require a separate, sector-specific notice that the website policy does not substitute for. If `## Regulatory footprint` includes any of the following, the sweep diffs practice against that notice in addition to the website policy — or flags its absence if no such notice has been configured:
@@ -93,6 +101,7 @@ The website privacy policy is one notice. Federally-regulated practices require 
 | **FERPA** (school or school service provider) | Annual directory-information / rights notice (34 C.F.R. § 99.37) | Outputs implying new disclosure categories to service providers under the school-official exception, new directory-information elements, or changes that implicate parental-consent flow-through. |
 | **COPPA** (operator of service directed to children <13) | Direct notice to parents + online notice (16 C.F.R. § 312.4) | Outputs implying new data categories collected from children, new third-party disclosures, or changes to the verifiable-parental-consent mechanic. |
 | **VPPA / CPNI / DPPA / other sectoral** | The regime's specific notice or consent regime | Processing activities the regime restricts that aren't reflected in the configured notice. |
+| **Ley 25.326 (Argentina)** | AAIP-registered database notice + privacy policy disclosures | Outputs implying new data categories, new international transfers, or changes to consent mechanics that the AAIP-registered database description doesn't reflect. A new processing activity with no matching AAIP database registration update is a gap. |
 
 **If no sectoral notice is configured for a regime in the footprint**, surface this as a standing gap on every sweep, not a one-time finding. The sweep output should include:
 

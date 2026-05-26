@@ -77,7 +77,17 @@ The `Active matter:` line under `## Matter workspaces` in the practice-level CLA
 2. Run the intake interview:
    - **Client** (the party we represent, or the internal business unit if in-house)
    - **Counterparty** (the other side — may be multiple)
-   - **Matter type** (read the plugin's practice profile for typical categories; for privacy-legal: PIA (processing activity) | DPA review | DSAR | regulator inquiry | transfer-mechanism review | incident | other)
+    - **Matter type** (read the plugin's practice profile for typical categories; for privacy-legal: PIA (processing activity) | DPA review | DSAR | regulator inquiry | transfer-mechanism review | incident | other)
+
+**Argentine matter types:** When the practice includes Argentina, these additional matter types are common:
+
+- **DSAR Ley 25.326** — Data subject access/rectification/deletion requests under Argentine law (10-day / 5-day deadlines)
+- **Sanción AAIP** — AAIP enforcement proceedings, sanctions, or investigations
+- **Habeas data** — Constitutional habeas data actions under Art. 43 CN
+- **Transferencia internacional** — International data transfer mechanism reviews and compliance under Art. 12
+- **Datos sensibles** — Sensitive data processing assessments under Art. 7
+- **Breach (voluntario)** — Voluntary breach notification (no statutory requirement under Ley 25.326, but best practice)
+- **Registro de base de datos** — AAIP database registration and compliance
    - **Confidentiality level** (standard | heightened | clean-team — heightened prompts extra care in cross-matter settings)
    - **Key facts** (2–5 sentences: what this matter is about, who the stakeholders are, what's at stake)
    - **Matter-specific overrides to the practice playbook** (e.g., "client requires 24-month LoL cap not 12", "counterparty is a strategic partner — relationship-preserving tone")

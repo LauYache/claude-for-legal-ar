@@ -120,6 +120,16 @@ For each applicable regime, **research the currently operative framework** for t
 
 Verify currency; statutory definitions and bases are amended often. Flag uncertainty for attorney verification.
 
+#### Argentina — PIA
+
+When the processing activity involves Argentine data subjects, assess against **Ley 25.326**:
+
+- **Consentimiento (Art. 5):** Consent must be **express** (*expreso*) for sensitive data and may be **tacit** (*tácito*) for general personal data. Document the consent mechanism — how it was obtained, what the data subject was told, and whether consent was freely given.
+- **Datos sensibles (Art. 7):** Sensitive data includes health, ideological beliefs, racial or ethnic origin, religious beliefs, trade union membership, and data concerning sexual life. Processing of sensitive data requires **express written consent** and is subject to heightened scrutiny. Special regime: **Ley 26.529** (Derechos del Paciente) governs health data specifically.
+- **Decisiones automatizadas (Art. 11):** Automated decisions that significantly affect data subjects' rights are regulated. Identify any automated decision-making in the processing activity and assess whether Art. 11 safeguards are in place (right to explanation, human review, ability to contest).
+- **Registro de bases de datos (AAIP):** All databases containing personal data must be **registered with the AAIP** (Agencia de Acceso a la Información Pública). Verify whether the database that will store this processing activity's data is registered. Unregistered databases are a compliance gap.
+- **Transferencias internacionales (Art. 12):** If data will be transferred outside Argentina, identify the transfer mechanism (consent, contractual guarantees, OEA model clauses).
+
 ### Who and where
 
 - Who inside the company can see this data? Engineers? Support? Analysts?
