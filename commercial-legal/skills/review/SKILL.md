@@ -105,6 +105,19 @@ The cold-start interview should ask about this preference. Default is `true` —
 [paste agreement text]
 ```
 
+## Argentina — CCyCN framework
+
+When the agreement is governed by Argentine law or involves Argentine parties, the review should apply the CCyCN (Código Civil y Comercial de la Nación) framework alongside the standard playbook. Key CCyCN provisions that affect commercial contract review:
+
+- **Arts. 957+ (contratos):** General contract formation — consent, object, cause. Electronic contracts are valid.
+- **Art. 962 (buena fe):** Good faith is mandatory and贯穿 the entire lifecycle of the contract (negotiation, formation, performance, termination).
+- **Art. 966 (lesión):** Contractual imbalance exploiting weakness or inexperience — grounds for rescission or adjustment.
+- **Art. 765/766 (pesificación):** Foreign currency obligations may be discharged in pesos at the official rate unless explicitly waived with foreign currency as essential condition.
+- **Art. 2605 (jurisdicción):** Prorogation of jurisdiction permitted for international contracts; domestic contracts must use local courts.
+- **Arts. 1363+ (contratos en general):** Requirements for valid contracts — capacity, consent, certain object, lawful cause.
+
+When Argentine law applies, flag any clause that conflicts with mandatory CCyCN provisions (buena fe, lesión, pesificación) as potentially unenforceable regardless of the playbook position. The CCyCN's mandatory rules override contrary contractual terms.
+
 ## Output
 
 Full review memo per the skill's format. Routing decision logged at the top. Deviation-by-deviation, specific redline language, named approver. Saved where `~/.claude/plugins/config/claude-for-legal/commercial-legal/CLAUDE.md` → House style says work product goes.

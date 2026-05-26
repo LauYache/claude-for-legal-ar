@@ -329,6 +329,11 @@ If they don't have one: proceed with the questions below.
 
 **Governing law**
 - Preferred? Acceptable? Never?
+- **Argentina-specific:** If Argentine law applies, confirm:
+  - Is the governing law CCyCN (Código Civil y Comercial)? Which fuero? (Tribunales Comerciales de CABA is standard for commercial matters.)
+  - Does the contract involve foreign currency obligations? If yes, will you accept pesificación risk (CCyCN Art. 765) or require explicit waiver?
+  - Is Ley 24.240 (consumer protection) potentially applicable? If the company deals with consumers, consumer protection overrides adhesion contract terms.
+  - What signature standard do you use? Firma digital (Ley 25.506 — presumption of authorship) or firma electrónica (DocuSign, valid but no presumption)?
 
 **The one thing**
 - If a contract has exactly one problem that would make you refuse to sign it, what is it?

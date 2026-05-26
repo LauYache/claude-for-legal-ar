@@ -176,6 +176,20 @@ Default to the smallest edit that achieves the playbook position:
 
 When in doubt, smaller. A client who receives a surgical redline trusts that you read carefully. A client who receives a wholesale replacement wonders whether you read at all.
 
+## Argentina — NDAs
+
+When the NDA is governed by Argentine law or involves Argentine parties, apply these additional checks alongside the playbook triage:
+
+- **CCyCN Art. 1363+ (contratos en general):** The NDA must satisfy general contract formation requirements — consent, object, and cause. Check that the definition of confidential information has a determinable object (objeto cierto). Vague or overly broad definitions may be challenged under Art. 1363.
+- **CCyCN Art. 962 (buena fe):** Good faith is a mandatory principle in Argentine contract law. Clauses that create asymmetrical obligations (e.g., one-way confidentiality with no carveouts for the receiving party) may be challenged as violating buena fe contractual.
+- **Ley 25.326 (confidencialidad de datos personales):** If the NDA involves sharing personal data, Ley 25.326 (data protection) applies. Check whether the NDA includes adequate data protection commitments — consent for data transfer, security measures, and purpose limitation. Non-compliance can trigger enforcement by the Dirección Nacional de Protección de Datos Personales.
+- **Ley 24.766 (secreto industrial / know-how):** If the confidential information includes trade secrets or industrial know-how, Ley 24.766 provides statutory protection. Check whether the NDA's definition of confidential information aligns with the statutory concept of "secreto industrial" — information that is secret, has commercial value because it is secret, and has been subject to reasonable steps to keep it secret.
+- **CCyCN Art. 966 (lesión):** Check for contractual imbalance that could trigger lesión (exploitation of weakness or inexperience). One-sided NDAs with excessive penalties or survival periods may be vulnerable.
+- **Tribunales Comerciales de CABA:** For domestic Argentine NDAs, the competent forum is typically the fuero comercial de la Capital Federal. Flag any foreign jurisdiction clause in a purely domestic NDA — it may be unenforceable.
+- **Ley 25.506 (firma digital vs electrónica):** If the NDA will be executed electronically, note that firma digital (asymmetric cryptography, state-certified) carries a presumption of authorship; electronic signatures (DocuSign, clickwrap) do not. For high-value NDAs, recommend firma digital.
+
+Apply these as additional flagging criteria within the existing GREEN/YELLOW/RED triage. An NDA that passes the playbook but fails an Argentine law check should be YELLOW at minimum.
+
 ## Jurisdiction assumption
 
 This triage applies the governing-law and restrictive-covenant positions recorded in `~/.claude/plugins/config/claude-for-legal/commercial-legal/CLAUDE.md`. Legal rules (enforceability of non-competes, non-solicits, fee-shifting, choice of law) vary materially by jurisdiction. If the NDA involves a jurisdiction outside the team's configured posture, flag it in the output and note that the triage may not transfer as written.

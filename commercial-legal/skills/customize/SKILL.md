@@ -51,8 +51,13 @@ cold-start interview and without hand-editing YAML.
      channel, deviation-log format
    - **Workflow** — matter workspace paths, intake path, renewal watcher
      cadence
-   - **Integrations** — Ironclad / DocuSign / Slack / document storage
-     status, fallbacks
+    - **Integrations** — Ironclad / DocuSign / Slack / document storage
+      status, fallbacks
+    - **Argentina-specific settings** — governing_law_ccycn (whether CCyCN
+      applies), consumer_protection_applicable (Ley 24.240 relevance),
+      digital_signature_standard (firma digital vs electrónica per Ley 25.506),
+      pesification_risk_tolerance (accept/require waiver for Art. 765 CCyCN
+      foreign currency obligations)
 
 3. **Ask what they want to change.**
 

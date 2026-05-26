@@ -213,6 +213,21 @@ responding | Get business input on commercial term X before legal responds]
 
 Do not proceed past this gate without an explicit yes.
 
+## Argentina — CCyCN vendor agreement overlay
+
+When the vendor agreement is governed by Argentine law or involves Argentine parties, apply these additional checks alongside the standard playbook review:
+
+- **CCyCN Art. 957+ (contratos framework):** Verify contract formation requirements — consent, object, cause. Electronic contracts are valid under Argentine law. Check that the agreement's terms satisfy the CCyCN's requirements for contract validity.
+- **Ley 25.506 (firma digital):** If the agreement will be executed electronically, distinguish between firma digital (asymmetric cryptography with state-certified certificates — presumption of authorship) and firma electrónica (any electronic manifestation of will — valid but no presumption of authorship). For high-value vendor agreements, recommend firma digital.
+- **Ley 24.766 (secreto industrial):** If the vendor agreement involves sharing trade secrets, know-how, or proprietary technical information with the vendor, Ley 24.766 provides statutory protection for industrial secrets. Check whether the agreement includes adequate confidentiality commitments that align with the statutory concept of "secreto industrial" — information that is secret, has commercial value because it is secret, and has been subject to reasonable steps to keep it secret.
+- **Ley 25.326 (datos compartidos):** If the vendor agreement involves sharing personal data with the vendor (as processor or sub-processor), Ley 25.326 (data protection) applies. Check for: consent for data transfer, security measures, purpose limitation, and the vendor's obligations as data handler. Non-compliance can trigger enforcement by the Dirección Nacional de Protección de Datos Personales.
+- **CCyCN Art. 765/766 (pesificación):** If vendor fees are denominated in foreign currency, check for explicit Art. 765 waiver. Without it, the company may discharge obligations in pesos at the official rate.
+- **CCyCN Art. 2605 (jurisdicción):** For domestic contracts, foreign jurisdiction clauses are invalid. Confirm the forum is local (Tribunales Comerciales de CABA for commercial matters).
+- **Ley 22.802 (Lealtad Comercial):** Check for unfair commercial practices in vendor representations.
+- **CCyCN Art. 962 (buena fe):** Good faith is mandatory throughout the contract lifecycle. Flag asymmetrical or deceptive clauses.
+
+Apply these as additional review criteria within the existing term-by-term comparison workflow.
+
 ## Redline granularity
 
 **Edit at the smallest possible granularity.** A redline is a negotiation artifact, not a rewrite. Wholesale clause replacement signals "we threw out your drafting" — it's aggressive, it forces the counterparty to re-read the whole clause, and it discards the parts of their drafting that were fine. Surgical redlines — strike a word, insert a phrase, restructure a subclause — signal "we have specific asks" and are faster to read, understand, and accept.

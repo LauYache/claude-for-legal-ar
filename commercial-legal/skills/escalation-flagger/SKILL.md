@@ -138,6 +138,18 @@ our standard, what the risk actually is.]
 
 If this team uses a ticket system or [CLM] approval workflows, log it. If not, note in the review memo that the escalation was sent, to whom, and when. The next person who reads the memo should see the status.
 
+## Argentina — escalation triggers
+
+When the contract is governed by Argentine law or involves Argentine parties, these additional conditions trigger automatic escalation regardless of dollar value:
+
+- **Pesificación risk (CCyCN Art. 765):** The contract is denominated in foreign currency (USD, EUR) and does NOT contain an explicit, clear waiver of Art. 765 CCyCN with foreign currency defined as essential condition (moneda de cuenta y de pago). The company faces the risk that the counterparty may discharge the obligation in pesos at the official exchange rate. Escalate to confirm whether this risk is acceptable.
+- **Consumer protection (Ley 24.240):** The counterparty qualifies as a consumer under Ley 24.240 (natural person or small business acting outside professional activity) and the agreement is a contrato de adhesión. Consumer protection rules override contractual terms — abusive clauses (Art. 37), contra proferentem interpretation, mandatory local jurisdiction. Escalate if the agreement contains potentially abusive clauses.
+- **Foreign jurisdiction (CCyCN Art. 2605):** The contract is domestic (both parties Argentine, performance in Argentina) but contains a foreign jurisdiction or arbitration clause. Under Art. 2605 CCyCN, jurisdiction prorogation is only valid for international contracts. A foreign forum clause in a domestic contract is likely unenforceable. Escalate to confirm whether the clause should be replaced with Tribunales Comerciales de CABA.
+- **Signature validity (Ley 25.506):** A high-value contract is being executed with only an electronic signature (DocuSign, clickwrap) without firma digital. For contracts above the escalation threshold, recommend firma digital for the presumption of authorship.
+- **Lesión risk (CCyCN Art. 966):** The contract shows significant imbalance that could trigger a lesión claim — one-sided obligations, excessive penalties, or exploitation of inexperience.
+
+Add these to the automatic escalation triggers list when drafting the escalation ask.
+
 ## Calibration: when in doubt, escalate with a note
 
 The cost of an unnecessary escalation is ~30 seconds of the approver's time — they read, say "fine, proceed," and the record shows they saw it. The cost of a missed escalation is signing an unapproved term, which is a one-way door. The costs are not symmetric. **When in doubt, escalate.**

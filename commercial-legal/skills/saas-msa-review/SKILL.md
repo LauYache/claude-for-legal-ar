@@ -141,6 +141,20 @@ Match each to a playbook position. The practice profile's `## AI/ML training rig
 
 4. **Your playbook position per dimension.** The practice profile should have positions for: direct cap (multiple of fees), indirect damages (excluded / capped / uncapped), carveout list (what's acceptable above the cap), and cap base (which definition you'll accept). If the playbook has one "standard position" field, note: "Your playbook has a single cap position — consider splitting into direct/indirect/carveouts/base for more precise review."
 
+## Argentina — SaaS/MSA
+
+When the SaaS agreement is governed by Argentine law or involves Argentine parties, apply these additional checks alongside the standard playbook review:
+
+- **CCyCN Art. 957+ (contratos electrónicos):** Electronic contracts are valid under Argentine law. The CCyCN recognizes electronic signatures and digital contracts (Arts. 957 et seq.). Check that the agreement's formation mechanics (clickwrap, browsewrap, signed PDF) satisfy the consent requirements under Argentine law.
+- **Ley 25.506 (firma digital):** Distinguish between firma digital (asymmetric cryptography with state-certified certificates — presumption of authorship) and firma electrónica (any electronic manifestation of will — valid but no presumption of authorship). For high-value SaaS deals, recommend firma digital for execution. Standard DocuSign without local certificates is firma electrónica.
+- **Ley 24.240 (defensa del consumidor):** If the company is a consumer under Ley 24.240 (natural person or small business acting outside their professional activity), the SaaS agreement is a contrato de adhesión subject to consumer protection rules. Check for: abusive clauses (cláusulas abusivas — Art. 37), interpretation contra proferentem, mandatory local jurisdiction, and the right to withdraw (derecho de revocación). Consumer protection overrides contractual terms.
+- **CCyCN Art. 765/766 (pesificación):** If the SaaS fees are denominated in foreign currency (USD, EUR), Art. 765 CCyCN allows the debtor to discharge the obligation by paying in pesos at the official exchange rate, unless the contract explicitly waives this right AND foreign currency is defined as an essential condition (moneda de cuenta y de pago). Check for explicit Art. 765 waivers — this is a material financial risk. If the waiver is absent, the company may pesify at the official rate. If present, confirm the waiver is clear and explicit.
+- **CCyCN Art. 2605 (jurisdicción):** For international contracts, parties may prorogue jurisdiction to foreign courts or arbitration. For domestic contracts, foreign jurisdiction clauses are invalid — the competent forum is the local court (typically Tribunales Comerciales de CABA for commercial matters). Flag any foreign jurisdiction clause in a domestic Argentine SaaS agreement.
+- **Ley 22.802 (Lealtad Comercial):** Check for unfair commercial practices — misleading representations about service capabilities, hidden fees, or bait-and-switch pricing that could violate commercial loyalty standards.
+- **Auto-renewal under Argentine law:** Argentine law does not have a direct equivalent to US state auto-renewal statutes (CA GBL §17600, NY GBL §527-a). However, the CCyCN's good faith principle (Art. 962) and consumer protection (Ley 24.240, if applicable) impose duties of transparency. Flag auto-renewal clauses that lack clear notice mechanisms.
+
+Apply these as additional review criteria. A SaaS agreement that passes the standard playbook but fails an Argentine law check should be flagged accordingly.
+
 ## Jurisdiction delta check
 
 **The playbook applies one governing-law preference globally. Enforceability varies materially.** Check the SaaS contract's actual governing law against the top divergences before accepting playbook positions at face value:

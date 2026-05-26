@@ -27,6 +27,18 @@ Steps through pending playbook update proposals from the monitor agent and appli
 
 6. **After all proposals are resolved:** show a summary of what changed, then archive the proposals file.
 
+## Argentina — proposal review overlay
+
+When reviewing playbook proposals that involve Argentine-governed contracts or Argentine parties, consider these CCyCN-based grounds for playbook updates:
+
+- **CCyCN Art. 962 (buena fe):** If deviations show a pattern of accepting clauses that violate good faith principles (asymmetrical obligations, hidden penalties, lack of transparency), propose updating the playbook to flag these as YELLOW or RED.
+- **CCyCN Art. 966 (lesión):** If signed agreements show a pattern of accepting contractually imbalanced terms that could trigger lesión claims, propose adding lesión as a review criterion.
+- **Ley 24.240 (consumidor):** If the company regularly enters contratos de adhesión with consumers, propose adding consumer protection checks to the playbook — abusive clauses, contra proferentem interpretation, mandatory local jurisdiction.
+- **CCyCN Art. 765/766 (pesificación):** If foreign currency contracts are being signed without pesificación risk analysis, propose adding a currency clause review step.
+- **CCyCN Art. 2605 (jurisdicción):** If foreign jurisdiction clauses are being accepted in domestic contracts, propose adding a jurisdiction validity check.
+
+Apply these as additional lenses when evaluating whether a deviation pattern warrants a playbook update.
+
 ## Examples
 
 ```
