@@ -511,4 +511,41 @@ was learned from.*
 
 ---
 
+## Argentine Contract Law Reference (CCyCN)
+
+> **Source:** agnostic-legal-ar/prompts/comercial_contratos.md — Argentina-first framework
+
+### CCyCN Framework (Art. 957+)
+
+- **Buena fe (Art. 962 CCyCN):** Las partes deben actuar de buena fe desde las tratativas preliminares hasta la ejecución y extinción del contrato.
+- **Lesión (Art. 966 CCyCN):** Cuando una parte se aprovecha de la necesidad, ligereza o inexperiencia de la otra, el contrato puede ser anulado o equilibrado.
+
+### Pesificación (Art. 765/766 CCyCN)
+
+- **Riesgo:** Art. 765 permite al deudor liberarse de obligaciones en moneda extranjera pagando el equivalente en pesos al tipo de cambio oficial. Altamente perjudicial para contratos en USD.
+- **Solución:** Incluir cláusula de **renuncia expresa al derecho de pesificación del Art. 765 CCyCN**. El deudor se compromete a pagar en dólares billete físico como condición esencial (obligación de dar cantidad de cosas, Art. 766), o pactar tipos de cambio específicos (Dólar MEP, Dólar Bolsa del MAE).
+
+### Jurisdicción (Art. 2605 CCyCN)
+
+- **Contratos locales:** Jurisdicción extranjera o arbitraje internacional prohibido entre partes locales. Seleccionar tribunales nacionales (ej. Tribunales Comerciales de la Capital Federal).
+- **Contratos internacionales:** Prórroga de jurisdicción permitida solo en asuntos con carácter internacional (Art. 2605), siempre que no afecte orden público.
+
+### Firma Digital (Ley 25.506)
+
+- **Firma Digital (Art. 2/3 Ley 25.506):** Criptografía asimétrica, certificador licenciado por el Estado. Presunción legal de autoría e integridad. Si se desconoce, el impugnante debe probar invalidez.
+- **Firma Electrónica (Art. 5 Ley 25.506):** Firmas por plataformas comerciales (DocuSign, Adobe Sign, email). Sin presunción legal de autoría. Si es desconocida, quien la invoca debe probar autenticidad.
+
+### Indexación de Precios
+
+Contratos en pesos a largo plazo deben incluir cláusulas de actualización automática citando índices oficiales INDEC (IPC, IPIM) para evitar controversias por desactualización inflacionaria.
+
+### Secreto Industrial (Ley 24.766)
+
+Protección de información comercial confidencial, know-how, y secretos de negocio bajo el régimen de la Ley 24.766.
+
+### Cross-Reference
+- Used by: nda-review, saas-msa-review, vendor-agreement-review
+
+---
+
 *To re-run the interview: `/commercial-legal:cold-start-interview --redo`*

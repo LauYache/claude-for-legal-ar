@@ -403,4 +403,45 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ---
 
+## Argentine Employment Law Reference (LCT 20.744)
+
+> **Source:** agnostic-legal-ar/prompts/laboral_lct.md — Argentina-first framework
+
+### Despidos e Indemnizaciones
+
+**Tutelas especiales (pre-despido risk scan):**
+- **Maternidad (Art. 177/178 LCT):** Despido dentro de los 7.5 meses anteriores o posteriores al parto presume causa de maternidad → indemnización agravada de 1 año de remuneraciones (Art. 182 LCT).
+- **Matrimonio (Art. 180/181 LCT):** Despido dentro de los 3 meses anteriores o 6 meses posteriores al matrimonio presume causa → indemnización agravada de 1 año (Art. 182 LCT).
+- **Enfermedad/Accidente inculpable (Art. 208 LCT):** No se puede despedir sin causa durante licencia. Si se despide, pagar salarios pendientes hasta el alta médica más indemnización por despido.
+- **Representación sindical (Ley 23.551):** Estabilidad absoluta. Despido requiere proceso judicial previo de "exclusión de tutela". Sin él, despido nulo → reinstalación.
+
+**Conceptos indemnizatorios (despido sin causa):**
+1. **Indemnización por antigüedad (Art. 245 LCT):** 1 mes de sueldo por año de servicio o fracción >3 meses, base = Mejor Remuneración Mensual, Normal y Habitual (MRMNH) del último año, sujeta a topes de Convenio.
+2. **Preaviso (Art. 231/232 LCT):** 15 días (período de prueba), 1 mes (<5 años), 2 meses (>5 años).
+3. **Integración mes de despido (Art. 233 LCT):** Salarios de días restantes del mes si el despido no coincide con el último día.
+4. **Liquidación final (siempre corresponde):** días trabajados, vacaciones no gozadas (divisor 25: `(sueldo ÷ 25) × días`), proporcional SAC (50% mejor remuneración del semestre prorrateado), SAC sobre vacaciones e integración.
+5. **Multas Art. 80 LCT:** 30 días para entregar certificados de servicios y aportes. Tras intimación de 48 horas sin cumplimiento → multa de 3 salarios mensuales (Art. 45 Ley 25.345).
+
+### Monotributistas / Contractor Risk
+
+- **Art. 23 LCT:** La prestación de servicios hace presumir contrato de trabajo, salvo prueba en contrario.
+- Si cumple horarios, recibe órdenes directas, usa herramientas de la empresa, integrado a actividad principal → tribunales califican como empleo encubierto.
+- Riesgos retrospectivos: aportes previsionales/obra social impagos, aguinaldos, vacaciones, multas Ley 25.323.
+
+### Jornada y Horas Extras (Ley 11.544)
+
+- Jornada máxima: 8 horas diarias / 48 semanales.
+- Horas extras: sueldo básico ÷ divisor mensual (normalmente 200 o según CCT).
+  - Días hábiles: recargo 50% (`hora común × 1.5`).
+  - Días inhábiles (sábados >13:00, domingos, feriados): recargo 100% (`hora común × 2.0`).
+
+### PPC — Procedimiento Preventivo de Crisis (Ley 24.013)
+
+Requerido antes de despidos colectivos. El incumplimiento genera multas y obligaciones indemnizatorias agravadas.
+
+### Cross-Reference
+- Used by: termination-review, hiring-review, wage-hour-qa, worker-classification, leave-tracker
+
+---
+
 *Re-run: `/employment-legal:cold-start-interview --redo`*

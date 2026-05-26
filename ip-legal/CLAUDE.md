@@ -395,5 +395,52 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ---
 
+## Argentine IP Law Reference (INPI/Ley 22.362)
+
+> **Source:** agnostic-legal-ar/prompts/propiedad_intelectual.md — Argentina-first framework
+
+### Ley 22.362 — Marcas
+
+**Obstáculos absolutos (Art. 2/3 Ley 22.362):**
+- **Designación necesaria o habitual (genéricas):** No registrable la palabra común del producto.
+- **Descriptivas:** Palabras que describen función, cualidad o ingrediente.
+- **Deceptivas:** Signos que induzcan a error sobre origen, calidad o características.
+- **Marcas extranjeras genéricas:** No registrables palabras extranjeras que sean designación genérica del producto en su país de origen.
+
+**Cotejo Marcario (confusión):**
+1. **Semejanza gráfica/ortográfica:** Comparación visual de deletreo, longitud, estructura.
+2. **Semejanza fonética:** Similitud en pronunciación en español rioplatense (vocales fijas y fuertes → mayor riesgo fonético).
+3. **Semejanza ideológica/conceptual:** Traducción directa de marca registrada (inglés↔español) = confundible si productos coinciden.
+4. **Principio de especialidad:** Conflicto por clase (Niza). Marcas notorias/famosas gozan de protección extendida más allá de su clase.
+
+### Proceso de Oposiciones (INPI)
+
+- Toda solicitud se publica en el **Boletín de Marcas**.
+- Plazo improrrogable de **30 días corridos** desde publicación para que terceros presenten **Oposición** (Art. 12 Ley 22.362).
+- Si hay oposición → etapa de negociación amistosa. Si no se retira → INPI resuelve administrativamente vía Dirección de Marcas.
+
+### Ley 11.723 — Derechos de Autor
+
+Protección de obras literarias, artísticas, científicas. Registro ante DNDA (Dirección Nacional del Derecho de Autor). Penalidades por infracción: Art. 72 Ley 11.723.
+
+### Ley 24.481 — Patentes
+
+Régimen de patentes de invención y modelos de utilidad. Procedimiento ante INPI. Requisitos de novedad, actividad inventiva y aplicación industrial.
+
+### INPI Procedures
+
+- Registro de marcas, patentes, diseños industriales ante INPI.
+- Clave fiscal de AFIP requerida para trámites digitales.
+- Monitoreo del Boletín de Marcas para oposiciones de terceros.
+
+### DNDA
+
+Dirección Nacional del Derecho de Autor — registro de obras, contratos de edición, cesiones de derechos.
+
+### Cross-Reference
+- Used by: cease-desist, clearance, portfolio, takedown
+
+---
+
 *To re-run the interview: `/ip-legal:cold-start-interview --redo`*
 *To re-check integrations only: `/ip-legal:cold-start-interview --check-integrations`*

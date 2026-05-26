@@ -412,4 +412,41 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ---
 
+## Argentine Data Protection Reference (Ley 25.326)
+
+> **Source:** agnostic-legal-ar/prompts/privacidad_datos.md — Argentina-first framework
+
+### Plazos Legales Strictos (Sin Prórroga)
+
+A diferencia del GDPR o CCPA, los plazos argentinos son extremadamente cortos y no admiten extensiones automáticas:
+
+- **Derecho de Acceso (Art. 14/15 Ley 25.326):** El responsable debe proporcionar la información dentro de **10 días corridos** de recibida la solicitud. Gratuito en intervalos no inferiores a 6 meses, salvo interés legítimo acreditado.
+- **Rectificación, Actualización o Supresión (Art. 16 Ley 25.326):** Debe realizarse y notificarse en **5 días hábiles** (días hábiles judiciales nacionales).
+
+Incumplimiento → Denuncia Administrativa ante AAIP o Acción Judicial de Habeas Data (Art. 37+ Ley 25.326).
+
+### Verificación de Identidad
+
+- La solicitud debe provenir del titular o apoderado con poder suficiente.
+- Requerir copia del DNI o autenticación digital segura.
+- Si se requiere documentación adicional, solicitarla dentro de las 24-48 horas. **El requerimiento de verificación NO detiene el plazo legal** de 10/5 días — procesar con máxima urgencia.
+
+### Excepciones a Supresión/Acceso (Art. 17 Ley 25.326)
+
+Denegar acceso o supresión solo bajo:
+- Si la supresión causare perjuicios a derechos o intereses legítimos de terceros.
+- Si existe **obligación legal de conservar los datos** (registros contables/impositivos AFIP por 5-10 años, datos laborales LCT, transacciones comerciales CCyCN).
+- Si fuere necesario para defensa del Estado, seguridad pública, salud pública, o investigación de delitos penales.
+
+Toda denegatoria debe estar fundada legalmente y notificada fehacientemente dentro del plazo aplicable.
+
+### Multas AAIP
+
+La Agencia de Acceso a la Información Pública (AAIP) es la autoridad de aplicación. Puede imponer sanciones administrativas por incumplimiento de plazos, negativa injustificada, o tratamiento indebido de datos personales.
+
+### Cross-Reference
+- Used by: dsar-response, dpa-review, pia-generation
+
+---
+
 *Re-run: `/privacy-legal:cold-start-interview --redo`*

@@ -482,6 +482,50 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ---
 
+## Argentine Corporate Law Reference (LGS/IGJ)
+
+> **Source:** agnostic-legal-ar/prompts/societario_actas.md — Argentina-first framework
+
+### Resoluciones Sin Reunión / Por Escrito (Art. 158 CCyCN)
+
+Decisiones del Directorio por escrito o electrónica sin reunión física son válidas solo si:
+1. Están **expresamente autorizadas por el estatuto social**.
+2. Participan y firman **todos** los directores vigentes de forma unánime.
+- **Transcripción obligatoria** al Libro de Actas de Directorio (rubricado) en plazo corto posterior a la firma.
+
+### Conflicto de Interés (Art. 272 LGS)
+
+- Director con interés contrario al de la sociedad debe: (1) notificar al Directorio y Sindicatura, (2) **abstenerse de deliberar y votar**.
+- Si el voto del director en conflicto resulta decisivo → resolución nula de nulidad absoluta. Director responde de forma ilimitada, solidaria y directa por daños.
+- Las actas deben dejar constancia expresa de la declaración de interés y registrar la abstención.
+
+### Estructura de Actas de Directorio (Art. 73 LGS)
+
+Formato narrativo corrido convencional:
+- **Encabezado:** Lugar, fecha, hora, nómina de asistentes, presidente.
+- **Orden del Día:** Temas a tratar.
+- **Deliberación y Votación:** Registro sucinto de deliberaciones y votación (mayoría o unanimidad).
+- **Cierre:** Firma de directores presentes.
+
+### Asamblea de Accionistas (Art. 60 LGS)
+
+Designación de autoridades y decisiones societarias fundamentales requieren inscripción ante IGJ/DPPJ.
+
+### Libros Societarios (Art. 175 LGS)
+
+Sociedades deben mantener libros rubricados: Libro de Actas de Directorio, Libro de Actas de Asamblea, Libro de Registro de Accionistas.
+
+### IGJ / DPPJ / Boletín Oficial
+
+- **IGJ** (Inspección General de Justicia, CABA) y **DPPJ** (Dirección Provincial de Personas Jurídicas, Buenos Aires) son los organismos de control.
+- Cambios de sede social, designación de autoridades, aumento de capital requieren inscripción.
+- Publicación de edictos en el Boletín Oficial para ciertos actos societarios.
+
+### Cross-Reference
+- Used by: board-minutes, entity-compliance, closing-checklist, written-consent
+
+---
+
 *Re-run full interview: `/corporate-legal:cold-start-interview --redo`*
 *Add a module: `/corporate-legal:cold-start-interview --module [m&a | board | public | entities]`*
 *New M&A deal: `/corporate-legal:cold-start-interview --new-deal`*
