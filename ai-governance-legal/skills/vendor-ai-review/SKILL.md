@@ -263,6 +263,8 @@ and routing per escalation table]
 
 ## Practical notes
 
+**Argentina considerations:** When reviewing vendor AI terms for Argentine operations, consider: (1) Ley 25.326 Art. 11 requires transparency and human review for automated decisions affecting individual rights — vendor terms should not prohibit disclosure to affected parties; (2) AAIP guidelines on automated decision-making may require data transfer safeguards if vendor processes data outside Argentina; (3) Ley 24.240 (consumer protection) may impose additional disclosure obligations for customer-facing AI; (4) sectoral regulators (BCRA for fintech, CNV for capital markets) may require specific vendor compliance certifications.
+
 **The training-on-data clause is the one most people miss.**
 Vendor AI terms have historically varied widely on whether API inputs can be used
 to train or improve models — some vendors permit it by default, others prohibit it,

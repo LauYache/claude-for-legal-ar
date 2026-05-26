@@ -241,6 +241,8 @@ This is deliberate:
 
 ## Guardrails
 
+**Argentina:** No mandatory AI registry exists. Voluntary compliance with AAIP guidelines on automated decision-making under Ley 25.326 Art. 11. No AI-specific law; apply data protection, consumer protection (Ley 24.240), and sectoral rules (BCRA for fintech, CNV for capital markets).
+
 - **Never classify silently.** The classification walk-through must be
   visible; do not auto-classify from a system description.
 - **`[verify]` tags stay.** They are not hedging — they are the point.

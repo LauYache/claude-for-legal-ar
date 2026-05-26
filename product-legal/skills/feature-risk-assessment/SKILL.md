@@ -74,6 +74,14 @@ Only include if a regulator is actively interested in this space. If so:
 - How this feature would look to them
 - Whether we'd rather they hear about it from us or from a headline
 
+**Argentina — regulatory criteria to assess:**
+- **ENACOM** — does the feature involve telecommunications, internet services, or digital platforms subject to ENACOM regulation? Check current resolutions and licensing requirements.
+- **Ley 25.326 (Datos Personales)** — does the feature collect, process, or transfer personal data? Assess AAIP registration needs, consent mechanisms, data transfer restrictions (especially international transfers), and security obligations.
+- **Ley 24.240 (Defensa del Consumidor)** — does the feature involve consumer-facing transactions, auto-renewals, or terms of service? Assess abusive clause risk (Art. 37), information duties (Art. 4), and right of revocation.
+- **Ley 26.904 (Grooming/Protección de Menores Online)** — does the feature enable contact with minors? Assess grooming prevention measures, age verification, and reporting obligations.
+- **Ley 22.802 (Lealtad Comercial)** — does the feature involve competitive comparisons, pricing, or commercial representations? Assess unfair competition risk.
+- **Defensoría del Público** — does the feature involve content distribution or media? Assess accessibility and diversity obligations.
+
 ### 4. Precedent (if any)
 
 Has another company done something similar? What happened?

@@ -279,6 +279,7 @@ Prompts to walk through:
 - **Cross-border AI regimes** — if the company has users, customers, or employees outside its home jurisdiction, research whether those jurisdictions' AI regimes reach the company's activity.
 - **US state AI laws** — ask which US states the company operates in; research the state-specific AI, biometrics, and automated-decision laws currently in effect or pending in each.
 - **Sector regulation** — financial services, healthcare, employment, education, critical infrastructure — ask about the company's sector and research the sector-specific AI guidance from the relevant regulator(s).
+- **Argentina-specific:** If operating in Argentina, ask about AAIP (data protection authority) compliance posture, whether any automated decision systems trigger Ley 25.326 Art. 11 (decisiones automatizadas que afecten derechos), and whether sectoral regulators (BCRA for fintech, CNV for capital markets) impose AI-specific requirements.
 - **Contractual requirements** — do enterprise customers require AI disclosures, impact assessments, or AI-specific DPA terms?
 
 **Open regulatory matters:**
@@ -341,6 +342,8 @@ walk through each one.
 Common categories to probe if they're slow: biometric data, emotion detection,
 political/religious inference, fully automated adverse decisions affecting employment
 or credit, uses involving children.
+
+**Argentina-specific red lines to probe:** automated decisions without human review affecting individual rights (Ley 25.326 Art. 11), processing of sensitive personal data without explicit consent, AI systems that profile consumers in ways that may trigger Ley 24.240 protections. Ask: "Do any of your AI systems make decisions that could significantly affect a person's rights — employment, credit, access to services? Under Argentine law (Ley 25.326 Art. 11), these require transparency and human review."
 
 **Governance tier question:**
 > "Do you have a tiered approval process — some things the team can approve,

@@ -138,6 +138,7 @@ Then check the use case against EVERY regime in the practice profile's `## Regul
 - "APPROVED under US law, but triggers EU AI Act Article 27 FRIA if EU residents are affected — confirm whether any affected individuals are in the EU."
 - "Standard tier under your governance framework, but NYC LL144 requires a bias audit if used for hiring decisions affecting NYC residents."
 - "Low risk under Australian AI Ethics Framework, but may be high-risk under the Colorado AI Act if Colorado residents are affected."
+- "APPROVED under general framework, but triggers Ley 25.326 Art. 11 (AR) if Argentine residents are subject to automated decisions — confirm human review and transparency mechanisms are in place."
 
 A use case that crosses jurisdictions gets the strictest applicable treatment, not the most convenient one.
 

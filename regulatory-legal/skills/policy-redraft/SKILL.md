@@ -80,6 +80,8 @@ When you see a red flag, check (via research MCP, web search if enabled, or the 
 
 Emit that banner above the work-product header. Tag every effective/compliance date in the redraft as `[effective date per published rule — status unverified]`.
 
+**Argentina sources:** For Argentine regulatory verification, use InfoLEG (sistemas.infoleg.gob.ar) for consolidated legal texts, Boletín Oficial for newly published norms, and the relevant regulator's website (AAIP, BCRA, CNV, ENACOM, ANMAT, IGJ, AFIP) for current guidance and enforcement actions. Argentine regulations may be published as leyes, decretos, resoluciones, or comunicaciones — verify the current status and any amendments through InfoLEG.
+
 ## Step 3: Produce the redraft
 
 A marked-up version of the affected policy section.

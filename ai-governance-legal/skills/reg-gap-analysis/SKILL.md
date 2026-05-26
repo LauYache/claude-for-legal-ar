@@ -40,6 +40,8 @@ When a regulation is genuinely ambiguous, say so. Don't paper over uncertainty â
 legal teams need to know when they're on solid ground versus when they're making a
 judgment call.
 
+**Argentina framework:** Argentina has no specific AI law. The applicable legal framework is Ley 25.326 (data protection), particularly Art. 11 on automated decisions affecting individual rights. AAIP guidelines on automated decision-making provide interpretive guidance. Consumer protection (Ley 24.240) applies to customer-facing AI. Sectoral regulators (BCRA for fintech, CNV for capital markets, ENACOM for telecom) may impose sector-specific requirements.
+
 ## Load current state
 
 Read `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`:

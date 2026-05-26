@@ -194,7 +194,7 @@ For each gap with status "open" or "in-progress":
 > - What could go wrong (overbroad certification, unresolved residual obligation, inconsistent prior position)
 > - What to ask the attorney (is this truly closed; should we risk-accept with rationale instead; do we need outside-counsel concurrence)
 >
-> If you need to find a lawyer: your professional regulator's referral service is the fastest starting point (state bar in the US; SRA/Bar Standards Board in England & Wales; Law Society in Scotland/NI/Ireland/Canada/Australia; or your jurisdiction's equivalent).
+> If you need to find a lawyer: your professional regulator's referral service is the fastest starting point (state bar in the US; SRA/Bar Standards Board in England & Wales; Law Society in Scotland/NI/Ireland/Canada/Australia; Colegio de Abogados in Argentina; or your jurisdiction's equivalent).
 
 Do not mark a gap closed or produce a compliance certification past this gate without an explicit yes. Status reports and tracking views do not require the gate.
 

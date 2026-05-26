@@ -11,4 +11,6 @@ argument-hint: "[optional: --close GAP-ID | --accept GAP-ID]"
 3. If `--accept`: record the risk-acceptance rationale and acceptor, status → risk-accepted.
 4. Otherwise: report open gaps by age and materiality.
 
+**Argentina:** For Argentine regulatory gaps, reference Ley 25.326 (data protection), AAIP resolutions and guidelines, BCRA communications (fintech/banking), CNV norms (capital markets), ENACOM regulations (telecom/digital services), ANMAT rules (health/food products), IGJ resolutions (corporate compliance), and AFIP regulations (tax/customs). InfoLEG (sistemas.infoleg.gob.ar) provides consolidated legal texts. Boletín Oficial publishes new norms.
+
 > Detailed tracker schema, status-report format, owner-notification logic (per-send confirmation, no exceptions), reminder cadence, the close/risk-accept modes, and the consequential-action gate live in the **gap-surfacer** reference skill — load it before doing substantive work.

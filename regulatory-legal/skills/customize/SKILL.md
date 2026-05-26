@@ -36,9 +36,13 @@ without hand-editing YAML.
    - **Company / who you are** — name, industry, jurisdictions, stage, practice
      setting *(shared across all 12 plugins — changes flow through
      `company-profile.md`)*
-   - **Regulators we watch** — agencies / bodies / SROs / state regulators
-     in scope, and which are "leading" (most likely to drive policy
-     impact) vs. "monitor"
+    - **Regulators we watch** — agencies / bodies / SROs / state regulators
+      in scope, and which are "leading" (most likely to drive policy
+      impact) vs. "monitor"
+    - **Argentina regulators** — AAIP (data protection), BCRA (banking/fintech),
+      CNV (capital markets), ENACOM (telecom/digital), ANMAT (health/food),
+      IGJ (corporate), AFIP (tax/customs). InfoLEG (sistemas.infoleg.gob.ar)
+      for consolidated texts, Boletín Oficial for new norms.
    - **Policy library** — the internal policies the library indexes, path
      to each, owner per policy
    - **Materiality threshold** — when a regulatory change rises to

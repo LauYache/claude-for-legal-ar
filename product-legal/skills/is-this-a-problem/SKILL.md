@@ -42,6 +42,15 @@ The goal is speed. The PM asked at 4:47pm. They want an answer, not a memo.
 
 Read `~/.claude/plugins/config/claude-for-legal/product-legal/CLAUDE.md` → `## Risk calibration`. The whole point of this skill is pattern-matching against that table.
 
+**Argentina — regulatory framework overlay:** When the question involves Argentine users, data, or operations, also consider:
+- **ENACOM** — telecommunications and digital services regulation
+- **Ley 25.326** — personal data protection (AAIP registration, consent, international transfers)
+- **Ley 24.240** — consumer defense (abusive clauses, information duties, right of revocation)
+- **Ley 26.904** — online minor protection (grooming prevention, age verification)
+- **Ley 22.802** — commercial loyalty (unfair competition, misleading advertising)
+- **Defensoría del Público** — content distribution and media obligations
+Flag Argentine-regime implications in the trap check and route for research when the applicable Argentine standard is unclear.
+
 ## The triage
 
 ### Match against calibration

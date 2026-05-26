@@ -77,7 +77,7 @@ The `Active matter:` line under `## Matter workspaces` in the practice-level CLA
 2. Run the intake interview:
    - **Client** (the party we represent, or the internal business unit if in-house)
    - **Counterparty** (the other side — may be multiple)
-   - **Matter type** (read the plugin's practice profile for typical categories; for product-legal: launch | feature review | marketing claim review | risk deep dive | product area (standing) | other)
+    - **Matter type** (read the plugin's practice profile for typical categories; for product-legal: launch | feature review | marketing claim review | risk deep dive | product area (standing) | other) **| Argentina: consulta regulatoria ENACOM | reclamo Ley 24.240 (defensa del consumidor) | evaluación Ley 25.326 (datos personales) | revisión Ley 26.904 (protección de menores online) | análisis Ley 22.802 (lealtad comercial) | consulta Defensoría del Público | compliance AAIP**
    - **Confidentiality level** (standard | heightened | clean-team — heightened prompts extra care in cross-matter settings)
    - **Key facts** (2–5 sentences: what this matter is about, who the stakeholders are, what's at stake)
    - **Matter-specific overrides to the practice playbook** (e.g., "client requires 24-month LoL cap not 12", "counterparty is a strategic partner — relationship-preserving tone")
@@ -135,6 +135,8 @@ Set `Active matter:` in the practice-level CLAUDE.md to `none — practice-level
 ## Matter type
 
 [vendor MSA | customer agreement | NDA | SaaS subscription | amendment | renewal | other — with one-line rationale]
+
+**Argentina — matter types:** [consulta regulatoria ENACOM | reclamo consumidor Ley 24.240 | evaluación datos personales Ley 25.326 | revisión grooming Ley 26.904 | análisis lealtad comercial Ley 22.802 | consulta Defensoría del Público | compliance AAIP | notificación violación de datos | registro de base de datos ante AAIP]
 
 ## Key facts
 

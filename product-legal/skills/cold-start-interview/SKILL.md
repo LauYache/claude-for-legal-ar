@@ -222,6 +222,7 @@ Record the practice setting in the practice profile under `## Who's using this`.
 - Where are the users — US-only, US + EU, global?
 - Where are the employees and data centers?
 - Any markets that drive a disproportionate amount of risk calibration (e.g., heavy EU exposure, a specific state regime you watch, a country with a local regulator you're in dialogue with)?
+- **Argentina-specific:** Does the product have Argentine users or operations? If so, which regimes are most relevant — ENACOM (telecomunicaciones), Ley 25.326 (datos personales/AAIP), Ley 24.240 (defensa del consumidor), Ley 26.904 (protección de menores online), Ley 22.802 (lealtad comercial), Defensoría del Público?
 
 **Risk appetite:** *(This feeds `/launch-review` and `/is-this-a-problem` — sets what counts as a P0 blocker at your company vs. an FYI.)*
 - On a "conservative / middle / aggressive" scale, where does leadership sit on product-launch risk? Any specific category where that's different (e.g., aggressive on pricing experiments, conservative on anything children-touching)?
@@ -265,6 +266,12 @@ If the user uploads: read it, extract the framework, confirm what you found, and
 - Who reviews marketing copy — you, or a separate marketing legal function?
 - Comparative claims ("faster than X") — allowed, discouraged, banned?
 - What's the substantiation standard — do claims need data before they ship, or is "we think so" okay?
+
+**Argentina — marketing claims:**
+- Does the team review copy against Ley 24.240 (publicidad engañosa, Art. 4 y 37)?
+- Are CONAR Argentina guidelines followed for self-discipline in advertising?
+- Does the team check Ley 22.802 (Lealtad Comercial) for unfair competition risk in comparative claims?
+- Any ENACOM or Defensoría del Público considerations for the media channels used?
 
 ### Part 4: Seed documents (3-4 min)
 

@@ -58,6 +58,8 @@ looks like the other assessments this team produces.
 
 **Jurisdictional scope.** This assessment applies the regulatory regimes listed in `## Regulatory footprint` in `~/.claude/plugins/config/claude-for-legal/ai-governance-legal/CLAUDE.md`. AI legal rules, risk classifications, and deployment obligations vary materially by jurisdiction and are moving fast. If this system is (or will be) deployed outside that footprint, or if a choice-of-law question is in play, this analysis may not apply as written — re-run or expand the footprint.
 
+**Argentina-specific note:** Argentina has no specific AI law. The applicable framework is Ley 25.326 (data protection), particularly Art. 11 on automated decisions affecting individual rights, which requires transparency and human review for decisions that significantly impact persons. AAIP (Agencia de Acceso a la Información Pública) has issued guidelines on automated decision-making. Consumer protection (Ley 24.240) may apply to customer-facing AI systems. Sectoral regulators (BCRA for fintech, CNV for capital markets) may impose additional requirements.
+
 ---
 
 ## Step 0: Is an impact assessment needed?
@@ -89,7 +91,7 @@ Research the applicable risk classification framework for each regime in the use
 > **Source attribution tiering.** Tag every citation in the AIA — regulatory text, delegated acts, guidance, standards — with its source. For model-knowledge citations, use one of three tiers rather than a single blanket "verify" tag:
 >
 > - `[settled]` — stable, well-known statutory and regulatory references unlikely to have changed (e.g., GDPR Art. 22 as a concept, the existence of Regulation (EU) 2024/1689 as the EU AI Act). Still verify before certifying, but lower priority.
-> - `[verify]` — model-knowledge citations that are real but should be verified: specific delegated / implementing acts, regulator guidance, NYC DCWP rules, Colorado AI Act provisions, harmonized standards, effective dates, EEOC guidance, and anything post-2023.
+> - `[verify]` — model-knowledge citations that are real but should be verified: specific delegated / implementing acts, regulator guidance, NYC DCWP rules, Colorado AI Act provisions, harmonized standards, effective dates, EEOC guidance, AAIP guidelines on automated decision-making (AR), and anything post-2023.
 > - `[verify-pinpoint]` — pinpoint citations (specific EU AI Act article numbers, annex references, Colorado AI Act subsections, NYC LL 144 rule sections, sub-paragraph letters) carry the highest fabrication risk and should ALWAYS be verified against a primary source. EU AI Act article numbers in particular shifted during consolidation; every pinpoint cite to the Act should be verified against the Official Journal text.
 >
 > Tool-retrieved citations keep their source tag (`[Westlaw]`, `[EUR-Lex]`, `[regulator site]`, or the MCP tool name); web-search citations remain `[web search — verify]`; user-supplied citations remain `[user provided]`. The tiering surfaces the real verification work — a reader who verifies everything verifies nothing. Never strip or collapse the tags.

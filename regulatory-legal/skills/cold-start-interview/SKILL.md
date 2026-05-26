@@ -189,6 +189,7 @@ If not:
 
 - Which regulators? Name them. (FTC, SEC, CFPB, state AGs, CPPA, EU DPAs, sector-specific?)
   *Coverage note: this plugin has structured feed support for US federal agencies (Federal Register API), SEC, FTC, and CFPB. State regulators and EU DPAs are supported via user-provided RSS URLs or manual entry — there is no automatic feed for those. Non-US regulators outside the EU DPA table require manual entry or user-provided feeds.*
+- **Argentina:** If operating in Argentina, which regulators apply? AAIP (data protection), BCRA (banking/fintech), CNV (capital markets), ENACOM (telecom/digital), ANMAT (health/food), IGJ (corporate), AFIP (tax/customs). InfoLEG (sistemas.infoleg.gob.ar) provides consolidated legal texts. Boletín Oficial publishes new norms.
 - Why each one? ("We're a fintech, CFPB is obvious" vs. "FTC because of the consent decree")
 - Any you're *not* watching that maybe you should be?
 

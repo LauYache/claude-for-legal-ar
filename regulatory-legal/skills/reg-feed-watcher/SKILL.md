@@ -51,8 +51,8 @@ For each regulator in the watchlist:
     *   **Federal Register API** (`https://www.federalregister.gov/api/v1/documents`) — query by agency slug, date range (since last check), and document type.
     *   **Direct regulator RSS** — fetch and parse any RSS URLs in `CLAUDE.md` feed configuration (SEC, FTC, CFPB, etc.).
 *   **Argentine Regulators (Argentina):**
-    *   **Boletín Oficial (BORA) & InfoLEG RSS** (`http://servicios.infoleg.gob.ar/infolegInternet/rss/anexos-boletinoficial.xml`) — query for new laws, decrees, and resolutions.
-    *   **Direct regulator feeds** — fetch and parse RSS/HTML from AFIP (tributario), BCRA (comunicaciones cambarias/financieras), CNV (mercado de capitales), AAIP (datos personales), and IGJ (societario) as configured.
+    *   **Boletín Oficial (BORA) & InfoLEG RSS** (`http://servicios.infoleg.gob.ar/infolegInternet/rss/anexos-boletinoficial.xml`) — query for new laws, decrees, and resolutions. InfoLEG (sistemas.infoleg.gob.ar) provides consolidated legal texts for Argentine legislation.
+    *   **Direct regulator feeds** — fetch and parse RSS/HTML from AFIP (tributario), BCRA (comunicaciones cambiarias/financieras), CNV (mercado de capitales), AAIP (datos personales), ENACOM (telecomunicaciones), ANMAT (productos médicos/alimenticios), and IGJ (societario) as configured.
 *   **EU / UK Regulators:**
     *   Direct regulator RSS (EDPB, ICO, EC Press, etc.).
 
@@ -66,6 +66,8 @@ Agency/Regulator slug/key reference for common regulators:
 | AFIP (AR) | afip.gob.ar/novedades |
 | BCRA (AR) | bcra.gob.ar |
 | AAIP (AR) | argentina.gob.ar/aaip |
+| ENACOM (AR) | enacom.gob.ar |
+| ANMAT (AR) | anmat.gob.ar |
 | IGJ (AR) | argentina.gob.ar/justicia/igj |
 
 For any regulator not in this list, fall back to direct RSS or HTML change-monitoring.

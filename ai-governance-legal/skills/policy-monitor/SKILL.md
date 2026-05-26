@@ -51,6 +51,8 @@ for our AI policy?"
 
 The output is always the same: here's the gap, here's the suggested language.
 
+**Argentina sources:** For Argentine regulatory monitoring, watch AAIP (aaip.gob.ar) for data protection and automated decision guidance, BCRA (bcra.gob.ar) for fintech AI rules, CNV (cnv.gov.ar) for capital markets AI requirements, and Boletín Oficial for new legislation. InfoLEG (sistemas.infoleg.gob.ar) provides consolidated Argentine legal texts.
+
 ---
 
 ## Load current state

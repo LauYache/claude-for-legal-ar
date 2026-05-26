@@ -122,6 +122,7 @@ policies and guidance.
 | Singapore | PDPC Model AI Governance Framework, MinLaw guidance, MAS AI fairness principles (for financial services) |
 | Canada | Law Society of Ontario/BC/Alberta AI guidance, OPC AI guidance, TBS Directive on Automated Decision-Making |
 | Multi-jurisdiction | Use all applicable, and note where they diverge (e.g., EU requires human oversight documentation US doesn't; Australia focuses on voluntary ethics frameworks; Singapore focuses on sectoral regulation) |
+| Argentina | AAIP guidelines on automated decision-making, Ley 25.326 Art. 11 (decisiones automatizadas), Ley 24.240 (consumer protection), sectoral regulators (BCRA for fintech, CNV for capital markets). No specific AI law yet. |
 
 If the practice profile's footprint is empty or `[PLACEHOLDER]`, ask: "What jurisdiction(s) does your organization operate in? I'll draft from the model policies that match your regulatory environment and professional responsibility framework, not a US-centric template."
 
