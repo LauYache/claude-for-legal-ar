@@ -75,7 +75,7 @@ The `Active matter:` line under `## Matter workspaces` in the practice-level CLA
 2. Run the intake interview:
    - **Client** (the party we represent, or the internal business unit if in-house)
    - **Counterparty** (the other side — may be multiple; may be "unknown third-party infringer" for watch-triggered matters)
-   - **Matter type** (read the plugin's practice profile for typical categories; for ip-legal: trademark clearance | trademark enforcement | DMCA | patent FTO | patent infringement | IP clause review | OSS compliance | portfolio maintenance | other)
+   - **Matter type** (read the plugin's practice profile for typical categories; for ip-legal: trademark clearance | trademark enforcement | DMCA | INPI opposition | Boletín de Marcas monitoring | DNDA registration | patent FTO | patent filing (INPI) | patent infringement | IP clause review | OSS compliance | portfolio maintenance | other)
    - **Confidentiality level** (standard | heightened | clean-team — heightened prompts extra care in cross-matter settings; clean-team common in patent FTO work)
    - **Key facts** (2–5 sentences: what this matter is about, who the stakeholders are, what's at stake)
    - **Matter-specific overrides to the practice posture** (e.g., "client wants aggressive posture for this mark only", "counterparty is a strategic partner — measured tone only", "inventor unavailable — don't surface for interview")
@@ -132,7 +132,7 @@ Set `Active matter:` in the practice-level CLAUDE.md to `none — practice-level
 
 ## Matter type
 
-[trademark clearance | trademark enforcement | DMCA | patent FTO | patent infringement | IP clause review | OSS compliance | portfolio maintenance | other — with one-line rationale]
+[trademark clearance | trademark enforcement | DMCA | INPI opposition | Boletín de Marcas monitoring | DNDA registration | patent FTO | patent filing (INPI) | patent infringement | IP clause review | OSS compliance | portfolio maintenance | other — with one-line rationale]
 
 ## Key facts
 

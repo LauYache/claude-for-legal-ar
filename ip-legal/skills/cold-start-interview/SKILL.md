@@ -303,9 +303,9 @@ Record in the practice profile as context, not a gate. Volume affects the cadenc
 ### Part 2: Jurisdiction footprint (1-2 minutes)
 
 > Where do you hold registrations and where do you enforce? (This feeds /clearance, /fto, /portfolio — every clearance check and FTO triage needs to know which jurisdictions matter, and the portfolio register tracks renewals in each one.)
->
-> - **Marks registered in:** US (USPTO)? EU (EUIPO)? UK (UKIPO)? Madrid member states — which? National filings elsewhere? Common-law only?
-> - **Patents granted in:** US? EPO? PCT national phase countries? Any specific jurisdictions that matter (Germany, Japan, China)?
+
+> - **Marks registered in:** INPI (Argentina)? US (USPTO)? EU (EUIPO)? UK (UKIPO)? Madrid member states — which? National filings elsewhere? Common-law only?
+> - **Patents granted in:** INPI (Argentina)? US? EPO? PCT national phase countries? Any specific jurisdictions that matter (Germany, Japan, China)?
 > - **Where you enforce:** US federal / state? Outside US? Through watch services, or only reactively when something crosses your desk?
 
 Ask the three in one batch. If the user only practices one area, ask only the relevant subquestion.
@@ -386,7 +386,7 @@ Skip if the user does not practice trademark.
 > Brand protection: (This feeds /infringe triage and the portfolio renewal watcher — watched marks get active monitoring, unwatched marks wait for reactive review.)
 >
 > - **Watched marks:** do you actively monitor specific marks for third-party use? List them, or say "none — reactive only."
-> - **Watch jurisdictions:** US / EU / UK / global via watch service?
+> - **Watch jurisdictions:** Boletín de Marcas (INPI Argentina)? US / EU / UK / global via watch service?
 > - **Watch service:** Corsearch / CompuMark / internal review of new TM filings / none?
 > - **Monitoring cadence:** weekly / monthly / quarterly / on-demand?
 

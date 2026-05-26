@@ -43,10 +43,10 @@ interview and without hand-editing YAML.
      for clearance thresholds, FTO opinions, and cease-and-desist escalation
    - **People** — IP counsel, outside firms by IP type, enforcement
      escalation chain, invention committee
-   - **Portfolio** — patent families, trademark classes, key marks, countries
-     of registration, watch services
-   - **Brand protection** — enforcement posture on marketplace takedowns,
-     domain squatters, parody / fair use calls
+    - **Portfolio** — patent families, trademark classes, key marks, countries
+      of registration (INPI Argentina / USPTO / EUIPO / UKIPO), watch services
+    - **Brand protection** — enforcement posture on marketplace takedowns,
+      domain squatters, parody / fair use calls, INPI opposition strategy
    - **Enforcement posture** — when to send C&D vs. cure letter vs. suit;
      escalation triggers by infringement type
    - **Clearance and FTO** — search vendors, clearance confidence thresholds,
@@ -55,8 +55,9 @@ interview and without hand-editing YAML.
      cadence for new dependencies
    - **Workflow** — matter workspaces (matter IDs, family IDs), docket feed,
      invention intake form
-   - **Integrations** — patent docket system / trademark office connectors /
-     Slack / document storage status, fallbacks
+    - **Integrations** — patent docket system / trademark office connectors /
+      Slack / document storage status, fallbacks
+    - **Jurisdiction config** — `ip_jurisdiction: [AR, US, EU, global]` controls which legal frameworks skills apply by default; `inpi_monitoring: [true/false]` enables Boletín de Marcas (INPI Argentina) monitoring in portfolio and clearance workflows
 
 3. **Ask what they want to change.**
 

@@ -132,6 +132,7 @@ Maintenance mechanics vary by jurisdiction and asset type:
   WIPO; individual designated countries may have local use or declaration
   requirements (e.g., US §71).
 - **EUIPO trademarks:** 10-year renewal; 6-month grace with surcharge.
+- **Argentina (INPI) trademarks:** 10-year term from grant, renewable. Use fees (tasas de uso) not required. Non-use cancellation after 5 years of non-use. Renewal every 10 years with no grace period under Ley 22.362.
 - **US utility patents:** Maintenance fees due at 3.5, 7.5, and 11.5 years
   from grant. 6-month grace window with surcharge; after that, potential
   revival by petition if lapse was unintentional.

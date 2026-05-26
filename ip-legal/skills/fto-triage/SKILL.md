@@ -300,6 +300,7 @@ each independent claim element-by-element.
 > - **China:** Utility models (shiyong xinxing), CNIPA examination, different claim construction.
 > - **Japan:** Utility models, JPO examination, a narrower DOE.
 > - **Europe (unified patent court):** UPC procedure as of 2023.
+> - **Argentina (Ley 24.481):** 20-year term from filing. No utility models for software. INPI patent database for active patents. Software "as such" is not patentable under Art. 6. Biotech patents governed by Ley 24.366. Plant varieties under Ley 20.247. Claim construction follows INPI practice, not US doctrine.
 >
 > When non-US jurisdictions are in scope: "This analysis uses the US claim-charting framework. A product manufactured in China and sold in the EU needs CNIPA and EP analysis, not a US claim chart. I can flag the issues a US analysis surfaces, but the infringement and validity calls require [jurisdiction]-specific review."
 

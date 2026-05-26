@@ -187,8 +187,11 @@ IP clauses fail as a system. Check:
 IP rules are jurisdiction-specific in ways that change the outcome. Flag if the agreement implicates any of these:
 
 - **Moral rights** — EU member states, Canada, much of the civil-law world recognize moral rights (paternity, integrity) that may not be fully assignable or waivable. US recognition is narrow (VARA, for visual art).
+  - **Argentina:** Moral rights (derechos morales) under Ley 11.723 are inalienable and imprescriptible — they cannot be assigned or waived. Only economic rights (derechos patrimoniales) are transferable.
 - **Work-for-hire** — US doctrine is statutory (17 U.S.C. § 101) and only applies to enumerated categories for independent contractors. UK implies assignment in the employment context but not always for contractors. Civil-law jurisdictions handle this differently again.
+  - **Argentina:** No work-for-hire doctrine. Under CCyCN and Ley 11.723, IP rights are assignable by contract. Employee inventions under Ley 24.481 Art. 36-40: service inventions belong to employer, free inventions belong to employee.
 - **Implied license** — common-law jurisdictions may read in an implied license where the written grant is silent. Civil-law jurisdictions tend not to.
+  - **Argentina:** Ley 22.362 Art. 30: trademark licenses must be recorded at INPI to be effective against third parties. Ley 24.481: patent licenses must be recorded.
 - **Patent indemnity exclusions** — combinations, modifications, and user supply of accused features are standard US exclusions; the interaction with EU patent and UPC is still developing.
 
 State what jurisdiction the agreement is governed by, and whether the practice profile flags that jurisdiction as standard, escalate, or never.

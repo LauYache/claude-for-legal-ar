@@ -224,6 +224,8 @@ product attributes:
 Factors table; what cuts each way; a "not a finding" conclusion line. End with
 a routing suggestion against the enforcement posture in the practice profile.
 
+**Argentina — Ley 22.362 (marcas):** Art. 31 establishes criminal penalties (1 month to 3 years imprisonment + fines) for trademark usurpation. Civil action for damages. INPI administrative cancellation procedure available. Confusion analysis under INPI practice: semejanza gráfica, fonética, ideológica. No statutory damages — actual damages must be proven. Marca notoria (famous mark) doctrine provides broader protection across classes.
+
 ---
 
 ## Copyright mode
@@ -279,10 +281,14 @@ attributable to infringement the provider could control, expeditious
 takedown on valid notice. Repeat-infringer policy required. Safe harbor does
 not cover direct infringement by the service provider itself.
 
+**Argentina — no DMCA equivalent.** Argentina has no notice-and-takedown statutory regime. Use direct takedown notices to hosting providers under CCyCN liability rules and Ley 25.326. Reference: "Godoy c/ Google" precedent (CSJN). Hosting providers are not automatically shielded; liability turns on knowledge and failure to act after notice.
+
 ### Output
 
 Factors flagged; fair-use balance with "the triage does not conclude";
 ownership / registration / safe-harbor threshold notes. Routing per posture.
+
+**Argentina — Ley 11.723 (derechos de autor):** Registration at DNDA is declarative, not constitutive, but strongly recommended for evidence. Art. 72 establishes criminal penalties. Civil action for damages. No DMCA equivalent — use direct takedown notices under CCyCN and Ley 25.326. Moral rights (derechos morales) are inalienable and imprescriptible.
 
 ---
 

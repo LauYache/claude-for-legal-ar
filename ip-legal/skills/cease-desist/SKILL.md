@@ -84,7 +84,7 @@ Ask, in one batch:
 > - **Copyright** — is it registered? Title, registration number, date? Or unregistered (note: US suits require registration for filed claims; statutory damages and fees require pre-infringement registration)?
 > - **Both** — identify each.
 
-Record each right. Registered rights get cited by number. Common-law rights get the first-use evidence paragraph. Unregistered copyrights get a flag: "We may not be able to file suit on an unregistered US copyright without registering first — `[SME VERIFY]` before the letter threatens litigation."
+Record each right. Registered rights get cited by number. Common-law rights get the first-use evidence paragraph. Unregistered copyrights get a flag: "We may not be able to file suit on an unregistered US copyright without registering first — `[SME VERIFY]` before the letter threatens litigation." **In Argentina, copyright registration at DNDA is declarative, not constitutive, but strongly recommended for evidence purposes.**
 
 ### Step 2: Identify the conduct
 
@@ -134,6 +134,14 @@ Pick the actual remedies. The demand must be proportionate to the harm — an ov
 - **Shopify DMCA / trademark reporting**
 
 A marketplace takedown often resolves in days; a C&D gives the infringer time to sell through inventory while negotiating. The two paths are not mutually exclusive — recommend filing both when the conduct is marketplace-based, with the C&D covering off-platform conduct (DTC site, wholesale, social, physical retail) that the platform report cannot reach. Note in the pre-send brief whether the parallel-path has been filed, is queued, or is declined (and why).
+
+**Argentina parallel path — INPI opposition procedure.** If the accused conduct involves a trademark application published in the Boletín de Marcas (INPI Argentina), the opposition procedure is a faster administrative track:
+- **Deadline:** 30 days from Boletín de Marcas publication
+- **Requirements:** formulario, tasa, fundamentos de oposición
+- **Contestación:** 6 días hábiles for the applicant to respond
+- **Resolución:** 40 días hábiles for INPI to decide
+- **Effect:** blocks registration if successful; does not grant damages (separate civil action needed)
+Flag this as a parallel track when the counterparty has a pending INPI application, not just marketplace use.
 
 ### Step 5: Calibrate to posture
 
@@ -198,7 +206,8 @@ Draft structure:
 4. **Opening** — identify the sender, the right, the registration (if any), and the fact of the letter
 5. **The right** — trademark: reg number, class, first-use date, registration status; copyright: registration number, title, year, work description; common-law: first-use date, geographic scope, evidence of acquired distinctiveness
 6. **The infringing conduct** — specific: who, what, where, when, evidence
-7. **The legal basis** — `[CITE: Lanham Act §32 / §43(a) / 17 U.S.C. §501 / state UCL / contract §]` as applicable
+7. **The legal basis** — `[CITE: Lanham Act §32 / §43(a) / 17 U.S.C. §501 / state UCL / contract §]` as applicable.
+   - **Argentina:** `[CITE: Ley 22.362 (marcas) / Ley 11.723 (derechos de autor) / Ley 24.481 (patentes) / CCyCN]` as applicable. No statutory damages in Argentina — actual damages must be proven. Criminal penalties under Art. 31 Ley 22.362, Art. 72 Ley 11.723.
 8. **The demand** — numbered, specific, proportionate
 9. **The deadline** — calendar date, method of confirmation
 10. **Consequences of non-compliance** — calibrated to posture
@@ -212,7 +221,9 @@ Draft structure:
 - **No overbroad assertions.** If the mark is registered in one class and the accused use is in a different class, say so — don't pretend the registration covers both. Overbroad C&Ds are evidence of bad faith and can support §43(a)(1)(B) or Rule 11 exposure.
 - **Citations as placeholders unless verified.** `[CITE: Lanham Act §32, 15 U.S.C. §1114]` stays as a placeholder unless the user provided the cite or a research tool returned it. Tag every citation with source — `[Westlaw]`, `[user provided]`, `[model knowledge — verify]`, `[web search — verify]`. Never strip the tags.
 - **Consequence language matches posture.** Aggressive → specific relief threatened (injunction, statutory damages under 15 U.S.C. §1117 / 17 U.S.C. §504, attorneys' fees). Measured → "we reserve all rights." Conservative → "we'd like to discuss before considering further steps."
+  - **Argentina:** No statutory damages. Aggressive → actual damages, medidas cautelares (Art. 192+ CPCCN), criminal complaint (Art. 31 Ley 22.362). Measured → "reservamos todos nuestros derechos." Conservative → "deseamos conversar antes de considerar medidas adicionales."
 - **Jurisdiction-specific hooks** — if US, watch for Anti-Cybersquatting (15 U.S.C. §1125(d)) for domain matters, §43(a) for unregistered marks, §504(c) for pre-registration timing. Non-US: flag the forum and note the draft may need foreign associate review.
+  - **Argentina:** Ley 22.362 Art. 31 (penalidades civiles y criminales por usurpación de marca), Ley 11.723 Art. 72 (penales por violación de derechos de autor), acciones civiles por daños y perjuicios, medidas cautelares (Art. 192+ CPCCN). No statutory damages — actual damages must be proven. Criminal penalties: 1 month to 3 years imprisonment + fines.
 
 ### Step 7: The loud gate before delivery
 
@@ -313,7 +324,7 @@ Extract:
 Not a legal opinion — a structured read:
 
 - **Rights validity.** Are the asserted registrations real and active? (Check USPTO TSDR, EUIPO eSearch, Copyright Office records — flag any that look dormant or not in force.) For common-law claims, what evidence do they actually cite?
-- **Plausibility of confusion / similarity / infringement.** On the facts as alleged, is this a colorable claim or is it stretching? For trademark: likelihood of confusion turns on multi-factor tests (Polaroid / AMF / Sleekcraft depending on circuit — `[SME VERIFY]` the forum's test). For copyright: access + substantial similarity. Flag where the claim looks weakest.
+- **Plausibility of confusion / similarity / infringement.** On the facts as alleged, is this a colorable claim or is it stretching? For trademark: likelihood of confusion turns on multi-factor tests (Polaroid / AMF / Sleekcraft depending on circuit — `[SME VERIFY]` the forum's test). **Argentina:** INPI criteria — semejanza gráfica, fonética, ideológica; naturaleza del producto, canales de comercialización. For copyright: access + substantial similarity. Flag where the claim looks weakest.
 - **Overbreadth.** Are they demanding more than the conduct warrants? (They want the mark transferred when registration would at most cover re-labeling? They want all sales when only one channel touched the right?) Overbroad demands weaken leverage and strengthen a §43(a)(1)(B) / unclean-hands counter.
 - **Timing.** Laches, statute of limitations, registration timing (for US copyright statutory damages) — flag any date issues on the face of the letter.
 - **Forum.** Where would they sue? Is the forum contractually fixed (most unlikely in a stranger IP dispute)? Is there a DJ opportunity for us?

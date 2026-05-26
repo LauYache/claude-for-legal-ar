@@ -137,6 +137,7 @@ a clear issue.
 | **False connection** | Mark falsely suggests connection with person, institution, national symbol | Mark invokes a specific identifiable person or institution |
 | **Prohibited matter** | Flags, coats of arms, insignia, specific prohibited categories | Mark contains a prohibited element |
 | **Functional (for design marks / trade dress)** | The feature is essential to use or affects cost/quality | Design mark — and the feature performs a function |
+| **Argentina-specific bars** | Ley 22.362 Art. 3: signs that cannot be registered (generic, descriptive, geographic, deceptive, immoral, national symbols) | Same as above; additionally, signs that lack distinctive character under INPI practice |
 
 Note on scandalous/immoral marks: after *Iancu v. Brunetti* (2019) and *Matal v.
 Tam* (2017), the USPTO no longer refuses registration on those bases. The
@@ -162,6 +163,7 @@ Read `## Available integrations` from `~/.claude/plugins/config/claude-for-legal
   across the relevant classes and jurisdictions. Attribute every result to its
   source. Note the date of the search and the scope (which registries, which
   classes, exact-match vs. fuzzy, design search or not).
+  - **Argentina:** INPI database (tramitesenlinea.inpi.gob.ar), Boletín de Marcas, Clasificación de Niza. Search for identical and confusingly similar marks in same class.
 - **If a legal research connector is available** (CourtListener for litigation for case law and TTAB decisions): sweep for reported disputes involving
   the mark or a close variant. Same attribution rule.
 - **If no search connector is available:** say so, explicitly, in the output.
@@ -172,7 +174,7 @@ Read `## Available integrations` from `~/.claude/plugins/config/claude-for-legal
 Write out, in the output, this exact statement:
 
 > **No database search was run.** This triage did not hit TESS, Solve
-> Intelligence, Descrybe, CourtListener, state registries, Madrid/WIPO, or any
+> Intelligence, Descrybe, CourtListener, state registries, Madrid/WIPO, INPI (Argentina), or any
 > common law / unregistered-mark sources. A knockout or full search across those
 > databases is required before any conclusion about availability. The triage
 > below is limited to intrinsic-bar analysis and structured confusion factors

@@ -32,6 +32,7 @@ Three modes. Pick one:
 4. **Respect the gates.** In `--send` and `--counter`, the loud gate runs before any final output is written. The fair-use gate in `--send` is separate and runs earlier; "debatable" or "likely" fair use stops the draft and routes to attorney review.
 
 5. **Jurisdiction note.** DMCA §512 is US federal law. If the service provider, content, or infringer sits outside US jurisdiction, flag before drafting — you may need an EU DSA notice, UK OSA notice, or local-regime instrument instead of (or in addition to) a DMCA notice.
+   - **Argentina:** No DMCA equivalent. Use direct takedown notices to hosting providers under CCyCN liability rules and Ley 25.326. Reference: "Godoy c/ Google" precedent (CSJN). Hosting liability turns on knowledge and failure to act after notice. No statutory safe harbor.
 
 6. **Hand off where appropriate.** `--respond` with a counter-notice recommendation chains into `/ip-legal:takedown --counter` — but only after the triage memo has been reviewed and the decision to counter has been made deliberately.
 

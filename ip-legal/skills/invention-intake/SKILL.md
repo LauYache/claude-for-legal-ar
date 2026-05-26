@@ -249,6 +249,8 @@ recites:
 
 > **§101 is a US standard. Other patent offices are different.** The EPO's "technical effect" test (Art. 52 EPC) is materially more permissive for software and AI inventions than US §101 post-*Alice*. JPO and CNIPA also apply different standards. An invention that screens 🔴 under *Alice* may be perfectly eligible at EPO/JPO/CNIPA.
 >
+> **Argentina (Ley 24.481 Art. 6):** discoveries, scientific theories, mathematical methods, software "as such" are not patentable. Biotech governed by Ley 24.366. Plant varieties under Ley 20.247. Employee inventions under Art. 36-40: service inventions belong to employer, free inventions belong to employee, mixed inventions are shared.
+>
 > When the practice profile includes non-US jurisdictions: "This §101 screen is US-only. If you file internationally, the eligibility posture may be different — particularly for software, AI/ML, and business methods, which EPO is more permissive on. Don't decline based on US §101 alone if you have EP/JP/CN filing plans."
 
 #### Screen 4: Public disclosure / bar dates

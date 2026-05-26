@@ -245,6 +245,8 @@ This memo and any dependency list reviewed may be privileged, confidential, or b
 
 OSS license enforceability varies — AGPL's network trigger has not been broadly tested in court; GPL-3.0's patent clause reads differently under US vs. EU patent law; dedications to public domain are not universally recognized. State the governing-law choice for any downstream distribution (e.g., vendor agreements incorporating the code) and flag jurisdictions the practice profile marks as escalate.
 
+**Argentina:** No specific OSS legislation. GPL, MIT, Apache, etc. are enforceable under CCyCN contract law (Art. 957+). Argentine courts have not ruled on GPL enforcement — treat as binding contract under CCyCN. Public domain dedications (CC0, Unlicense) may not be fully recognized under Argentine law, which does not permit waiver of moral rights (Ley 11.723).
+
 ---
 
 ## Outbound check (if applicable)
