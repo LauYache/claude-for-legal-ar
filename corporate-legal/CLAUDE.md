@@ -81,6 +81,7 @@ The deliverable should read like a partner wrote it. The meta-commentary goes in
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 (Código Procesal Civil y Comercial, Art. 380+) and the ethics codes of each Colegio de Abogados. Corporate records (executed consents, adopted minutes) are never labeled privileged; only drafting notes and analysis are. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).
@@ -91,7 +92,7 @@ A false assurance of protection is worse than no marking. The lawyer who relies 
 
 *Remove the header from externally-facing deliverables (executed consents, filed documents, letters, responses) — see the specific skill's instructions. Corporate records (executed consents, adopted minutes) are never labeled privileged; only the drafting notes and analysis attached to them are.*
 
-**Non-lawyer output mode.** When the practice profile says the user is not a lawyer, structure outputs for a reader who can't unpack legal shorthand: (1) the attorney brief goes at the top, not buried, (2) every legal flag gets a one-line plain-English gloss in parentheses, (3) every statutory cite gets a plain-English subject line. Example: "Flag: potential Cal-WARN issue (Cal. Lab. Code §1400) — California requires 60 days notice before large layoffs." Test: could the reader take the output to their boss and explain it without a lawyer in the room?
+**Non-lawyer output mode.** When the practice profile says the user is not a lawyer, structure outputs for a reader who can't unpack legal shorthand: (1) the attorney brief goes at the top, not buried, (2) every legal flag gets a one-line plain-English gloss in parentheses, (3) every statutory cite gets a plain-English subject line. Example: "Flag: potential Cal-WARN issue (Cal. Lab. Code §1400) — California requires 60 days notice before large layoffs." Or for Argentina: "Flag: resolución por escrito requiere unanimidad (Art. 158 CCyCN) — all directors must sign for written consent without a meeting." Test: could the reader take the output to their boss and explain it without a lawyer in the room?
 
 ---
 
@@ -321,6 +322,8 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 **Deal cadence:** [PLACEHOLDER — serial acquirer N deals/year with standard playbook / bespoke each deal]
 **Deal lead:** [PLACEHOLDER — corp dev / legal / outside counsel as primary]
 
+**Argentina note:** Compraventa de acciones governed by LGS 19.550; asset sales by CCyCN. Due diligence under Argentine practice includes: IGJ/DPPJ status, AFIP tax compliance (constancia de situación tributaria), ANSES social security compliance, provincial tax (rentas), labor liabilities (Art. 30 LCT solidarity), environmental compliance.
+
 ### Diligence structure
 
 **Request list categories:**
@@ -395,10 +398,12 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 **Consents repository:** [PLACEHOLDER — folder path / Google Drive / SharePoint / Box location, or "seed documents only"]
 **Consent format:**
-- Resolution language: [PLACEHOLDER — "RESOLVED, THAT" / "BE IT RESOLVED" / other]
+- Resolution language: [PLACEHOLDER — "RESOLVED, THAT" / "BE IT RESOLVED" / "SE RESUELVE:" (AR) / "POR MAYORÍA/UNANIMIDAD SE APRUEBA:" (AR)]
 - Recital depth: [PLACEHOLDER — full WHEREAS / minimal / none]
 - Authorisation language: [PLACEHOLDER — extracted from seed or repository]
 - Electronic signatures: [PLACEHOLDER — accepted / not accepted]
+
+**Argentina note:** Art. 158 CCyCN: written resolutions require statute authorization + unanimous director signature. Art. 272 LGS: directors with conflicts must abstain and notify the board. Art. 73 LGS: Libro de Actas de Directorio structure requirements. Art. 60 LGS: registration of authority changes with IGJ/DPPJ.
 
 **Minutes template:**
 *Extracted from seed minutes. Used by board-minutes skill for every draft.*
@@ -418,18 +423,20 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ## Public Company
 
-**Exchange:** [PLACEHOLDER — NYSE / Nasdaq / other]
+**Exchange:** [PLACEHOLDER — BYMA (Bolsa y Mercados Argentinos) / ROFEX / NYSE / Nasdaq / other]
 **Fiscal year end:** [PLACEHOLDER]
 **Filing status:** [PLACEHOLDER — large accelerated / accelerated / non-accelerated filer]
+
+**Argentina note:** CNV (Comisión Nacional de Valores) reporting via Comunicaciones A-series. Insider trading under Ley 26.831 (Mercado de Capitales). BYMA regulations apply. IGJ reporting for CABA entities.
 
 **Disclosure committee:**
 - Chair: [PLACEHOLDER]
 - Members: [PLACEHOLDER — CFO, CAO, IR, Legal, other]
 - Meeting cadence: [PLACEHOLDER — quarterly pre-earnings / as needed]
 
-**§16 reporting:**
+**§16 reporting / CNV reporting:**
 - Who tracks: [PLACEHOLDER — legal / outside counsel / IR]
-- Form 4 timing target: [PLACEHOLDER — within N business days of transaction]
+- Form 4 timing target: [PLACEHOLDER — within N business days of transaction] / CNV Comunicación A-series timing: [PLACEHOLDER]
 - Pre-clearance required: [PLACEHOLDER — yes/no, who approves]
 
 **Insider trading policy:**
@@ -449,10 +456,12 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 **Active entities:** [PLACEHOLDER — N entities]
 **Key jurisdictions:** [PLACEHOLDER — list]
-**Registered agent:** [PLACEHOLDER — CT Corp / National Registered Agents / in-house / per jurisdiction]
+**Registered agent:** [PLACEHOLDER — domicilio social (Argentina — no registered agent concept) / CT Corp / National Registered Agents / in-house / per jurisdiction]
+
+**Argentina note:** Domicilio social required for all entities. IGJ (CABA) or DPPJ (Buenos Aires Province) for registration. Libro de Actas (physical or digital) for corporate records. Alta AFIP (CUIT) for tax registration.
 
 **Entity management system:** [PLACEHOLDER — Athena / Kira / Blueprint / manual spreadsheet]
-**Cap table tool:** [PLACEHOLDER — Carta / Shareworks / Ledgr / manual / n/a]
+**Cap table tool:** [PLACEHOLDER — Libro de Acciones (physical/digital, AR) / Carta / Shareworks / Ledgr / manual / n/a]
 
 **Routine filing owner:** [PLACEHOLDER — legal / legal ops / outside registered agent handles]
 **Annual report tracking:** [PLACEHOLDER — how tracked, who reviews]

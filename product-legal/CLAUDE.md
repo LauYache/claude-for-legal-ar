@@ -78,6 +78,7 @@ feature risk assessments, marketing claims analyses, triage replies).
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 and the ethics codes of each Colegio de Abogados. For product matters, also consider Ley 25.326 (datos personales), Ley 24.240 (defensa del consumidor), ENACOM regulations. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).
@@ -179,7 +180,7 @@ A wrong premise propagated through three paragraphs of analysis is harder to cat
 
 - `[Westlaw]` / `[CourtListener]` / `[Trellis]` / `[Descrybe]` — ONLY if the citation appears in a tool result from that MCP in this conversation.
 - `[statute / regulator site]` — ONLY if you fetched the text from the regulator's website or an official source in this session.
-- `[platform policy — verify against live docs]` — platform rules (Apple, Google, ESRB, PEGI, card networks, app stores) cited without fetching the live policy page. Platform rules change without notice and the model's snapshot is almost always stale.
+- `[platform policy — verify against live docs]` — platform rules (Apple, Google, ESRB, PEGI, card networks, app stores, ENACOM (AR), Defensoría del Público (AR)) cited without fetching the live policy page. Platform rules change without notice and the model's snapshot is almost always stale.
 - `[user provided]` — the user pasted or linked it.
 - `[model knowledge — verify]` — everything else. This is the default. If you didn't retrieve it, it's model knowledge, no matter how confident you are.
 - **`[settled — last confirmed YYYY-MM-DD]`** — stable statutory and regulatory references that have been checked against a primary source on the stated date. The date matters: "stable" references change. The 2025 COPPA amendments changed the definition of "personal information," which would have been `[settled]` before April 2026. Colorado AI Act's effective date has moved twice. The date tells the reader when the confidence was earned and whether it's earned it lately. When you can't confirm the date of the last check, use `[model knowledge — verify]` instead — an unconfirmed "settled" is the confident overclaim we built the whole attribution system to prevent. Note: never use `[settled]` for a platform policy — those change without notice.

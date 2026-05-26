@@ -77,6 +77,7 @@ before doing anything. Fix something here and it's fixed everywhere.*
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 and the ethics codes of each Colegio de Abogados. For IP matters, Agentes de la Propiedad Industrial registered with INPI are governed by INPI regulations. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).
@@ -88,6 +89,8 @@ A false assurance of protection is worse than no marking. The lawyer who relies 
 Remove the header from externally-facing deliverables (cease-and-desist letters sent to counterparties, DMCA notices submitted to service providers, stakeholder summaries forwarded outside legal) — see the specific skill's instructions. Confirm the correct marking for your jurisdiction and matter.
 
 **Patent agent scope note.** The federal patent agent-client privilege recognized in *In re Queen's University at Kingston*, 820 F.3d 1287 (Fed. Cir. 2016) is narrow: it covers communications "reasonably necessary and incident to the prosecution of patents" before the USPTO. It does not reach trademark, copyright, OSS, trade secret, general contract, or litigation advice. Skills that run on non-USPTO matters for a patent-agent user must mark outputs `NOT PRIVILEGED`, not privileged — a false "privileged" marking creates a discoverable admission.
+
+**Argentina IP enforcement note:** Ley 22.362 (marcas), Ley 11.723 (derechos de autor), Ley 24.481 (patentes). No statutory damages in Argentina — actual damages must be proven. Criminal penalties under Art. 31 Ley 22.362, Art. 72 Ley 11.723. INPI opposition procedure: 30 days from Boletín de Marcas publication. No DMCA equivalent; use direct takedown notices under CCyCN liability rules and Ley 25.326.
 
 ---
 
@@ -222,7 +225,7 @@ The log is per-plugin, not per-matter, so a cite verified for one matter doesn't
 
 **Practice area mix:** [PLACEHOLDER — trademark / copyright / patent / trade secret / open source / all. Which do you actually work in?]
 
-**Registered in:** [PLACEHOLDER — jurisdictions where you hold registrations: US, EU (EUIPO), UK (UKIPO), Madrid member states, specific national filings, PCT/EPO. Be specific.]
+**Registered in:** [PLACEHOLDER — jurisdictions where you hold registrations: INPI (Argentina), US (USPTO), EU (EUIPO), UK (UKIPO), Madrid member states, specific national filings, PCT/EPO. Be specific.]
 
 **IP management system:** [PLACEHOLDER — Anaqua / CPA Global / PatSnap / Clarivate IPfolio / Alt Legal / spreadsheet / none]
 
@@ -260,7 +263,7 @@ The log is per-plugin, not per-matter, so a cite verified for one matter doesn't
 
 **Watched marks:** [PLACEHOLDER — list of marks monitored for third-party use / potential infringement. If none, say "none — reactive only."]
 
-**Watch jurisdictions:** [PLACEHOLDER — US / EU / UK / global via watch service]
+**Watch jurisdictions:** [PLACEHOLDER — Boletín de Marcas (INPI Argentina) / US / EU / UK / global via watch service]
 
 **Watch service:** [PLACEHOLDER — Corsearch / CompuMark / internal / none]
 
@@ -280,11 +283,12 @@ The log is per-plugin, not per-matter, so a cite verified for one matter doesn't
 
 **When we just file:** [PLACEHOLDER — e.g., "repeat infringer who ignored prior letters", "counterparty with known willingness to fight"]
 
-**Approval to send an assertion letter (C&D, soft letter, DMCA):**
+**Approval to send an assertion letter (C&D, soft letter, DMCA, INPI opposition):**
 
 | Letter type | Approver | Escalation trigger |
 |---|---|---|
-| DMCA takedown (ordinary) | [PLACEHOLDER — e.g., IP counsel] | [PLACEHOLDER — e.g., counter-notice received] |
+| DMCA takedown (ordinary) / Takedown notice (AR) | [PLACEHOLDER — e.g., IP counsel] | [PLACEHOLDER — e.g., counter-notice received] |
+| INPI opposition (within 30 days of Boletín publication) | [PLACEHOLDER] | [PLACEHOLDER] |
 | Soft letter | [PLACEHOLDER] | [PLACEHOLDER] |
 | Cease-and-desist | [PLACEHOLDER — typically GC or Head of IP] | [PLACEHOLDER] |
 | Filing suit | [PLACEHOLDER — GC + CEO/business sponsor] | [PLACEHOLDER] |

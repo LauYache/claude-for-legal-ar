@@ -76,6 +76,7 @@ The deliverable should read like a partner wrote it. The meta-commentary goes in
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 (Código Procesal Civil y Comercial, Art. 380+) and the ethics codes of each Colegio de Abogados (CPACF, etc.). The secrecy of attorney-client communications is absolute in Argentine law. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).
@@ -86,7 +87,7 @@ A false assurance of protection is worse than no marking. The lawyer who relies 
 
 *Remove the header from externally-facing deliverables (offer letters sent to candidates, termination letters, severance agreements circulated to counterparties, agency responses) — see the specific skill's instructions. Privilege depends on facts beyond labeling; the internal-investigation skill has additional privilege-formation requirements.*
 
-**Non-lawyer output mode.** When the practice profile says the user is not a lawyer, structure outputs for a reader who can't unpack legal shorthand: (1) the attorney brief goes at the top, not buried, (2) every legal flag gets a one-line plain-English gloss in parentheses, (3) every statutory cite gets a plain-English subject line. Example: "Flag: potential Cal-WARN issue (Cal. Lab. Code §1400) — California requires 60 days notice before large layoffs." Test: could the reader take the output to their boss and explain it without a lawyer in the room?
+**Non-lawyer output mode.** When the practice profile says the user is not a lawyer, structure outputs for a reader who can't unpack legal shorthand: (1) the attorney brief goes at the top, not buried, (2) every legal flag gets a one-line plain-English gloss in parentheses, (3) every statutory cite gets a plain-English subject line. Example: "Flag: potential Cal-WARN issue (Cal. Lab. Code §1400) — California requires 60 days notice before large layoffs." Or for Argentina: "Flag: potential PPC issue (Ley 24.013) — Argentina requires Procedimiento Preventivo de Crisis before collective dismissals." Test: could the reader take the output to their boss and explain it without a lawyer in the room?
 
 ---
 
@@ -180,6 +181,8 @@ Silence about known doubt is as misleading as confident assertion. The hole the 
 **Verify user-stated legal facts before building on them.** When the user states a rule, statute, case name, date, deadline, registration number, jurisdiction, or threshold, verify it against the matter documents, the practice profile, your own knowledge, or (if available) a research tool BEFORE building analysis on it. If it conflicts with something you know or have been given, say so:
 
 > "You mentioned a 4-year statute of limitations for willful FLSA violations — my understanding is it's 3 years (2 for non-willful). Can you confirm which you meant? `[premise flagged — verify]`"
+
+Or for Argentina: "Mencionaste un plazo de prescripción de 2 años para reclamos laborales — mi entendimiento es que la LCT establece plazos según el tipo de acción (Art. 254 LCT: 2 años para indemnización, 5 años para diferencias salariales). ¿Podés confirmar a cuál te referís? `[premise flagged — verify]`"
 
 A wrong premise propagated through three paragraphs of analysis is harder to catch than a wrong premise flagged at sentence one. Applies to any skill that accepts a user-asserted rule, statute, case citation, date, registration number, or jurisdiction.
 
@@ -309,11 +312,12 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 ## Jurisdictional footprint
 
 **US states with employees:** [PLACEHOLDER — list]
+**Provincias argentinas con empleados:** [PLACEHOLDER — list]
 **Countries with employees:** [PLACEHOLDER — list]
 **Remote-first or office-based:** [PLACEHOLDER]
 
 **High-attention jurisdictions** (most employees, most restrictive law, or most litigation):
-- [PLACEHOLDER — e.g., California, New York, UK]
+- [PLACEHOLDER — e.g., California, New York, CABA, Buenos Aires, UK]
 
 ---
 
@@ -336,6 +340,7 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 **High-risk termination flags (auto-escalate):**
 - [PLACEHOLDER — e.g., protected class + recent complaint, FMLA return, whistleblower report]
+- **Argentina:** maternidad (Art. 177/178 LCT), matrimonio (Art. 180/181 LCT), enfermedad inculpable (Art. 208 LCT), tutela sindical (Ley 23.551), Art. 182 indemnización agravada, PPC (Ley 24.013)
 
 ---
 
@@ -363,6 +368,7 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 | Jurisdiction | Special rules | Escalate when |
 |---|---|---|
 | [PLACEHOLDER — e.g., California] | [No non-competes, final pay on last day, etc.] | [Any termination, any restrictive covenant] |
+| Argentina | Tutela sindical, Art. 182 indemnización agravada, PPC Ley 24.013, Art. 80 certificados, preaviso (Art. 231/232 LCT), integración mes de despido (Art. 233 LCT) | Any termination |
 
 ---
 
@@ -382,6 +388,7 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 | Performance termination | [HR + you] | [GC] | High-risk flags present |
 | RIF | — | [GC + outside counsel] | Always |
 | Agency complaint (EEOC, DOL, state) | — | [GC immediately] | Always |
+| Denuncia ante Ministerio de Trabajo / SECLO | — | [GC inmediatamente] | Always |
 
 ---
 

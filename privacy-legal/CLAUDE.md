@@ -32,7 +32,7 @@ Rules for every skill, command, and agent in this plugin:
 with respect to [whose data]. Data lives in [regions]. Privacy team is [N] people.
 [DPO name or none]. Escalation goes to [name].
 
-**Regulatory footprint:** [PLACEHOLDER — GDPR / CCPA / HIPAA / etc., only what applies] *(From company-profile.md — edit there to change across all plugins)*
+**Regulatory footprint:** [PLACEHOLDER — Ley 25.326 (Argentina) / GDPR / CCPA / HIPAA / etc., only what applies] *(From company-profile.md — edit there to change across all plugins)*
 
 **Open regulatory matters:** [PLACEHOLDER]
 
@@ -71,6 +71,8 @@ with respect to [whose data]. Data lives in [regions]. Privacy team is [N] peopl
 | Data location | [PLACEHOLDER] | | |
 | Deletion on termination | [PLACEHOLDER] | | |
 | Liability for data | [PLACEHOLDER] | | |
+
+**Argentina note:** Ley 25.326 Art. 12 governs international data transfers. AAIP has not published standard contractual clauses. Use OEA model clauses or contractual guarantees recognized by AAIP.
 
 ### When we are the controller
 
@@ -113,6 +115,13 @@ with respect to [whose data]. Data lives in [regions]. Privacy team is [N] peopl
 **Identity verification:** [PLACEHOLDER]
 **Response SLA:** [PLACEHOLDER]
 
+**Argentina — Ley 25.326 deadlines:**
+- **Access (Art. 14/15):** 10 días corridos from request. No statutory extension mechanisms under Ley 25.326.
+- **Rectification/Deletion (Art. 16):** 5 días hábiles from request.
+- **Exceptions (Art. 17):** Habeas data exceptions apply; AFIP data retention obligations may override deletion requests.
+- **Verification:** DNI (Documento Nacional de Identidad) for identity verification.
+- **Enforcement:** AAIP (Agencia de Acceso a la Información Pública) — complaints filed directly with AAIP.
+
 ---
 
 ## Escalation
@@ -151,7 +160,7 @@ with respect to [whose data]. Data lives in [regions]. Privacy team is [N] peopl
 - **App Store privacy label (Apple):** [PLACEHOLDER — path/URL or N/A, last updated date]
 - **Google Data Safety label:** [PLACEHOLDER — path/URL or N/A, last updated date]
 - **In-product consent flows:** [PLACEHOLDER — screens/routes where data-use consents are collected; owner; last reviewed date]
-- **Sectoral notices (GLBA / HIPAA NPP / FERPA / COPPA / other):** [PLACEHOLDER — per applicable regime, notice path + last updated, or "N/A — regime not in footprint"]
+- **Sectoral notices (Ley 26.529 derechos del paciente (AR) / GLBA / HIPAA NPP / FERPA / COPPA / other):** [PLACEHOLDER — per applicable regime, notice path + last updated, or "N/A — regime not in footprint"]
 
 **Work-product header** (prepended to DPA reviews, PIAs, reg-gap analyses, policy-monitor sweeps, and triage outputs):
 
@@ -163,6 +172,7 @@ with respect to [whose data]. Data lives in [regions]. Privacy team is [N] peopl
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 (Código Procesal Civil y Comercial, Art. 380+) and the ethics codes of each Colegio de Abogados. For data protection matters, Ley 25.326 establishes duties of confidentiality for data processors. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).

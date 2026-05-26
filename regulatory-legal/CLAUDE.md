@@ -28,6 +28,14 @@ Rules for every skill, command, and agent in this plugin:
 | Regulator | Jurisdiction | Why we watch | Feed source |
 |---|---|---|---|
 | [PLACEHOLDER] | | | |
+| AAIP | Argentina | Data protection enforcement, automated decisions | aaip.gob.ar |
+| CNV | Argentina | Capital markets regulations | cnv.gov.ar |
+| BCRA | Argentina | Financial/banking regulations | bcra.gob.ar |
+| ENACOM | Argentina | Telecom/digital services | enacom.gob.ar |
+| ANMAT | Argentina | Health/food products | anmat.gob.ar |
+| IGJ | Argentina (CABA) | Corporate entity compliance | igj.gob.ar |
+| AFIP | Argentina | Tax/customs regulations | afip.gob.ar |
+| Ministerio de Trabajo | Argentina | Labor regulations | argentina.gob.ar/trabajo |
 
 ---
 
@@ -94,6 +102,7 @@ Rules for every skill, command, and agent in this plugin:
 **Paid regulatory feed:** [PLACEHOLDER — provider, subscriptions, alerts]
 **CourtListener:** [PLACEHOLDER]
 **Direct regulator feeds:** [PLACEHOLDER — RSS, email lists]
+**Argentina feeds:** Boletín Oficial RSS/API, InfoLEG updates (sistemas.infoleg.gob.ar), AAIP news feed (aaip.gob.ar), CNV communications (cnv.gov.ar), BCRA communications (bcra.gob.ar), ENACOM news (enacom.gob.ar)
 **Check cadence:** [PLACEHOLDER — daily / weekly]
 
 ---
@@ -110,6 +119,7 @@ Skills in this plugin produce analysis, policy diffs, gap reports, and feed dige
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 and the ethics codes of each Colegio de Abogados. For regulatory matters, also consider sectoral rules (AAIP, CNV, BCRA, ENACOM). Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).
@@ -303,7 +313,7 @@ When a research MCP, web search, or document fetch returns results, three rules 
 3. **Tool-vs-model conflict.** When a retrieved result conflicts with your training knowledge — the tool says a case was not overruled but you believe it was, the tool says a statute says X but you believe it says Y — surface both and flag: "The research tool says [X]. My training knowledge says [Y]. These conflict. Verify with the primary source before relying on either." Do not silently prefer the tool OR your training. The conflict is the signal.
 
 **Source hierarchy.** When searching for a rule, regulation, or legal development, prefer sources in this order:
-1. **Primary: the official register or regulator.** eCFR, Federal Register, Regulations.gov, EUR-Lex, legislation.gov.uk, Federal Register of Legislation (AU), Singapore Statutes Online, Canada Gazette, the regulator's own website (SEC, FTC, ICO, CNIL, EDPB, OAIC, PDPC, etc.). Tag `[primary source]`.
+1. **Primary: the official register or regulator.** eCFR, Federal Register, Regulations.gov, EUR-Lex, legislation.gov.uk, InfoLEG (sistemas.infoleg.gob.ar, AR), Boletín Oficial (AR), Federal Register of Legislation (AU), Singapore Statutes Online, Canada Gazette, the regulator's own website (SEC, FTC, ICO, CNIL, EDPB, OAIC, PDPC, AAIP (AR), CNV (AR), BCRA (AR), ENACOM (AR), ANMAT (AR), etc.). Tag `[primary source]`.
 2. **Official guidance: the regulator's explanatory material, consultations, enforcement statements.** Tag `[official guidance]`.
 3. **Secondary: law firm alerts, legal commentary, newsletters, trackers.** These are useful for finding out that something happened and where to look, but they're someone's interpretation. Tag `[secondary — verify against primary]` and always try to find the primary source it's describing.
 

@@ -127,10 +127,12 @@ is the final escalation point. We process roughly [N] agreements per month, most
 
 #### Governing law and venue
 
-**Preferred:** [PLACEHOLDER — e.g., "Delaware, our home jurisdiction"]
+**Preferred:** [PLACEHOLDER — e.g., "Tribunales Comerciales de CABA" / "Delaware, our home jurisdiction"]
 **Acceptable:** [PLACEHOLDER]
 **Escalate:** [PLACEHOLDER]
 **Never:** [PLACEHOLDER]
+
+**Argentina note:** Under CCyCN Art. 2605, jurisdiction prorogation is permitted for international contracts. For domestic contracts, consumer protection (Ley 24.240) overrides adhesion contract forum selection. Art. 765/766 CCyCN: pesification risk for foreign currency obligations — debtor may pay in pesos at official exchange rate. Ley 25.506: digital signature (asymmetric crypto, state-certified) has presumption of authorship; electronic signature (DocuSign, etc.) does not.
 
 #### The one thing
 
@@ -177,7 +179,7 @@ is the final escalation point. We process roughly [N] agreements per month, most
 **Standard position:** [PLACEHOLDER — e.g., "Vendor signs our DPA as processor"]
 
 **Requirements:**
-- [PLACEHOLDER — e.g., "SOC 2 Type II for any vendor touching customer data"]
+- [PLACEHOLDER — e.g., "ISO 27001 / SOC 2 Type II for any vendor touching customer data"]
 
 **Acceptable fallbacks:**
 - [PLACEHOLDER]
@@ -194,10 +196,12 @@ is the final escalation point. We process roughly [N] agreements per month, most
 
 #### Governing law and venue
 
-**Preferred:** [PLACEHOLDER — e.g., "Delaware, New York, California"]
+**Preferred:** [PLACEHOLDER — e.g., "Tribunales Comerciales de CABA" / "Delaware, New York, California"]
 **Acceptable:** [PLACEHOLDER]
 **Escalate:** [PLACEHOLDER]
 **Never:** [PLACEHOLDER]
+
+**Argentina note:** See sales-side governing law note above. CCyCN Art. 765/766 pesification risk applies regardless of which side you're on.
 
 #### The one thing
 
@@ -244,6 +248,7 @@ is the final escalation point. We process roughly [N] agreements per month, most
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 (Código Procesal Civil y Comercial, Art. 380+) and the ethics codes of each Colegio de Abogados. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).

@@ -29,10 +29,10 @@ This file is the house-level frame every matter is triaged against. Risk calibra
 
 *Team-level context — kept separate from litigation-specific material below. If you've populated this section in another `-counsel` plugin, copy it here rather than re-entering.*
 
-**Org / legal entity:** [PLACEHOLDER — e.g., "Acme Corporation, a Delaware corporation"] *(From company-profile.md — edit there to change across all plugins)*
+**Org / legal entity:** [PLACEHOLDER — e.g., "Acme Corporation, a Delaware corporation" / "Acme S.A., sociedad anónima constituida bajo las leyes de la República Argentina, CUIT [PLACEHOLDER]"] *(From company-profile.md — edit there to change across all plugins)*
 **Industry:** [PLACEHOLDER] *(From company-profile.md — edit there to change across all plugins)*
 **Public / private / subsidiary:** [PLACEHOLDER]
-**Regulated status:** [PLACEHOLDER — e.g., SEC-registrant, HIPAA-covered, FINRA, FTC scrutiny, none] *(From company-profile.md — edit there to change across all plugins)*
+**Regulated status:** [PLACEHOLDER — e.g., SEC-registrant, HIPAA-covered, FINRA, FTC scrutiny, CNV (Argentina), BCRA, AAIP, none] *(From company-profile.md — edit there to change across all plugins)*
 **Core jurisdictions:** [PLACEHOLDER — operational + frequent-fora] *(From company-profile.md — edit there to change across all plugins)*
 **Headcount:** [PLACEHOLDER] *(From company-profile.md — edit there to change across all plugins)*
 **Legal team size:** [PLACEHOLDER]
@@ -107,6 +107,7 @@ This file is the house-level frame every matter is triaged against. Risk calibra
 - **EU:** No general work-product protection. Legal professional privilege (LPP) protects communications with external counsel for the purpose of legal advice, but internal analyses, DPIAs, compliance assessments, and launch reviews are generally NOT shielded from supervisory authorities. Art. 58(1) GDPR gives DPAs broad investigative powers. A DG COMP dawn raid can seize a "privileged" launch review.
 - **UK:** Litigation privilege (similar to work product) requires litigation to be in reasonable contemplation at the time the document was created. An advisory memo created in the ordinary course is not protected by litigation privilege.
 - **Germany, France, others:** No equivalent to US work product. Protections vary and are generally narrower.
+- **Argentina:** No equivalent to US work product. Confidentiality derives from professional secrecy obligations under Ley 23.118 and Art. 380+ CPCCN. No discovery in Argentine civil procedure; evidence production via medidas para mejor proveer, oficios judiciales, peritajes. Mark as "Confidencial — Secreto Profesional" for Argentine matters.
 
 **When the practice profile's jurisdiction footprint includes non-US jurisdictions,** adjust the header:
 - Keep `PRIVILEGED & CONFIDENTIAL` (confidentiality markings are meaningful everywhere).
@@ -404,7 +405,9 @@ The canonical column maps to the cross-plugin severity floor described in `## Sh
 | Trigger | Threshold | Action |
 |---|---|---|
 | Reserve required (ASC 450 — in-house only) | [PLACEHOLDER — e.g., "probable AND estimable"] | Loss booked; finance notified |
+| Reserve required (RT 17 FACPCE — Argentina in-house only) | [PLACEHOLDER — e.g., "probable AND estimable under Argentine GAAP"] | Provision booked; CNV reporting if applicable |
 | Disclosure required (10-Q / 10-K — public-company in-house only) | [PLACEHOLDER — e.g., "reasonably possible AND material"] | Footnote drafted with outside counsel |
+| Disclosure required (CNV Comunicaciones A-series — Argentina) | [PLACEHOLDER — material events under CNV regulations] | Communication filed with CNV |
 | Board / audit committee report (in-house only) | [PLACEHOLDER — e.g., "any matter with exposure >$10M OR reputational risk"] | Quarterly memo; urgent escalation if status shifts |
 | GC-only escalation (in-house only) | [PLACEHOLDER — e.g., "new matter >$1M, regulator inquiry, class action threat"] | Brief within 48 hours |
 
@@ -467,7 +470,7 @@ The canonical column maps to the cross-plugin severity floor described in `## Sh
 
 *Courts and arbitration forums we actually see. (General core jurisdictions are captured in `## Company profile` above.)*
 
-**Frequent fora:** [PLACEHOLDER — e.g., Delaware Chancery, N.D. Cal., S.D.N.Y., AAA / JAMS arbitration]
+**Frequent fora:** [PLACEHOLDER — e.g., Tribunales Ordinarios (Comerciales/Civiles) de CABA, arbitraje CEMA, arbitraje ICC, mediación prejudicial obligatoria (Ley 26.589) / Delaware Chancery, N.D. Cal., S.D.N.Y., AAA / JAMS arbitration]
 
 ### Document storage
 
@@ -518,7 +521,7 @@ The canonical column maps to the cross-plugin severity floor described in `## Sh
 
 ### Privilege conventions
 
-**Marking:** [PLACEHOLDER — e.g., "Privileged & Confidential — Attorney-Client Communication / Attorney Work Product"]
+**Marking:** [PLACEHOLDER — e.g., "Privileged & Confidential — Attorney-Client Communication / Attorney Work Product" / "Confidencial — Secreto Profesional (AR)"]
 **Default posture on subjective privilege calls:** when a skill encounters content that might be privileged but the test is uncertain (dominant-purpose unclear, litigation contemplation borderline, mixed legal/business content), the skill **applies the privilege marker and flags the item for attorney review**. It never silently withholds a marker based on its own assessment. Under-marking waives privilege (one-way door); over-marking is corrected by the attorney in review (two-way door). Dial this default here if your shop runs a different calibration.
 **Review mechanic:** [PLACEHOLDER — `inline note on each flagged item` | `review queue collected at end of run` | `both`]
 **Auto-flag threshold:** [PLACEHOLDER — default is "flag anything not clearly non-privileged." Tighten only with an explicit rationale.]
