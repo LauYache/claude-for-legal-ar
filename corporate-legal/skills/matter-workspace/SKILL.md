@@ -76,7 +76,7 @@ The `Active matter:` line under `## Matter workspaces` in the practice-level CLA
 2. Run the intake interview:
    - **Client** (the party we represent, or the internal business unit if in-house)
    - **Counterparty** (the other side — may be multiple)
-   - **Matter type** (read the plugin's practice profile for typical categories; for corporate-legal: M&A buy-side | M&A sell-side | financing | board matter | entity reorg | integration project | other)
+   - **Matter type** (read the plugin's practice profile for typical categories; for corporate-legal: M&A buy-side | M&A sell-side | financing | board matter | entity reorg | integration project | other). For Argentine practice, additional matter types include: constitución de sociedad, aumento de capital, reforma estatutaria, fusión/escisión, designación de directores, IGJ compliance, adecuación Ley 27.401, inscripción de actos societarios en Boletín Oficial.
    - **Confidentiality level** (standard | heightened | clean-team — heightened prompts extra care in cross-matter settings)
    - **Key facts** (2–5 sentences: what this matter is about, who the stakeholders are, what's at stake)
    - **Matter-specific overrides to the practice playbook** (e.g., "client requires 24-month LoL cap not 12", "counterparty is a strategic partner — relationship-preserving tone")

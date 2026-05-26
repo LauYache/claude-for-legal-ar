@@ -447,6 +447,56 @@ a report or Slack message, showing only the next 90 days of filings.
   current requirements. Confirm all deadlines before relying on them.
 
 
+## Argentina — Compliance societario
+
+When tracking entity compliance for Argentine entities, the following statutory and regulatory framework applies:
+
+- **Art. 175 LGS (Ley 19.550):** Requires Argentine sociedades anónimas (SA) to maintain the following rubricated corporate books (*libros societarios obligatorios*):
+  - *Libro de Actas de Asamblea* — shareholder meeting minutes
+  - *Libro de Actas de Directorio* — board meeting minutes
+  - *Libro de Registro de Acciones* — share register (records ownership, transfers, and classes of shares)
+  - These books must be rubricated (officially stamped) by the IGJ or DPPJ before use.
+- **IGJ (Inspección General de Justicia):** Regulatory authority for entities in CABA. Key obligations:
+  - Annual filing of *estado contable* (financial statements) within specific deadlines
+  - Registration of board appointments, resignations, and authority changes
+  - Approval of rubricated corporate books
+  - Compliance with *designación de representante técnico* requirements
+- **DPPJ (Dirección Provincial de Personas Jurídicas):** Provincial equivalent of IGJ. Each province has its own DPPJ with varying filing requirements and deadlines. Buenos Aires Province DPPJ is the largest provincial registry.
+- **Ley 27.430 (Impuesto a las Ganancias):** Corporate income tax regime. Key obligations:
+  - Annual corporate income tax return (*Declaración Jurada de Ganancias Sociedades*)
+  - Monthly advance payments (*pagos a cuenta*)
+  - Tax rate for domestic companies: 35% (verify current rate — subject to legislative change)
+  - AFIP (Administración Federal de Ingresos Públicos) is the collecting authority
+- **Ley 26.831 (Mercado de Capitales):** Capital markets law. Applies to entities that issue publicly traded securities. Key obligations:
+  - CNV (Comisión Nacional de Valores) reporting via Comunicaciones A-series
+  - Periodic financial reporting (quarterly and annual)
+  - Insider trading restrictions and disclosure obligations
+  - Corporate governance code compliance for listed entities
+- **CNV (Comisión Nacional de Valores):** Securities regulator. Reporting requirements include:
+  - *Comunicaciones A-series* — regulatory communications for material events
+  - Annual and quarterly financial statements
+  - Insider transaction disclosures
+  - Corporate governance compliance reports
+- **Boletín Oficial:** Publication of corporate acts is mandatory for enforceability against third parties. Required publications include:
+  - Constitution of new entities
+  - Statutory reforms (*reforma estatutaria*)
+  - Board appointments and resignations
+  - Capital increases and reductions
+  - Mergers and spin-offs (*fusión/escisión*)
+- **AFIP (Administración Federal de Ingresos Públicos):** Tax authority. Key obligations:
+  - *Alta tributaria* — tax registration upon entity formation
+  - CUIT (Clave Única de Identificación Tributaria) — unique tax ID for each entity
+  - Monthly tax filings (IVA, ganancias, cargas sociales)
+  - *Constancia de situación tributaria* — tax compliance certificate (required for many transactions)
+
+**Compliance calendar considerations for Argentine entities:**
+- IGJ annual filing deadlines vary by entity type and registration number
+- AFIP monthly filing deadlines follow a calendar based on CUIT number
+- CNV reporting deadlines for listed entities are event-driven and periodic
+- Book rubrication must be done before the books are first used — plan ahead
+
+---
+
 ## Formula injection defense
 
 Before writing any cell in Excel, Sheets, or CSV output, neutralize formula injection. Counterparty-sourced text (contract quotes, party names, registered agent data, CLM exports) is attacker-controlled. A cell starting with `=`, `+`, `-`, `@`, `	`, `

@@ -200,6 +200,46 @@ Do not produce a final "ready to close" certification past this gate without an 
 
 ---
 
+## Argentina — Closing steps
+
+For transactions involving Argentine entities, the following closing steps apply in addition to the standard checklist above:
+
+- **Inscripción IGJ/DPPJ:** Registration of corporate acts with the Inspección General de Justicia (CABA) or Dirección Provincial de Personas Jurídicas (provinces). Required for:
+  - Constitution of new entities
+  - Board appointments and resignations
+  - Statutory reforms (*reforma estatutaria*)
+  - Capital increases and reductions
+  - Mergers and spin-offs (*fusión/escisión*)
+  - Transfer of shares (*transmisión de acciones*)
+- **Publicación en Boletín Oficial:** Mandatory publication of corporate acts in the official gazette. Required for:
+  - Entity constitution
+  - Statutory reforms
+  - Board authority changes
+  - Capital changes
+  - Merger/scission notices (edicts must be published for a statutory period)
+  - Publication is a condition of enforceability against third parties (*oponibilidad a terceros*)
+- **Alta AFIP (CUIT):** Tax registration with AFIP:
+  - New entities must obtain a CUIT (Clave Única de Identificación Tributaria)
+  - Existing entities must update their *constancia de situación tributaria* for any changes
+  - *Alta de impuestos* — register applicable taxes (ganancias, IVA, cargas sociales)
+  - Clave fiscal level 3 or higher is required for most online procedures
+- **Inscripción en libros societarios (Art. 175 LGS):** Recording of corporate acts in the rubricated corporate books:
+  - *Libro de Actas de Asamblea* — for shareholder resolutions
+  - *Libro de Actas de Directorio* — for board resolutions
+  - *Libro de Registro de Acciones* — for share transfers and ownership changes
+  - Books must be rubricated by IGJ/DPPJ before entries are made
+  - Entries must be signed by the president and secretary
+- **Designación de representante técnico:** Some jurisdictions require appointment of a technical representative for IGJ compliance
+- **Certificado de titularidad de acciones:** Certificate of share ownership from the share register — often required for share transfer closings
+
+**Timing considerations:**
+- IGJ registration can take 15–60 business days depending on the act and jurisdiction
+- Boletín Oficial publication requires advance scheduling
+- AFIP procedures require clave fiscal access — plan for key generation delays
+- Book rubrication must precede any entries — cannot be done retroactively
+
+---
+
 ## What this skill does not do
 
 - It doesn't obtain consents, file forms, or draft documents. It tracks that they need to happen.

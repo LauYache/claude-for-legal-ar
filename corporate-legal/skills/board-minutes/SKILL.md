@@ -240,6 +240,27 @@ For drafting written consents in lieu of a meeting, use `/corporate-legal:writte
 
 ---
 
+## Argentina — Actas societarias
+
+When drafting board minutes for Argentine entities, the following statutory framework applies alongside the house format above:
+
+- **Art. 73 LGS (Ley 19.550):** Governs the structure and content of *actas de directorio* (board minutes). Minutes must record the date, place, attendees, deliberations, and resolutions adopted. They must be transcribed into the *Libro de Actas de Directorio*, a rubricated (officially stamped) corporate book.
+- **Art. 158 CCyCN (Código Civil y Comercial):** Permits *resoluciones por escrito unánimes* (unanimous written resolutions) in lieu of a meeting, provided the bylaws (*estatuto*) do not prohibit it. All directors must sign the resolution document. This is the Argentine parallel to US unanimous written consent.
+- **Art. 272 LGS:** Directors with a conflict of interest (*interés opuesto*) in a matter being deliberated must disclose it and abstain from participating and voting. The conflicted director must not sign the resolution for that specific item. The minutes must record the disclosure and abstention.
+- **Libro de Actas de Directorio:** The official, rubricated book where board minutes are transcribed. Must be registered with the IGJ (CABA) or DPPJ (provincial jurisdictions). Minutes are not valid as corporate records until transcribed and signed in this book.
+- **IGJ (Inspección General de Justicia):** The regulatory authority for corporate entities in CABA (Ciudad Autónoma de Buenos Aires). Board appointments, resignation, and other authority changes must be registered with the IGJ.
+- **DPPJ (Dirección Provincial de Personas Jurídicas):** The equivalent authority for entities registered in Buenos Aires Province and other provinces.
+- **Publicación en Boletín Oficial:** Certain corporate acts (board appointments, statutory reforms) require publication in the *Boletín Oficial* as a condition of enforceability against third parties.
+
+**Drafting notes for Argentine minutes:**
+- Use Spanish resolution language: *"SE RESUELVE:"*, *"POR UNANIMIDAD SE APRUEBA:"*, *"POR MAYORÍA SE APRUEBA:"*
+- Record quorum per statutory requirements and bylaws (*estatuto*)
+- Note any *interés opuesto* disclosures per Art. 272 LGS
+- Minutes must be signed by the president and secretary of the board, and by participating directors
+- Transcription into the *Libro de Actas de Directorio* is a mandatory formality — flag if not yet done
+
+---
+
 ## What this skill does not do
 
 - It does not attend the meeting or capture real-time discussion — it drafts from materials and attorney input.

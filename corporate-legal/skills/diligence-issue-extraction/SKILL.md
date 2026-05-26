@@ -79,6 +79,18 @@ For each document read, check against the standard diligence concerns for its ca
 - Stockholder agreement restrictions (drags, tags, ROFR)
 - Subsidiary structure and intercompany arrangements
 
+**Corporate — Argentine extraction set (LGS 19.550):**
+- LGS compliance — verify entity type (SA, SRL, SAS), statutory registration with IGJ/DPPJ
+- IGJ/DPPJ status — current good standing, pending filings, sanctions or observations
+- Corporate books (*libros societarios*) — rubricated and up to date per Art. 175 LGS
+- Board composition — validity of appointments, term expirations, *síndico* (statutory auditor) if required
+- Share register (*Libro de Registro de Acciones*) — accuracy, pending transfers, restrictions
+- Statutory compliance — *estatuto* conformity with current LGS requirements
+- CNV reporting — if entity is publicly traded, verify CNV Comunicaciones A-series compliance
+- Ley 27.401 (Responsabilidad Penal de las Personas Jurídicas) — corporate criminal liability compliance program if applicable
+- AFIP tax compliance — *constancia de situación tributaria*, pending tax assessments
+- Labor solidarity liabilities — Art. 30 LCT (Ley de Contrato de Trabajo) joint liability for labor obligations
+
 **IP — standard extraction set:**
 - Ownership chain (assignments from founders/employees in place?)
 - Open source in the product (copyleft risk)

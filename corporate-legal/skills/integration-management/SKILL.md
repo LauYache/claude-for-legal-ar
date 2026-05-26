@@ -235,6 +235,14 @@ in Step 2. Items inherited from the closing checklist are pre-populated.
 - D&O insurance — confirm tail policy is bound for acquired entity directors [priority: critical]
 - Secretary of State ownership notifications where required by state law [priority: high]
 
+**Day 1 — legal-owns (Argentina):**
+- IGJ/DPPJ change notifications — notify the corporate registry of ownership changes, board changes, or statutory modifications [priority: critical]
+- AFIP updates — update tax registration (*constancia de situación tributaria*), CUIT information, and tax responsibility categories [priority: critical]
+- Boletín Oficial publications — publish required corporate changes (board appointments, entity name changes, capital changes) in the official gazette [priority: high]
+- Libro de Actas updates — record closing actions in the rubricated corporate books (*Libro de Actas de Directorio*, *Libro de Actas de Asamblea*, *Libro de Registro de Acciones*) [priority: critical]
+- Bank signatory updates — Argentine banks require specific documentation (IGJ registration, board resolution) for signatory changes [priority: critical]
+- *Representante técnico* update — if applicable, update the technical representative registration with IGJ [priority: high]
+
 **Day 1 — legal-supports:**
 - Employee announcement and communications (HR owns, legal reviews) [priority: critical]
 - Benefits day-1 coverage confirmation (HR owns, legal advises on COBRA and plan terms)

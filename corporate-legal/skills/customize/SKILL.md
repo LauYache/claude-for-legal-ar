@@ -51,7 +51,11 @@ and without hand-editing YAML.
    - **Public Company module** — reporting calendar, disclosure controls,
      10-K/10-Q review timing
    - **Entity Management module** — entity table, registered agent, filing
-     jurisdictions, annual report calendar
+      jurisdictions, annual report calendar
+   - **Argentine entity config** — entity_type_lgs (SA/SRL/SAS), igj_jurisdiction
+      (CABA/province), cnv_reporting (yes/no), statutory_books_status
+      (rubricated/pending/not_started), corporate_governance_code (applicable
+      if CNV-listed)
    - **Workflow** — matter workspaces (deal rooms), closing checklist
      location, VDR watcher cadence
    - **Integrations** — Box / Intralinks / Datasite / CT Corp / Slack status,

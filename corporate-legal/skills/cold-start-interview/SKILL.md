@@ -226,6 +226,10 @@ If not:
 - What industry are you in?
 - Private, public, or a subsidiary of a public company?
 - Primary jurisdiction of incorporation?
+- **If Argentine entity:** What type under LGS — Sociedad Anónima (SA), Sociedad de Responsabilidad Limitada (SRL), or Sociedad por Acciones Simplificada (SAS)?
+- **If Argentine entity:** Which registry — IGJ (CABA) or DPPJ (provincial)? Which province?
+- **If Argentine entity:** Is the entity registered with CNV (Comisión Nacional de Valores) for capital markets reporting?
+- **If Argentine entity:** Are the *libros societarios* (corporate books — Libro de Actas de Directorio, Libro de Actas de Asamblea, Libro de Registro de Acciones) rubricated and up to date?
 - How big is the legal team — just you, or a team?
 - "When a review finds something that needs someone more senior to sign off — a novel issue in diligence, a materiality threshold decision, a consent matter with director conflicts, a schedule item that needs judgment, or a decision that's above your authority — who does that go to? Give me a name or a role (the GC, your partner, the deal lead), or say 'I decide myself.' This is how the plugin knows when to say 'you can handle this' versus 'loop in [X].' (This feeds /diligence-issue-extraction, /material-contract-schedule, /written-consent, and every other skill's escalation routing.)"
 

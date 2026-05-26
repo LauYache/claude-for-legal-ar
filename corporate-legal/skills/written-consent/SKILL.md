@@ -316,6 +316,46 @@ BEFORE CIRCULATING — check:
 
 ---
 
+## Argentina — Consentimientos por escrito
+
+When drafting written consents for Argentine entities, the following statutory framework applies:
+
+- **Art. 158 CCyCN (Código Civil y Comercial):** Permits *resoluciones por escrito* (written resolutions) in lieu of a meeting, provided:
+  - The bylaws (*estatuto*) do not prohibit them
+  - **All directors must participate and sign** the resolution document — unanimity is required
+  - The resolution document must contain the full text of the resolutions adopted
+  - This is the Argentine parallel to US unanimous written consent, but with stricter formality requirements
+
+- **Art. 60 LGS (Ley 19.550):** Governs shareholder assemblies (*asamblea de accionistas*). Written resolutions at the shareholder level require:
+  - Shareholder meeting authorization in the bylaws
+  - Unanimous consent of all shareholders with voting rights
+  - Transcription into the *Libro de Actas de Asamblea*
+
+- **Art. 272 LGS — Conflict of interest:** Any director with an *interés opuesto* (opposite interest) to the company in the matter being approved must:
+  - Disclose the conflict in writing
+  - Abstain from participating and voting on the resolution
+  - **Not sign** the resolution for that specific item
+  - The conflicted director's abstention must be recorded in the resolution
+
+- **Comparison with US unanimous written consent:**
+  | Feature | US (DGCL § 141(f)) | Argentina (Art. 158 CCyCN) |
+  |---|---|---|
+  | Unanimity required | Yes | Yes |
+  | Bylaws can prohibit | Yes (charter/bylaws) | Yes (*estatuto*) |
+  | Conflict handling | General fiduciary duty | Art. 272 LGS — mandatory abstention |
+  | Transcription requirement | Minutes of consent | Must be transcribed into *Libro de Actas de Directorio* |
+  | Book rubrication | Not required | Required — books must be rubricated by IGJ/DPPJ |
+  | Enforceability against third parties | Upon execution | Requires *publicación en Boletín Oficial* for certain acts |
+
+- **Formalities for Argentine written consents:**
+  - Must be transcribed into the rubricated *Libro de Actas de Directorio*
+  - Signed by the president and participating directors
+  - For acts requiring third-party enforceability: publish in *Boletín Oficial*
+  - Register authority changes with IGJ (CABA) or DPPJ (provinces)
+  - Use Spanish resolution language: *"SE RESUELVE:"*, *"POR UNANIMIDAD:"*
+
+---
+
 ## What this skill does not do
 
 - It does not determine whether an action legally requires board approval — that judgment belongs to the attorney.

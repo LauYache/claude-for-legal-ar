@@ -53,6 +53,13 @@ Common prong categories to look for in the PA definition — these are not a sub
 - Government contracts
 - Contracts outside the ordinary course
 
+**Argentine contract framework (CCyCN):**
+- **Art. 957+ CCyCN (Código Civil y Comercial):** General contract law framework. Contracts are binding obligations between parties. Freedom of contract principle applies, subject to mandatory provisions, public policy, and good faith requirements (Art. 958 CCyCN).
+- **Ley 25.506 (Firma Digital):** Governs digital signatures in Argentina. Digital signatures certified by a licensed certifying authority have the same legal validity as wet-ink signatures for most commercial contracts. Verify whether the contract type accepts digital signature (some corporate acts require wet ink for IGJ registration).
+- **Art. 765/766 CCyCN (Pesificación):** Rules governing currency of payment and *pesificación* (conversion to Argentine pesos). Art. 765 allows the debtor to pay in pesos at the exchange rate on the date of payment, even if the obligation is denominated in foreign currency, unless the contract expressly provides otherwise. Art. 766 addresses obligations in foreign currency. These provisions are critical for contracts with foreign-currency denominations in the Argentine context.
+- **Anti-assignment under Argentine law:** Assignment restrictions are governed by CCyCN Art. 1626+. Consent requirements depend on the specific contractual language and the nature of the obligation (intuitu personae vs. fungible obligations).
+- **Change of control:** Argentine law does not have a general statutory change-of-control doctrine; CoC rights must be expressly contracted. Verify the specific contractual language.
+
 The PA's definition is the test. Apply it mechanically — every contract that meets any prong in the PA's definition goes on the schedule.
 
 ### Step 2: Apply the definition to the findings
