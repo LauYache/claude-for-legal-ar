@@ -1,4 +1,4 @@
-# Claude for Legal - Argentina (Adaptación Local y Versión Agnóstica / Local Adaptation & Agnostic Version)
+# Claude for Legal - Argentina 🇦🇷 (Adaptación a normativa local y versión agnóstica / Local adaptation & agnostic aersion)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Argentina-blue.svg)](#)
