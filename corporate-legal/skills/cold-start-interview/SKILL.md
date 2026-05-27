@@ -395,8 +395,8 @@ Write to `## Public Company` in the config.
 **If no upload, ask:**
 
 - How many active legal entities are you managing, roughly?
-- What are the key jurisdictions — just Delaware, or a meaningful multi-jurisdiction footprint?
-- Who's your registered agent — CT Corp, National Registered Agents, in-house, or varies by jurisdiction?
+- What are the key jurisdictions — Delaware / CABA (IGJ) / Buenos Aires (DPPJ) / other multi-jurisdiction footprint?
+- Who handles domicilio social / registered agent — IGJ/DPPJ domiciliation, CT Corp, National Registered Agents, in-house, or varies by jurisdiction?
 - Do you use an entity management system — Athena, Kira, Blueprint — or are you working off a spreadsheet?
 - What's your cap table situation — Carta, Shareworks, Ledgr, or still manual? (Or not applicable if wholly owned with no external equity.)
 - Who owns routine filing work — annual reports, foreign qualifications, registered agent renewals? Legal, legal ops, or does the registered agent handle it automatically?

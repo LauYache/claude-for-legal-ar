@@ -39,8 +39,8 @@ to share it.
 > The filing deadlines in this skill's reference table reflect publicly available
 > requirements as of the skill's build date. State filing requirements and due
 > dates can change. **Always confirm deadlines with your registered agent or
-> directly with the relevant Secretary of State before relying on them for
-> compliance purposes.** If you use CT Corp, National Registered Agents, or
+> directly with the relevant Secretary of State / IGJ / DPPJ before relying on them for
+> compliance purposes.** If you use CT Corp, National Registered Agents, domicilio social providers (Argentina), or
 > another registered agent service, their compliance calendar is authoritative
 > for your specific entities — use this tracker to organize and surface their
 > data, not to replace it.
@@ -300,7 +300,7 @@ Claude updates:
 /corporate-legal:entity-compliance --update --from-report
 ```
 
-User uploads a CT Corp, National Registered Agents, or similar compliance
+User uploads a CT Corp, National Registered Agents, domicilio social provider (Argentina), or similar compliance
 report (PDF, CSV, or Excel). Claude reads it and updates matching entities:
 
 From the report, extract for each entity:
