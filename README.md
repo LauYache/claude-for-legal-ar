@@ -73,6 +73,120 @@ python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 
 ---
 
+## Roadmap de Normas Argentinas / Argentine Laws Roadmap
+
+### ✅ Implementadas por Plugin / Implemented by Plugin
+
+#### Laboral (`employment-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **LCT N° 20.744** (Ley de Contrato de Trabajo) | Despidos, indemnizaciones (Art. 245), preaviso (Art. 231/232), integración mes (Art. 233), vacaciones (Art. 156+), licencias (maternidad Art. 177/178, matrimonio Art. 180/181, enfermedad Art. 208), período de prueba (Art. 88), certificados (Art. 80) |
+| **Ley 11.544** | Jornada laboral (8h/48h), horas extras (50%/100%) |
+| **Ley 23.041** | SAC (Sueldo Anual Complementario / Aguinaldo) |
+| **Ley 23.551** | Tutela sindical, estabilidad de representantes gremiales |
+| **Ley 24.013** | PPC (Procedimiento Preventivo de Crisis) para despidos masivos |
+| **Ley 25.323** | Multas por registración deficiente |
+| **Ley 25.345** | Multa Art. 80 LCT (3 salarios por no entregar certificados) |
+| **Ley 23.590 / 23.592** | No discriminación en empleo, sanciones penales |
+| **Ley 27.555** | Teletrabajo, derecho a la desconexión, reversibilidad |
+| **Ley 26.485** | Violencia laboral, protocolo de acoso obligatorio |
+| **Ley 27.401** | Responsabilidad penal corporativa, programa de integridad |
+| **CCT** (Convenios Colectivos de Trabajo) | Salarios mínimos convencionales, condiciones por sector |
+| **ANSES / ART** | Seguridad social, Aseguradora de Riesgos del Trabajo |
+
+#### Privacidad (`privacy-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **Ley 25.326** (Protección de Datos Personales) | Derechos ARCO, plazos (10 días acceso, 5 días supresión), habeas data (Art. 37+), transferencias internacionales (Art. 12), datos sensibles (Art. 7) |
+| **Ley 26.529** (Derechos del Paciente) | Datos de salud, régimen especial |
+| **AAIP** (Agencia de Acceso a la Información Pública) | Autoridad de aplicación, multas, denuncias administrativas |
+
+#### Societario (`corporate-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **LGS N° 19.550** (Ley General de Sociedades) | Sociedades (SA, SRL, SAS), libros societarios (Art. 175), asambleas (Art. 60), actas de directorio (Art. 73), compraventa de acciones |
+| **CCyCN Art. 158** | Resoluciones por escrito (unanimidad + autorización estatutaria) |
+| **CCyCN Art. 272** | Conflicto de interés de directores |
+| **Ley 27.430** | Impuesto a las Ganancias (régimen societario) |
+| **Ley 26.831** (Mercado de Capitales) | Entidades que emiten valores negociables, reporting CNV |
+| **IGJ / DPPJ** | Inspección General de Justicia (CABA), Dirección Provincial de Personas Jurídicas (Buenos Aires) |
+| **AFIP** | CUIT, constancia de situación tributaria, obligaciones impositivas |
+| **CNV** (Comisión Nacional de Valores) | Comunicaciones A-series, insider trading |
+| **BYMA / ROFEX** | Bolsas y mercados argentinos |
+
+#### Comercial (`commercial-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **CCyCN** (Código Civil y Comercial) | Contratos (Art. 957+), buena fe (Art. 962), lesión (Art. 966), pesificación (Art. 765/766), jurisdicción internacional (Art. 2605) |
+| **Ley 25.506** | Firma digital (criptografía asimétrica) vs. firma electrónica |
+| **Ley 24.240** (Defensa del Consumidor) | Publicidad engañosa (Art. 4), cláusulas abusivas (Art. 37), derecho de revocación |
+| **Ley 22.802** (Lealtad Comercial) | Prácticas desleales, competencia desleal |
+| **Ley 24.766** | Secreto industrial, know-how |
+
+#### Propiedad Intelectual (`ip-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **Ley 22.362** (Marcas) | Registro, oposiciones (30 días Boletín), obstáculos absolutos (Art. 2/3), penalidades (Art. 31) |
+| **Ley 11.723** (Derechos de Autor) | Registro DNDA, penalidades (Art. 72) |
+| **Ley 24.481** | Patentes de invención y modelos de utilidad |
+| **INPI** | Registro de marcas, patentes, diseños industriales |
+
+#### Productos Digitales (`product-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **Ley 24.240** | Defensa del consumidor, publicidad engañosa |
+| **Ley 22.802** | Lealtad comercial, comparaciones engañosas |
+| **Ley 25.326** | Datos personales en productos digitales |
+| **Ley 26.904** | Protección de menores online (grooming) |
+| **Ley 26.061** | Protección integral de derechos de niñas, niños y adolescentes |
+| **ENACOM** | Regulaciones sobre servicios digitales y telecomunicaciones |
+| **Defensoría del Público** | Recomendaciones sobre contenido mediático |
+| **CONAR Argentina** | Código de Ética de Autodisciplina Publicitaria |
+
+#### Gobernanza de IA (`ai-governance-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **Ley 25.326 Art. 11** | Decisiones automatizadas que afectan derechos individuales |
+| **Ley 24.240** | Protección al consumidor en sistemas de IA |
+| **AAIP** | Guidelines sobre decisiones automatizadas |
+| **BCRA / CNV** | Reguladores sectoriales (fintech, mercados de capitales) |
+
+#### Litigios (`litigation-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **CPCCN Art. 380+** | Secreto profesional, privilegios |
+| **Ley 23.118** | Secreto profesional del abogado |
+| **CPCCN Art. 192+** | Medidas cautelares |
+| **CPCCN Art. 387-390** | Exhibición de documentos |
+| **Ley 11.683** | Procedimiento tributario (retención 6 años) |
+
+#### Regulatorio (`regulatory-legal`)
+| Norma | Temas Cubiertos |
+|---|---|
+| **InfoLEG** | Sistemas de información legal |
+| **Boletín Oficial** | Publicación de edictos y normas |
+| **AAIP / CNV / BCRA / ENACOM / ANMAT** | Reguladores sectoriales |
+
+### ⏳ Pendientes / Pending
+
+| Norma | Área | Notas |
+|---|---|---|
+| **Ley 27.610** (Interrupción Voluntaria del Embarazo) | Laboral | Licencia IVE |
+| **Ley 26.150** (Educación Sexual Integral) | Laboral | Capacitación obligatoria |
+| **Ley 27.636** (Régimen de Promoción del Acceso al Empleo Formal) | Laboral | Incentivos de contratación |
+| **Ley 25.561** (Emergencia Pública) | Comercial | Pesificación, cláusulas de emergencia |
+| **Ley 27.742** (Régimen de Alquileres) | Comercial | Si aplica a contratos de locación comercial |
+| **Ley 24.557** (Riesgos del Trabajo) | Laboral | ART, accidentes de trabajo, enfermedades profesionales |
+| **Código Aduanero (Ley 22.415)** | Comercial | Importación/exportación |
+| **Ley 25.156** (Defensa de la Competencia) | Comercial | Antitrust, concentraciones económicas |
+| **Ley 22.262** (Penalidades Tributarias) | Corporativo | Infracciones impositivas |
+| **Ley 27.430** (actualizaciones) | Corporativo | Modificaciones al impuesto a las ganancias |
+| **Resoluciones IGJ específicas** | Corporativo | Requisitos por tipo societario |
+| **Resoluciones AAIP específicas** | Privacidad | Procedimientos de denuncia, modelos de cláusulas |
+| **Normativa provincial específica** | Multi-área | Cada provincia tiene su propio CPPJ, rentas, etc. |
+
+---
+
 ## Documentación y Licencia / Documentation & License
 
 *   Para consultar el manual de uso extendido de todos los conectores, plugins oficiales originales y configuraciones avanzadas, lee la [Guía de Referencia Completa (Original)](./docs/original_reference.md).  
