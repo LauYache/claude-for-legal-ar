@@ -31,6 +31,13 @@ https://github.com/user-attachments/assets/51394f0a-5277-4fe2-b81c-5c5e9ac876b5
 
 6. **Connect a research tool.** Citations are flagged unverified without one. In Cowork: Settings → Connectors → add CourtListener. In Claude Code: the plugin already lists the research MCP in its config; you'll be prompted to authorize it the first time a skill needs it.
 
+   **Nota para usuarios argentinos:** CourtListener es una base de datos de jurisprudencia estadounidense y no cubre derecho argentino. Para normativa y jurisprudencia argentina, los plugins actualmente no tienen un conector MCP dedicado. Todas las citas de derecho argentino estarán marcadas como `[model knowledge — verify]` y deben verificarse manualmente contra fuentes primarias:
+   - **InfoLEG** (`servicios.infoleg.gob.ar`) — texto oficial de leyes y decretos
+   - **SAIJ** (`saij.gob.ar`) — jurisprudencia y doctrina
+   - **Boletín Oficial** (`boletinoficial.gob.ar`) — normas publicadas
+   - **AAIP** (`www.argentina.gob.ar/aaip`) — resoluciones de protección de datos
+   - **INPI** (`inpi.gob.ar`) — búsquedas marcarias y patentes
+
 ## Install user-scoped, not project-scoped
 
 When you run `/plugin install`, you may be asked whether to install for this project only or for all projects (user scope). **Pick user scope.**

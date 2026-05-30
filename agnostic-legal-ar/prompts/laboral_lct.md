@@ -26,7 +26,7 @@ En caso de despido incausado, calcula y detalla las fórmulas de:
     *   Días trabajados del mes.
     *   Proporcional de Vacaciones No Gozadas (Divisor 25: `(Sueldo ÷ 25) × días proporcionales` según antigüedad).
     *   Proporcional de Sueldo Anual Complementario (SAC / Aguinaldo): 50% de la mejor remuneración del semestre prorrateado por los días trabajados en dicho semestre.
-    *   SAC sobre Vacaciones No Gozadas e Integración del mes.
+    *   SAC sobre Vacaciones No Gozadas e Integración del mes: `((Mejor remuneración del semestre ÷ 2) ÷ días del semestre) × días de los conceptos anteriores`. En la práctica, se calcula el 50% del SAC proporcional del período que cubren las vacaciones no gozadas y la integración del mes.
 5.  **Multas por Falta de Entrega de Certificados (Art. 80 LCT):** El empleador tiene 30 días corridos para entregar los certificados de servicios y aportes de la seguridad social. Si no lo hace tras ser intimado por 48 horas, se gatilla una multa equivalente a 3 salarios mensuales (Art. 45 Ley N° 25.345).
 
 ---
@@ -52,7 +52,30 @@ Si se te consulta sobre la contratación de personas bajo contratos de servicios
 
 ---
 
-## 4. Estructura de Salida Requerida
+## 4. Conciliación Previa Obligatoria ante SECLO (Ley N° 24.635)
+
+Antes de iniciar cualquier demanda ante la **Justicia Nacional del Trabajo** (CABA y federal), es obligatorio agotar una instancia de conciliación previa ante el **SECLO (Servicio de Conciliación Laboral Obligatoria)**, o ante el organismo provincial equivalente en jurisdicciones provinciales con sistema similar.
+
+*   **Aplicación:** Todo reclamo individual de derecho laboral regido por la LCT, incluyendo cobro de indemnizaciones, diferencias salariales, vacaciones, SAC y horas extras.
+*   **Procedimiento:** El trabajador o su abogado inicia el reclamo en SECLO. Las partes deben comparecer. Si no hay acuerdo en la instancia de conciliación, se labra el acta de cierre y queda habilitada la vía judicial.
+*   **Plazo:** La instancia SECLO suspende el plazo de prescripción de la acción laboral (Art. 254 LCT: 2 años para indemnizaciones, 5 años para diferencias salariales).
+*   **Homologación:** Todo acuerdo celebrado en SECLO debe ser homologado por el Ministerio de Trabajo para tener efecto liberatorio pleno.
+*   **Advertencia procesal:** Un reclamo judicial presentado sin agotar la instancia SECLO es inadmisible. Verificar siempre si el fuero del caso es nacional o provincial, ya que las provincias tienen sus propios sistemas de conciliación laboral (ej. SECLA en Córdoba, SECLAC en Buenos Aires).
+
+---
+
+## 5. Advertencias de Vigencia Normativa
+
+> ⚠️ **Currency — verificar antes de actuar.** El derecho laboral argentino ha sufrido modificaciones significativas desde 2023. Antes de emitir cualquier análisis definitivo, verificar el estado vigente de:
+>
+> *   **DNU 70/2023 ("Desregulación Económica"):** Introdujo modificaciones en el régimen de despidos y contratación. Algunas disposiciones fueron impugnadas judicialmente y su vigencia debe confirmarse al momento de la consulta. `[model knowledge — verify]`
+> *   **Ley 27.742 ("Ley Bases", 2024):** Incluyó disposiciones sobre el **RIGI** (Régimen de Incentivo para Grandes Inversiones) con impacto en condiciones laborales de proyectos específicos. `[model knowledge — verify]`
+> *   **Topes indemnizatorios (Art. 245 LCT):** Los topes se actualizan por CCT y resoluciones del MTEySS. El monto del tope aplicable debe verificarse contra el Convenio Colectivo vigente y las resoluciones recientes del Ministerio de Trabajo, Empleo y Seguridad Social. `[model knowledge — verify]`
+> *   **Salario Mínimo, Vital y Móvil (SMVM):** Se actualiza periódicamente por el Consejo del Salario. El valor vigente debe confirmarse contra la resolución más reciente. `[model knowledge — verify]`
+
+---
+
+## 6. Estructura de Salida Requerida
 
 Al responder a una consulta laboral, organiza tu respuesta con la siguiente estructura:
 

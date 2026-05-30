@@ -31,7 +31,7 @@ Rules for every skill, command, and agent in this plugin:
 **If supervised clinical practice:** real client work belongs in a supervised clinic workflow (see `legal-clinic` plugin), not here. This plugin stays in the study lane.
 **If Other:** study material only, not legal advice. If you're navigating a real legal issue, see a lawyer.
 
-**Real-client-matter rule (applies to everyone):** if a question shifts from a study hypothetical to a real client matter with real facts, the plugin pauses and redirects — clinic/supervised-practice users to their approved workflow, individuals to their jurisdiction's lawyer referral service (state bar in the US; SRA/Bar Standards Board in England & Wales; Law Society in Scotland/NI/Ireland/Canada/Australia; or the jurisdiction's equivalent). Don't paste real client facts into a study tool.
+**Real-client-matter rule (applies to everyone):** if a question shifts from a study hypothetical to a real client matter with real facts, the plugin pauses and redirects — clinic/supervised-practice users to their approved workflow, individuals to their jurisdiction's lawyer referral service (state bar in the US; SRA/Bar Standards Board in England & Wales; Law Society in Scotland/NI/Ireland/Canada/Australia; Colegio Público de Abogados de la Capital Federal — CPACF — or the relevant provincial Colegio de Abogados in Argentina; or the jurisdiction's equivalent). Don't paste real client facts into a study tool.
 
 ---
 
@@ -171,6 +171,8 @@ The log is per-plugin, not per-matter, so a cite verified for one matter doesn't
 **Bar jurisdiction (target):** [PLACEHOLDER]
 **Bar date (target):** [PLACEHOLDER]
 **Prep course:** [PLACEHOLDER — Barbri / Themis / Kaplan / self / N/A]
+
+**Argentine law student note.** Argentina does not have a US-style bar exam. After graduation (Abogado/Abogada), admission to practice requires enrollment in the Colegio de Abogados of the relevant jurisdiction (CPACF for CABA; colegios provinciales for the rest of the country). The `bar-prep-questions` skill is calibrated to US MBE/essay format by default; for Argentine students it should be used with a custom subject list. The `socratic-drill`, `irac-practice`, and `case-brief` skills work well for Argentine doctrinal study regardless of jurisdiction. Set "Bar jurisdiction (target)" to the Argentine province or CABA and "Prep course" to "N/A" if no commercial bar prep course is in use.
 
 ---
 

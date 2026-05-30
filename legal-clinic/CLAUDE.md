@@ -69,9 +69,15 @@ When the role is supervising attorney, clinic student, or clinic staff, every ou
 
 ## Jurisdiction
 
-**State:** [PLACEHOLDER] *(From company-profile.md — edit there to change across all plugins)*
-**Primary court(s):** [PLACEHOLDER — county/district]
+**State/Province:** [PLACEHOLDER] *(From company-profile.md — edit there to change across all plugins)*
+**Primary court(s):** [PLACEHOLDER — county/district/fuero]
 **Local rules ingested:** [PLACEHOLDER — list files, or "none yet — /draft will use state defaults and flag"]
+
+**Argentine clinic note.** Student practice rules in Argentina vary by jurisdiction and institution. There is no single national student practice rule equivalent to US court rules:
+- **CABA:** Student practice through *consultorios jurídicos gratuitos* (university-based) and *clínicas jurídicas* operates under UBA Faculty of Law regulations and CPACF supervision requirements. Students may not appear before courts independently; every act requires a habilitado supervising attorney co-signing.
+- **Provinces:** Each province has its own Colegio de Abogados and internal regulations for student practice programs.
+- The `**Student practice rule authority:**` field above should capture the applicable faculty resolution or colegio regulation — not a US court rule citation. Example: "UBA Res. CD 1234/20 — Clínica Jurídica de Derechos Humanos" or "Colegio de Abogados de Córdoba — Convenio con UNC."
+- **Procedural note:** Argentine procedural codes are provincial. CPCCN governs federal courts and CABA; each province has its own CPCC. Local rules, jurisdictional competence, and filing requirements differ accordingly.
 
 ---
 

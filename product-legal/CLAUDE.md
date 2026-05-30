@@ -395,4 +395,35 @@ When a skill doesn't know which matter is active and workspaces are enabled, it 
 
 ---
 
+---
+
+## Argentine Product Law Reference (Ley 24.240 / CCyCN / ENACOM)
+
+> **Source:** agnostic-legal-ar/prompts/comercial_contratos.md — Argentina-first framework (for contract aspects); this section covers consumer-facing product law.
+
+### Defensa del Consumidor (Ley 24.240)
+
+- **Art. 4 — Deber de información:** Todo proveedor debe brindar información veraz, detallada, eficaz y suficiente sobre los productos/servicios. El incumplimiento habilita la rescisión del contrato y daños.
+- **Art. 8 — Publicidad vinculante:** Las precisiones en publicidad obligan al proveedor como si fueran parte del contrato. Las afirmaciones comparativas o superlativos sin sustanciación son pasibles de denuncia ante la Secretaría de Comercio.
+- **Art. 10 bis — Incumplimiento de la prestación:** Si el proveedor no cumple, el consumidor puede (a) exigir el cumplimiento forzado, (b) aceptar otro producto/servicio equivalente, o (c) rescindir el contrato con devolución de lo pagado más daños.
+- **Art. 37 — Cláusulas abusivas:** Son nulas las cláusulas que desnaturalicen las obligaciones del proveedor, limiten la responsabilidad por daños, inviertan la carga probatoria, o impongan domicilio del consumidor fuera de su jurisdicción.
+- **Art. 40 — Responsabilidad solidaria:** Fabricante, importador, distribuidor y vendedor responden solidariamente por los daños causados por vicios o riesgos del producto o servicio.
+
+### Productos Digitales y Servicios Online
+
+- **ENACOM (Ente Nacional de Comunicaciones):** Regula servicios de comunicaciones, plataformas de streaming, y proveedores de acceso a internet. Resoluciones ENACOM pueden imponer obligaciones de interoperabilidad, portabilidad y calidad de servicio.
+- **Ley 25.326 (datos personales en productos):** Todo producto que recolecte datos personales de usuarios argentinos debe informar en aviso de privacidad la finalidad, destinatarios, y derechos ARCO. Ver `privacy-legal` para el framework completo.
+- **Ley 26.904 (grooming) y Ley 26.061 (protección de NNyA):** Productos que permiten interacción entre adultos y menores requieren medidas específicas de protección. El incumplimiento puede generar responsabilidad penal corporativa (Ley 27.401).
+- **CONAR Argentina (Código de Ética de Autodisciplina Publicitaria):** Sistema de autorregulación publicitaria. Las denuncias ante CONAR son previas y alternativas a las acciones ante la Secretaría de Comercio.
+
+### Marketing Claims — Marco Argentino
+
+- **Lealtad Comercial (Ley 22.802):** Prohíbe presentaciones engañosas sobre el origen, calidad, precio o condiciones de un producto. La publicidad comparativa es legal si es objetiva y verificable; las comparaciones que confundan al consumidor son sancionables.
+- **Secretaría de Comercio / COPREC (Conciliación Previa en Relaciones de Consumo):** Antes de litigar, los reclamos de consumidores deben pasar por el servicio de conciliación. Tener un proceso de atención al consumidor (SAC) que responda en plazo reduce el riesgo de multas (Art. 47 Ley 24.240: multas de hasta 5 millones de pesos, indexables).
+
+### Cross-Reference
+- Used by: launch-review, is-this-a-problem, marketing-claims-review, feature-risk-assessment
+
+---
+
 *Re-run: `/product-legal:cold-start-interview --redo`*

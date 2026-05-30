@@ -38,8 +38,9 @@ El repositorio localiza el análisis legal en las siguientes áreas críticas:
 1. **Registra este repositorio como un marketplace local:**  
    *Register this repository as a local marketplace:*
    ```bash
-   /plugin marketplace add /Users/lbyache/Documents/repositorios/claude-for-legal-ar
+   /plugin marketplace add <ruta-al-repositorio>
    ```
+   *(Reemplazá `<ruta-al-repositorio>` por la ruta local donde clonaste este repo, ej. `/Users/tu-usuario/Downloads/claude-for-legal-ar`)*
 2. **Instala los plugins que necesites:**  
    *Install the plugins you need:*
    ```bash
@@ -65,9 +66,9 @@ python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 
 ## Estructura del Repositorio / Repository Structure
 
-*   **`agnostic-legal-ar/`** - Suite de prompts y runner de Python desacoplados de Claude Code. / *Agnostic prompt suite and Python runner.*
-*   **`[plugin-name]-legal/`** - Plugins de especialidad para Claude Code/Cowork. / *Specialty plugins for Claude Code/Cowork.*
-*   **`references/`** - Catálogo de fuentes legales oficiales de Argentina (`ar-legal-catalog.md`). / *Catalog of official Argentine legal sources.*
+*   **`agnostic-legal-ar/`** - Suite de prompts y runner de Python desacoplados de Claude Code. **No es un plugin instalable** — ver [agnostic-legal-ar/README.md](./agnostic-legal-ar/README.md). / *Agnostic prompt suite and Python runner — not a Claude Code plugin.*
+*   **`[plugin-name]-legal/`** - Plugins de especialidad para Claude Code/Cowork (instalables con `/plugin install`). / *Specialty plugins for Claude Code/Cowork (installable via `/plugin install`).*
+*   **`references/`** - Catálogo de fuentes legales oficiales de Argentina (`ar-legal-catalog.md`), dashboard template, y company profile template. Las imágenes de documentación se guardan en `references/images/`. / *Catalog of official Argentine legal sources, dashboard template, and documentation images.*
 *   **`managed-agent-cookbooks/`** - Recetas para desplegar agentes automáticos en la nube. / *Cookbooks for deploying managed agents in the cloud.*
 *   **`docs/`** - Documentación extendida y guías de referencia. / *Extended documentation and reference guides.*
 
@@ -175,7 +176,8 @@ python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 | **Ley 26.150** (Educación Sexual Integral) | Laboral | Capacitación obligatoria |
 | **Ley 27.636** (Régimen de Promoción del Acceso al Empleo Formal) | Laboral | Incentivos de contratación |
 | **Ley 25.561** (Emergencia Pública) | Comercial | Pesificación, cláusulas de emergencia |
-| **Ley 27.742** (Régimen de Alquileres) | Comercial | Si aplica a contratos de locación comercial |
+| **DNU 70/2023 + Ley 27.551 derogada** | Comercial | Reforma de alquileres: derogación del índice ICL y del plazo mínimo de 3 años para locaciones comerciales |
+| **Ley 27.742** (Ley Bases — "Bases y Puntos de Partida para la Libertad de los Argentinos") | Multi-área | Reformas estructurales 2024: impacto en empleo (RIGI), societario y regulatorio |
 | **Ley 24.557** (Riesgos del Trabajo) | Laboral | ART, accidentes de trabajo, enfermedades profesionales |
 | **Código Aduanero (Ley 22.415)** | Comercial | Importación/exportación |
 | **Ley 25.156** (Defensa de la Competencia) | Comercial | Antitrust, concentraciones económicas |
