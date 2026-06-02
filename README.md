@@ -68,11 +68,11 @@ El repositorio localiza el análisis legal en las siguientes áreas críticas:
    ```
 
 ### Opción B: En Otros Clientes/Modelos (Suite Agnóstica) / Option B: In Other Clients/Models (Agnostic Suite)
-Si usas OpenCode, Aider o ChatGPT, puedes usar directamente los prompts Markdown autoportantes y el ejecutor Python:  
-*If you use OpenCode, Aider, or ChatGPT, you can directly use the self-contained Markdown prompts and the Python runner:*
+Si usas Claude.ai, OpenCode, Aider u otro cliente compatible con API, podés usar directamente los prompts Markdown de `agnostic-legal-ar/`. El runner Python usa la API de Anthropic; si usás otro modelo, adaptá la llamada al cliente correspondiente:
+*If you use Claude.ai, OpenCode, Aider, or another API-compatible client, use the Markdown prompts in `agnostic-legal-ar/` directly. The Python runner uses the Anthropic API; if you use a different model, adapt the API call accordingly:*
 ```bash
 cd agnostic-legal-ar
-export ANTHROPIC_API_KEY="tu-api-key"
+export ANTHROPIC_API_KEY="tu-api-key"   # reemplazá por la key del modelo que uses
 python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 ```
 
