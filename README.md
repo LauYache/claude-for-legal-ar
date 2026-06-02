@@ -199,4 +199,4 @@ python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 Licensed under the [Apache License, Version 2.0](LICENSE).
 
 Copyright 2026 Anthropic PBC.  
-Adaptación para la República Argentina y Suite Agnóstica Copyright 2026 LauYache.
+Adaptación para la República Argentina y Suite Agnóstica Copyright 2026 lbyache.
