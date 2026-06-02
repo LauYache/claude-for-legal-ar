@@ -1,15 +1,27 @@
-# Claude for Legal - Argentina 🇦🇷 (Adaptación a normativa local y versión agnóstica / Local adaptation & agnostic aersion)
+# Claude for Legal - Argentina (Adaptación a normativa local y versión agnóstica / Local adaptation & agnostic version)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Argentina-blue.svg)](#)
 [![Compatibility](https://img.shields.io/badge/Compatibility-Claude_Code-orange.svg)](#)
+
+---
+
+**Human-in-the-Loop — Supervisión profesional obligatoria**
+
+Este repositorio está diseñado bajo la filosofía de human-in-the-loop: ningún output reemplaza el criterio de un abogado. Los análisis, cálculos y borradores que genera son un punto de partida — siempre deben ser revisados, validados y firmados por un profesional habilitado antes de ser utilizados en una actuación judicial, extrajudicial o en una decisión con consecuencias legales reales.
+
+El uso de este software no constituye asesoramiento legal. El autor no asume responsabilidad por decisiones tomadas sin supervisión profesional adecuada.
+
+*This repository is built on a human-in-the-loop philosophy: no output replaces professional legal judgment. All analyses, calculations, and drafts must be reviewed and validated by a licensed attorney before use in any legal matter. This software does not constitute legal advice.*
+
+---
 
 Esta es una adaptación y extensión del repositorio original `anthropics/claude-for-legal` para la República Argentina, ajustada a su marco regulatorio, normativo y comercial (BORA, InfoLEG, AFIP, BCRA, CNV, LCT, Ley de Protección de Datos Personales 25.326, CCyCN, etc.).  
 *This is an adaptation and extension of the original `anthropics/claude-for-legal` repository for the Argentine Republic, adjusted to its regulatory, normative, and commercial framework (BORA, InfoLEG, AFIP, BCRA, CNV, LCT, Personal Data Protection Law 25,326, CCyCN, etc.).*
 
 ![Claude Code Argentina en Acción](./references/images/screenshot_02_output_calculations.png)
 
-> 📖 **Tutorial paso a paso:** [Plugin `employment-legal` — Revisión de Despidos bajo LCT](./references/TUTORIAL_employment-legal.md)
+> **Tutorial paso a paso:** [Plugin `employment-legal` — Revisión de Despidos bajo LCT](./references/TUTORIAL_employment-legal.md)
 
 Además de mantener la estructura original compatible con **Claude Code** y **Claude Desktop/Cowork**, se incluye una **versión agnóstica de prompts e instructivos de sistema** para utilizar esta inteligencia legal en cualquier otro cliente o modelo (como OpenCode, Aider, ChatGPT, Claude.ai, etc.).  
 *In addition to maintaining the original structure compatible with **Claude Code** and **Claude Desktop/Cowork**, an **agnostic version of prompts and system instructions** is included to use this legal intelligence in any other client or model (such as OpenCode, Aider, ChatGPT, Claude.ai, etc.).*
@@ -78,7 +90,7 @@ python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 
 ## Roadmap de Normas Argentinas / Argentine Laws Roadmap
 
-### ✅ Implementadas por Plugin / Implemented by Plugin
+### Implementadas por Plugin / Implemented by Plugin
 
 #### Laboral (`employment-legal`)
 | Norma | Temas Cubiertos |
@@ -170,7 +182,7 @@ python3 harness/run_agnostic.py --prompt laboral_lct --input tu_documento.txt
 | **Boletín Oficial** | Publicación de edictos y normas |
 | **AAIP / CNV / BCRA / ENACOM / ANMAT** | Reguladores sectoriales |
 
-### ⏳ Pendientes / Pending
+### Pendientes / Pending
 
 | Norma | Área | Notas |
 |---|---|---|
