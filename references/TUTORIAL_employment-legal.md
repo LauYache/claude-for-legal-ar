@@ -187,8 +187,8 @@ Sí. Volvé a ejecutar `/employment-legal:termination-review` para cada caso nue
 
 ## Recursos
 
-- [README del repositorio](./README.md)
-- [Catálogo de fuentes legales argentinas](./references/ar-legal-catalog.md)
+- [README del repositorio](../README.md)
+- [Catálogo de fuentes legales argentinas](../references/ar-legal-catalog.md)
 - [LCT N° 20.744 — InfoLEG](https://www.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm)
 - [SOEESIT — Convenio colectivo sistemas](https://www.soeesit.org.ar)
 
